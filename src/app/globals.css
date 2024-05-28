@@ -13,17 +13,17 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --bg-solid-rgb: 0, 0, 0;
+    --bg-primary-hex: #FCF7FF;
+    --bg-secondary-hex: #47464B;
+    --text-primary-hex: #222222;
+    --text-secondary-hex: #C3C1C7;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--text-primary-hex);
+  background: var(--bg-primary-hex)
 }
 
 @layer utilities {

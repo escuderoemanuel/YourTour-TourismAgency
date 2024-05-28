@@ -1,0 +1,8 @@
+.header {
+  background-color: grey;
+}
+
+.sideNav {
+  background-color: var(--bg-secondary-hex);
+  color: var(--text-secondary-hex)
+}
