@@ -18,6 +18,7 @@
     --bg-secondary-hex: #47464B;
     --text-primary-hex: #222222;
     --text-secondary-hex: #C3C1C7;
+    --text-white-hex: #f8f4ff;
   }
 }
 
@@ -30,4 +31,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.generalContainer {
+  justify-content: space-between;
 }

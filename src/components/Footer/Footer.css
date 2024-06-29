@@ -1,4 +1,6 @@
 .footer {
   background-color: brown;
-  color: var(--text-secondary-hex)
+  color: var(--text-secondary-hex);
+  position: sticky;
+
 }
