@@ -8,19 +8,21 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <section className={`header flex flex-col w-1/6 p-4 h-screen`}>
-      <div className={`headerTop ${inter.className} antialiased`}>
-        <h1>Your Tour</h1>
-        <h3>Turism Agency</h3>
+    <section className={`headerSection flex flex-row py-6 px-16 justify-between items-center 	sticky top-0 bg-red-600`}>
+      <div className={`flex items-center text-center bg-amber-400 gap-1`}>
         <Image
           className='headerLogo'
           src={logo}
-          width={100}
-          height={100}
+          width={60}
+          height={60}
           alt="Picture of the author"
         />
+        <div className={`flex-col text-start ms-4`}>
+          <h1>Your Tour</h1>
+          <h3>Turism Agency</h3>
+        </div>
       </div>
-      <nav className={`sideNav flex flex-col gap-4 p-4 mt-8`}>
+      <nav className={`navbar flex flex-row gap-4 items-center justify-between bg-amber-400	 `}>
         <Link href="/home">
           Inicio
         </Link>
@@ -37,6 +39,9 @@ const Header = () => {
           Contacto
         </Link>
       </nav>
+      <div className={`headerBottom ${inter.className} antialiased items-center text-center bg-amber-400	`}>
+        <h3>Idioma</h3>
+      </div>
     </section>
   );
 }
