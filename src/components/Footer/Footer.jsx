@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.module.css';
 import Image from 'next/image';
 import content from '../../translations/es/global.json'
 import Link from 'next/link';
