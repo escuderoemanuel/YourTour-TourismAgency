@@ -1,14 +1,13 @@
-import { Inter, Aclonica } from "next/font/google";
+import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import React from 'react'
+import Whatsapp from '@/components/Whatsapp/Whatsapp';
 
 const inter = Inter({ subsets: ["latin"] });
-const aclonica = Aclonica({
-  weight: ["400"],
-  subsets: ["latin"],
-});
+const raleway = Raleway({ weight: ["500"], subsets: ["latin"] });
+
 
 export const metadata = {
   icons: {
@@ -22,12 +21,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={`${inter.className}`}>
-        <Header />
+      <body className={`${inter.className} antialiased`}>
+        <Header className={`${raleway.className}`} />
         <div className={``} >
           {children}
         </div>
-        <Footer />
+        <Footer className={`${raleway.className}`} />
+        <Whatsapp />
       </body>
     </html>
   );

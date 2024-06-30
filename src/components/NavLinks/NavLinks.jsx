@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const links = [
-  { name: 'WELCOME', path: '/welcome' },
+  { name: 'WELCOME', path: '/' },
   { name: 'ABOUT', path: '/about' },
   { name: 'EXCURSIONS', path: '/excursions' },
   { name: 'SERVICES', path: '/services' },

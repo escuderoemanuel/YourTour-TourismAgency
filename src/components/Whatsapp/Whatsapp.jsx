@@ -1,6 +1,4 @@
 import React from 'react';
-import { Inter } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
 import Image from 'next/image';
 import Link from 'next/link';
 const whatsappLogo = 'https://i.ibb.co/Z6TZgYM/Whatsapp-37229.png'

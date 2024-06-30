@@ -3,9 +3,6 @@ import './Footer.css';
 import Image from 'next/image';
 import content from '../../translations/es/global.json'
 import Link from 'next/link';
-import { Inter, Raleway } from "next/font/google";
-const inter = Inter({ subsets: ["latin"] });
-const raleway = Raleway({ weight: ["500"], subsets: ["latin"] });
 const devUrl = 'https://emanuelescudero.ar';
 // import { useTranslation } from 'react-i18next';
 
@@ -20,7 +17,7 @@ const Footer = () => {
     });
   };
   return (
-    <section className={`footer ${raleway.className} flex flex-row py-6 px-16 gap-4 items-center justify-center bg-amber-400`}>
+    <section className={`footer  flex flex-row py-6 px-16 gap-4 items-center justify-center bg-amber-400`}>
       <p>{content.footer.paragraph}</p>
       <Link
         href={devUrl}
