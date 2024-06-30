@@ -1,0 +1,7 @@
+.devLogo {
+  transition: all ease 200ms;
+}
+
+.devLogo:hover {
+  transform: rotate(7deg);
+}

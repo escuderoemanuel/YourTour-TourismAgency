@@ -1,13 +1,20 @@
-import { Inter } from "next/font/google";
+import { Inter, Aclonica } from "next/font/google";
 import "./globals.css";
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
-import Body from '@/components/Body/Body';
+import React from 'react'
 
 const inter = Inter({ subsets: ["latin"] });
+const aclonica = Aclonica({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
-  title: "Your Tour -  Turism Agency",
+  icons: {
+    icon: 'https://i.ibb.co/Gxk0ktL/Logo2024.png',
+  },
+  title: "Your Tour ● Turism Agency",
   description: "Turism Agency Website located in Mendoza, Argentina",
 };
 
@@ -16,9 +23,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={`${inter.className}`}>
-        <div className={`flex flex-col`}>
-          <Header className={``} />
-          <Body className={`flex flex-col px-16`} />
+        <Header />
+        <div className={``} >
+          {children}
         </div>
         <Footer />
       </body>
