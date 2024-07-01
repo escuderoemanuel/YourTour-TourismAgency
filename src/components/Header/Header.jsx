@@ -7,7 +7,7 @@ import LanguageSelector from '../LanguageSelector/LanguageSelector';
 
 const Header = () => {
   return (
-    <section className={`headerSection flex flex-row py-6 px-16 justify-between items-center 	sticky top-0 bg-red-600`}>
+    <section className={`headerSection flex flex-row py-6 px-16 justify-between items-center 	sticky z-50 top-0 bg-red-600`}>
       <div className={`flex items-center text-center bg-amber-400 gap-1`}>
         <Image
           className='headerLogo'

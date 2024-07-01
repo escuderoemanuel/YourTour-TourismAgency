@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.module.css';
+import styles from './Footer.module.css';
 import Image from 'next/image';
 import content from '../../translations/es/global.json'
 import Link from 'next/link';
@@ -17,8 +17,8 @@ const Footer = () => {
     });
   };
   return (
-    <section className={`footer  flex flex-row py-6 px-16 gap-4 items-center justify-center bg-amber-400`}>
-      <p>{content.footer.paragraph}</p>
+    <section className={`${styles.footer} flex flex-row py-6 px-16 gap-4 items-center justify-center `}>
+      <p className='text-white'>{content.footer.paragraph}</p>
       <Link
         href={devUrl}
         target='_blank'
@@ -27,7 +27,7 @@ const Footer = () => {
         <Image
           width={30}
           height={30}
-          className='devLogo'
+          className={styles.devLogo}
           src={content.footer.img.url}
           alt={content.footer.img.alt}
         />
