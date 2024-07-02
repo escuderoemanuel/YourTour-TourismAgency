@@ -25,7 +25,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section className={`headerSection flex flex-row py-6 px-16 justify-between items-center sticky z-50 top-0 ${isScrolled ? 'glassBackground' : 'bg-zinc-200'} ${raleway.className} border-b-2`}>
+    <section className={`headerSection flex flex-row py-6 px-16 justify-between items-center sticky z-50 top-0 ${isScrolled ? 'glassBackground' : 'bg-neutral-400'} ${raleway.className} border-b-2`}>
       <div className={`flex items-center text-center`}>
         <Image
           className='headerLogo'
