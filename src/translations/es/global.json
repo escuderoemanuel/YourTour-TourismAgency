@@ -27,162 +27,15 @@
   },
   "home": {
     "titleHome": "¡Bienvenidos!",
-    "about": "Te invito a conocer los proyectos en los que he trabajado recientemente.No dudes en contactarme para llevar a cabo tu proyecto, trabajar juntos o hacerme llegar alguna propuesta.\nEstoy siempre ansioso por enfrentar nuevos desafíos!",
-    "window-float": {
-      "paragraph": "Soy Emanuel, un desarrollador dedicado y entusiasta. Te invito a descargar y leer mi CV."
-    },
-    "btn-download": "descargarCV!"
+    "paragraphHome1": "En",
+    "spanHome": "Your Tour",
+    "paragraphHome2": "nos complace recibirlos como puerta de entrada a las maravillas de <b>Mendoza, Argentina</b>.<br>Aquí podrán descubrir un lugar donde la naturaleza, la cultura y la aventura se entrelazan para crear experiencias inolvidables. Situada al pie de la majestuosa Cordillera de Los Andes, <b>Mendoza</b> ofrece una experiencia única para los amantes del vino, con sus numerosas bodegas que producen algunos de los mejores Malbecs del mundo. Además puedes disfrutar de actividades como el trekking y el montañismo en el pico más alto de América.<br>Nuestra provincia también es famosa por sus pintorescos caminos, aguas termales y una vibrante vida cultural y gastronómica en la ciudad. Con su clima soleado y sus imponentes paisajes, es el destino perfecto para una escapada relajante y llena de aventuras. Ven a disfrutar de tus excursiones y tu viaje con",
+    "slogan": "un viaje a tu medida.",
+    "spanHomeFinal": "Your Tour."
   },
-  "portfolio": {
-    "title": "Portafolio",
-    "span-portfolio": "!",
-    "projects": {
-      "project-00": {
-        "img": "https://i.ibb.co/G2pHdk6/BiMar.jpg",
-        "title": "BiM.ar",
-        "type": "Proyecto Real",
-        "tools": "React, Vite, JavaScript, HTML, CSS, Vercel, BoxIcons, Fontawesome",
-        "github": "https://github.com/escuderoemanuel/bim-ar",
-        "deploy": "https://bim-ar.vercel.app/"
-      },
-      "project-01": {
-        "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
-        "title": "RetroPlace Store",
-        "type": "Tienda en línea",
-        "tools": "ReactJs, Vite, Firebase, Git,Toastify, Bootstrap...",
-        "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
-        "deploy": "https://retro-place-store.vercel.app/"
-      },
-      "project-02": {
-        "id": 2,
-        "img": "https://i.ibb.co/3hBSSRq/Movie-Search.jpg",
-        "title": "MovieSearch!",
-        "type": "Aplicación de Películas",
-        "tools": "ReactJS, React-YouTube, Axios, Vite, TMDB API, Netflify...",
-        "github": "https://github.com/escuderoemanuel/MovieSearch",
-        "deploy": "https://emanuel-moviesearch.netlify.app/"
-      },
-      "project-03": {
-        "id": 2,
-        "img": "https://i.ibb.co/LNMzZ1X/Weather-App.jpg",
-        "title": "Weather App",
-        "type": "Aplicación del Clima",
-        "tools": "React, Vite, Weather API, Bootstrap, Netflify...",
-        "github": "https://github.com/escuderoemanuel/WeatherApp",
-        "deploy": "https://emanuel-weatherapp.netlify.app/"
-      },
-      "project-04": {
-        "img": "https://i.ibb.co/dprm1cR/kprem.jpg",
-        "title": "KPREM Arte Gráfico",
-        "type": "Tienda en línea",
-        "tools": "HTML, CSS, JavaScrit Vanilla, Sass, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/KPREM-ArteGrafico",
-        "deploy": "https://escuderoemanuel.github.io/KPREM-ArteGrafico/"
-      },
-      "project-05": {
-        "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
-        "title": "Maho Arca Oltra",
-        "type": "Página personal",
-        "tools": "HTML, CSS, Sass, JavaScript, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
-        "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
-      },
-      "project-06": {
-        "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
-        "title": "ED Guitars",
-        "type": "Sitio sobre guitarras",
-        "tools": "HTML, CSS, Sass, Bootstrap, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/EDGuitars",
-        "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
-      },
-      "project-07": {
-        "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
-        "title": "F&C Contabilidad",
-        "type": "Página personal",
-        "tools": "HTML, CSS, Sass, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
-        "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
-      },
-      "project-08": {
-        "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
-        "title": "Portfolio Editable",
-        "type": "Proyecto Argentina Programa",
-        "tools": "HTML, CSS, TypeScript, Angular, Firebase | Java, SpringBoot, Render | MySQL, Clever Cloud",
-        "github": "https://github.com/escuderoemanuel/ArgentinaProgramaFrontend",
-        "deploy": "https://portfoliofrontargprog.web.app/"
-      }
-    }
-  },
-  "skills": {
-    "title": "Habilidades",
-    "span-skills": "!",
-    "skillsList": {
-      "skill-01": {
-        "id": 1,
-        "title": "HTML",
-        "img": "https://i.ibb.co/VH4bp5Y/html.png"
-      },
-      "skill-02": {
-        "id": 2,
-        "title": "CSS",
-        "img": "https://i.ibb.co/mDNKpgM/css.png"
-      },
-      "skill-03": {
-        "id": 3,
-        "title": "SASS",
-        "img": "https://i.ibb.co/n7gsyQ5/sass-icon-130835.png"
-      },
-      "skill-04": {
-        "id": 4,
-        "title": "Bootstrap",
-        "img": "https://i.ibb.co/TmwQPdB/bootstrap.png"
-      },
-      "skill-05": {
-        "id": 5,
-        "title": "JavaScript",
-        "img": "https://i.ibb.co/TW6ChMh/js.png"
-      },
-      "skill-06": {
-        "id": 6,
-        "title": "TypeScript",
-        "img": "https://i.ibb.co/VNbg3FV/typescript.png"
-      },
-      "skill-07": {
-        "id": 7,
-        "title": "ReactJs",
-        "img": "https://i.ibb.co/CHZkf9M/reactjs.png"
-      },
-      "skill-08": {
-        "id": 8,
-        "title": "Angular",
-        "img": "https://i.ibb.co/rQpw3fM/angular.png"
-      },
-      "skill-09": {
-        "id": 9,
-        "title": "MySQL",
-        "img": "https://i.ibb.co/mSRmnRV/mysql.png"
-      },
-      "skill-10": {
-        "id": 10,
-        "title": "Git",
-        "img": "https://i.ibb.co/5ByKx1H/Git.png"
-      },
-      "skill-11": {
-        "id": 11,
-        "title": "SEO",
-        "img": "https://i.ibb.co/Lh8yP9R/seo.png"
-      },
-      "skill-12": {
-        "id": 12,
-        "title": "Java",
-        "img": "https://i.ibb.co/NpF5Zxf/java.png"
-      },
-      "skill-13": {
-        "id": 13,
-        "title": "Spring Boot",
-        "img": "https://i.ibb.co/JH1kwQB/springboot.png"
-      }
-    }
+  "about": {
+    "titleAbout": "Nosotros",
+    "paragraphAbout": "Somos una agencia de viajes que te brindará la mejor experiencia de viaje, con excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo."
   },
   "contact": {
     "title": "Contácta",
@@ -196,10 +49,22 @@
     }
   },
   "footer": {
-    "paragraph": "Desarrollado por Emanuel Escudero",
-    "img": {
-      "url": "https://i.ibb.co/Gxk0ktL/Logo2024.png",
-      "alt": "Developer Logo"
+    "owner": {
+      "copyright": "Todos los derechos reservados",
+      "name": "Your Tour",
+      "address": "Mendoza - Argentina",
+      "email": "email@yourtour.com",
+      "telephone": "1234567890",
+      "instagram": "yourtourInstagram",
+      "facebook": "yourtourFacebook",
+      "twitter": "yourtourTwitter"
+    },
+    "dev": {
+      "paragraph": "Diseñado & Desarrollado por Emanuel Escudero",
+      "img": {
+        "url": "https://i.ibb.co/Gxk0ktL/Logo2024.png",
+        "alt": "Developer Logo"
+      }
     }
   }
 }
