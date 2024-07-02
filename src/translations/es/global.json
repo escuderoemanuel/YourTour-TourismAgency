@@ -1,4 +1,8 @@
 {
+  "logo": {
+    "yourTourPrimaryLogo": "https://i.ibb.co/wpDzMwM/Your-Tour-Primary-Logo.png",
+    "yourTourSecondaryLogo": "https://i.ibb.co/CVR1jKF/Your-Tour-Secondary-Logo.png"
+  },
   "navLinks": {
     "link1": {
       "name": "Inicio",
