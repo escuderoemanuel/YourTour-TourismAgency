@@ -1,13 +1,10 @@
 
-import { Inter, Raleway } from "next/font/google";
 import "./globals.css";
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import React from 'react'
 import Whatsapp from '@/components/Whatsapp/Whatsapp';
-
-const inter = Inter({ subsets: ["latin"] });
-const raleway = Raleway({ weight: ["500"], subsets: ["latin"] });
+import { praise, raleway, dynalight, inter } from '@/ui/fonst';
 
 
 export const metadata = {
@@ -23,11 +20,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={`${inter.className} antialiased`}>
-        <Header className={`${raleway.className}`} />
-        <div className={``} >
+        <Header />
+        <div>
           {children}
         </div>
-        <Footer className={`${raleway.className}`} />
+        <Footer />
         <Whatsapp />
       </body>
     </html>

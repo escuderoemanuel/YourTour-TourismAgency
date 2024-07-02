@@ -4,6 +4,8 @@ import Image from 'next/image';
 import content from '../../translations/es/global.json'
 import Link from 'next/link';
 const devUrl = 'https://emanuelescudero.ar';
+import { inter, praise, raleway } from '@/ui/fonst';
+
 // import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
@@ -17,7 +19,7 @@ const Footer = () => {
     });
   };
   return (
-    <section className={`${styles.footer} flex flex-row py-6 px-16 gap-4 items-center justify-center `}>
+    <section className={`${styles.footer} ${raleway.className} flex flex-row py-6 px-16 gap-4 items-center justify-center `}>
       <p className='text-white'>{content.footer.paragraph}</p>
       <Link
         href={devUrl}

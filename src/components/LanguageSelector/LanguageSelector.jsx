@@ -2,7 +2,7 @@ import React from 'react';
 
 const LanguageSelector = () => {
   return (
-    <div className={`headerBottom antialiased items-center text-center bg-amber-400	`}>
+    <div className={`headerBottom items-center text-center text-white`}>
       <h3>Idioma</h3>
     </div>
   );

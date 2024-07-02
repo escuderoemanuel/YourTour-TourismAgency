@@ -9,7 +9,7 @@ const Whatsapp = () => {
   return (
     <Link href={whatsappLink} target='_blank' rel='noopener noreferrer'>
       <Image
-        className='fixed bottom-8 right-8'
+        className='fixed z-50 bottom-8 right-8'
         src={whatsappLogo}
         width={60}
         height={60}

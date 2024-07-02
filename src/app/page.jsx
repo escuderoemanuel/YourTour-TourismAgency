@@ -1,8 +1,11 @@
+import { praise, raleway, dynalight } from '@/ui/fonst';
+
+
 export default function Page() {
 
   return (
     <section className={`min-h-screen py-10 px-16 bg-amber-400 align-middle`}>
-      <h1 className={`text-3xl font-regular mb-10 text-center`}>  Bienvenidos a <span className={`font-bold`}>Your Tour</span> </h1>
+      <h1 className={` text-xl font-regular mb-10 text-center`}>  Bienvenidos a <span className={`text-3xl ${praise.className}`}>Your Tour</span> </h1>
 
       {/* CAROUSEL */}
       <div id="default-carousel" className="relative w-full z-40" data-carousel="slide">
@@ -57,14 +60,14 @@ export default function Page() {
       </div>
 
       <div className={`py-6 px-6 text-lg mt-6`}>
-        <p>
-          En <b>Your Tour</b> nos complace recibirlosen la puerta de entrada a las maravillas de <b>Mendoza, Argentina</b>.
+        <p className={``}>
+          En <span className={`text-2xl ${praise.className}`}>Your Tour</span> nos complace recibirlos en la puerta de entrada a las maravillas de <span className={`font-bold`}>Mendoza, Argentina</span>.
           <br />
           Aquí, podrán descubrir una tierra donde la naturaleza, la cultura y la aventura se entrelazan para crear experiencias inolvidables.
           <br />
-          Estamos dedicados a hacer de su visita una experiencia única y personalizada. Ya sea que busquen relajarse en un entorno sereno, vivir aventuras emocionantes o deleitarse con nuestra gastronomía y vinos, estamos aquí para ayudarlos a planificar el viaje perfecto.
+          Estamos dedicados a hacer de su visita una experiencia <span className={`font-bold`}>única y personalizada</span>. Ya sea que busquen relajarse en un entorno sereno, vivir aventuras emocionantes o deleitarse con nuestra gastronomía y vinos, estamos aquí para ayudarlos a planificar el viaje perfecto.
           <br />
-          ¡Descubran todo lo que Mendoza tiene para ofrecer con nosotros!
+          ¡Descubran todo lo que <span className={`font-bold`}>Mendoza</span> tiene para ofrecer con nosotros!
         </p>
       </div>
     </section>

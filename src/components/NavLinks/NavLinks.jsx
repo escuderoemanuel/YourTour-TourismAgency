@@ -2,17 +2,12 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React from 'react';
+import content from '../../translations/es/global.json'
 
-const links = [
-  { name: 'WELCOME', path: '/' },
-  { name: 'ABOUT', path: '/about' },
-  { name: 'EXCURSIONS', path: '/excursions' },
-  { name: 'SERVICES', path: '/services' },
-  { name: 'CONTACT', path: '/contact' },
-];
 
 const NavLinks = () => {
   const pathname = usePathname()
+  const links = Object.values(content.navLinks);
   return (
     <nav className="flex gap-4">
       {links.map((link) => (

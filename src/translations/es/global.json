@@ -1,17 +1,29 @@
 {
-  "navbar": {
-    "link-1": "Inicio",
-    "link-2": "Portafolio",
-    "link-3": "Habilidades",
-    "link-4": "Contacto"
+  "navLinks": {
+    "link1": {
+      "name": "Inicio",
+      "path": "/"
+    },
+    "link2": {
+      "name": "Nosotros",
+      "path": "/about"
+    },
+    "link3": {
+      "name": "Excursiones",
+      "path": "/excursions"
+    },
+    "link4": {
+      "name": "Servicios",
+      "path": "/services"
+    },
+    "link5": {
+      "name": "Contacto",
+      "path": "/contact"
+    }
   },
   "home": {
-    "title-home": "Hola, soy ",
-    "subtitle-home": {
-      "span": " Desarrollador",
-      "normal": "FullStack",
-      "signo": "!"
-    },
+    "titleHome": "Your Tour",
+    "subtitleHome": "UN VIAJE A TU MEDIDA",
     "about": "Te invito a conocer los proyectos en los que he trabajado recientemente.No dudes en contactarme para llevar a cabo tu proyecto, trabajar juntos o hacerme llegar alguna propuesta.\nEstoy siempre ansioso por enfrentar nuevos desafíos!",
     "window-float": {
       "paragraph": "Soy Emanuel, un desarrollador dedicado y entusiasta. Te invito a descargar y leer mi CV."
