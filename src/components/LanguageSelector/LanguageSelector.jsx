@@ -1,9 +1,10 @@
 import React from 'react';
 
-const LanguageSelector = () => {
+const LanguageSelector = ({ isScrolled }) => {
   return (
-    <div className={`headerBottom items-center text-center text-white`}>
-      <h3>Idioma</h3>
+    <div className={`headerBottom items-center text-center `}>
+      <h3 className={`
+    ${isScrolled ? 'text-primary-color' : 'text-white-color'}`}>Idioma</h3>
     </div>
   );
 }

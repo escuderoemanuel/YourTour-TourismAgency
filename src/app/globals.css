@@ -33,6 +33,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .text-primary-color {
+    color: var(--text-primary-hex)
+  }
+
+  .text-white-color {
+    color: var(--text-white-hex)
+  }
 }
 
 .glassBackground {

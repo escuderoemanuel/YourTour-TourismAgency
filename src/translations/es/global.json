@@ -21,9 +21,12 @@
       "path": "/contact"
     }
   },
+  "header": {
+    "titleHeader": "Your Tour",
+    "subtitleHeader": "UN VIAJE A TU MEDIDA"
+  },
   "home": {
-    "titleHome": "Your Tour",
-    "subtitleHome": "UN VIAJE A TU MEDIDA",
+    "titleHome": "¡Bienvenidos!",
     "about": "Te invito a conocer los proyectos en los que he trabajado recientemente.No dudes en contactarme para llevar a cabo tu proyecto, trabajar juntos o hacerme llegar alguna propuesta.\nEstoy siempre ansioso por enfrentar nuevos desafíos!",
     "window-float": {
       "paragraph": "Soy Emanuel, un desarrollador dedicado y entusiasta. Te invito a descargar y leer mi CV."

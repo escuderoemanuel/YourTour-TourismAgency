@@ -19,7 +19,7 @@ const Footer = () => {
     });
   };
   return (
-    <section className={`${raleway.className} flex flex-row py-6 px-16 gap-4 items-center justify-center bg-neutral-400`}>
+    <section className={`${raleway.className} flex flex-row py-6 px-16 gap-4 items-center justify-center bg-neutral-400 bg-sky-700`}>
       <p className='text-neutral-50'>{content.footer.paragraph}</p>
       <Link
         href={devUrl}
