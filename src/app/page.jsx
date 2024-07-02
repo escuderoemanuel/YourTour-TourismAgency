@@ -3,9 +3,10 @@ import 'flowbite';
 import { praise } from '../ui/fonts';
 import Carousel from '@/components/Carousel/Carousel';
 import content from '../translations/es/global.json';
+import Whatsapp from '@/components/Whatsapp/Whatsapp';
 
 
-export default function Page() {
+export default function Home() {
 
   return (
     <section className="min-h-screen py-10 px-16 align-middle">
@@ -25,6 +26,7 @@ export default function Page() {
           <br />
           ¡Descubran todo lo que <span className="font-bold">Mendoza</span> tiene para ofrecer con nosotros!
         </p>
+
       </div>
     </section>
   );

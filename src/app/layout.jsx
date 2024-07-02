@@ -19,13 +19,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={`${inter.className} antialiased bg-neutral-100`}>
+      <body className={`${inter.className} antialiased bg-neutral-100 `}>
         <Header />
-        <div>
+        <div className='max-w-screen-xl mx-auto relative'>
+
           {children}
+          <Whatsapp />
         </div>
         <Footer />
-        <Whatsapp />
       </body>
     </html>
   );

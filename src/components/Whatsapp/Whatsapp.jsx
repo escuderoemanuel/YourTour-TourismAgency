@@ -7,11 +7,10 @@ import styles from './Whatsapp.module.css';
 
 
 const Whatsapp = () => {
-
   return (
-    <Link href={whatsappLink} target='_blank' rel='noopener noreferrer' >
+    <Link href={whatsappLink} target='_blank' rel='noopener noreferrer'>
       <Image
-        className={`${styles.whatsappLogo} fixed z-50 bottom-8 right-8`}
+        className={`${styles.whatsappLogo} sticky z-50 bottom-8 mb-4 ml-auto`}
         src={whatsappLogo}
         width={60}
         height={60}
