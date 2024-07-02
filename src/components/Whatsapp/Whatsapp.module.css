@@ -1,0 +1,7 @@
+.whatsappLogo {
+  transition: all ease 200ms;
+}
+
+.whatsappLogo:hover {
+  transform: rotate(4deg) scale(1.02);
+}

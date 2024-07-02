@@ -12,7 +12,7 @@ import { praise, raleway, raleway600, dynalight } from '@/ui/fonst';
 const Header = () => {
 
   return (
-    <section className={`headerSection glassBackground  flex flex-row py-6 px-16 justify-between items-center 	sticky z-50 top-0 ${raleway.className}`}>
+    <section className={`headerSection glassBackground  flex flex-row py-6 px-16 justify-between items-center 	sticky z-50 top-0 ${raleway.className} border-b-2`}>
       <div className={`flex items-center text-center `}>
         <Image
           className='headerLogo'

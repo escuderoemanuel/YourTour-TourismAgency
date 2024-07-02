@@ -36,9 +36,5 @@ body {
 
 .glassBackground {
   backdrop-filter: blur(10px);
-  /* Aplica un desenfoque al fondo */
   background-color: rgba(255, 255, 255, 0.1);
-  /* Define un color de fondo con transparencia para el efecto de vidrio */
-  border-radius: 8px;
-  /* Opcional: Añade bordes redondeados al fondo */
 }
