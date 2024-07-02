@@ -1,19 +1,32 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 import Image from 'next/image';
 const logo = 'https://i.ibb.co/7rcr25z/airplane.png';
 import NavLinks from '../NavLinks/NavLinks';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
-import content from '../../translations/es/global.json'
+import content from '../../translations/es/global.json';
 // Importar fuentes
-import { praise, raleway, raleway600, dynalight } from '@/ui/fonst';
-
+import { praise, raleway, raleway600 } from '../../ui/fonts';
 
 const Header = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
-    <section className={`headerSection glassBackground  flex flex-row py-6 px-16 justify-between items-center 	sticky z-50 top-0 ${raleway.className} border-b-2`}>
-      <div className={`flex items-center text-center `}>
+    <section className={`headerSection flex flex-row py-6 px-16 justify-between items-center sticky z-50 top-0 ${isScrolled ? 'glassBackground' : 'bg-zinc-200'} ${raleway.className} border-b-2`}>
+      <div className={`flex items-center text-center`}>
         <Image
           className='headerLogo'
           src={logo}
@@ -30,6 +43,6 @@ const Header = () => {
       <LanguageSelector />
     </section>
   );
-}
+};
 
 export default Header;

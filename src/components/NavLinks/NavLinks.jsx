@@ -9,13 +9,13 @@ const NavLinks = () => {
   const pathname = usePathname()
   const links = Object.values(content.navLinks);
   return (
-    <nav className="flex gap-4">
+    <nav className="flex gap-3">
       {links.map((link) => (
         <Link
           key={link.name}
           href={link.path}
-          className={`text-white hover:font-bold 
-            ${pathname === link.path ? 'font-bold underline underline-offset-4' : ''}
+          className={`text-white hover:font-bold rounded-md 
+            ${pathname === link.path ? 'font-bold underline  underline-offset-4' : ''}
             `}
         >
           {link.name}

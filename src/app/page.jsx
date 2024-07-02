@@ -1,10 +1,10 @@
-import { praise, raleway, dynalight } from '@/ui/fonst';
+import { praise } from '../ui/fonts';
 
 
 export default function Page() {
 
   return (
-    <section className={`min-h-screen py-10 px-16 bg-amber-400 align-middle`}>
+    <section className={`min-h-screen py-10 px-16  align-middle`}>
       <h1 className={` text-xl font-regular mb-10 text-center`}>  Bienvenidos a <span className={`text-3xl ${praise.className}`}>Your Tour</span> </h1>
 
       {/* CAROUSEL */}

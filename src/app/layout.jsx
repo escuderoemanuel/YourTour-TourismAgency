@@ -4,7 +4,7 @@ import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import React from 'react'
 import Whatsapp from '@/components/Whatsapp/Whatsapp';
-import { praise, raleway, dynalight, inter } from '@/ui/fonst';
+import { inter } from '../ui/fonts';
 
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
 
-      <body className={`${inter.className} antialiased bg-amber-500`}>
+      <body className={`${inter.className} antialiased bg-gray-50`}>
         <Header />
         <div>
           {children}
