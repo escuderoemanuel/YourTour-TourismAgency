@@ -31,9 +31,9 @@ const Header = () => {
       <div className='max-w-screen-xl mx-auto flex flex-row justify-between items-start lg:items-center'>
 
         <Image
-          className={``}
+          className={`w-44 h-auto sm:w-56 md:w-64`}
           src={`${isScrolled ? content.logo.yourTourPrimaryLogo : content.logo.yourTourSecondaryLogo}`}
-          width={250}
+          width={256}
           height={150}
           alt="Picture of the author"
         />

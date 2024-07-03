@@ -25,9 +25,9 @@ const NavLinks = ({ isScrolled }) => {
         </svg>
       </button>
 
-      <div className={`flex-col absolute items-end lg:items-center lg:flex lg:flex-row gap-2 lg:items-center
-      ${isOpen ? `py-2 pe-4 flex items-end top-full left-0 w-full` : 'hidden'}
-      ${isScrolled && isOpen ? 'glassBackground' : isOpen ? 'bg-sky-700' : ''} `}>
+      <div className={`flex-col items-end lg:items-center lg:flex lg:flex-row lg:gap-2 lg:items-center
+      ${isOpen ? `py-2 flex items-end top-full left-0 w-full` : 'hidden'}
+      `}>
 
         {links.map((link) => (
           <Link
