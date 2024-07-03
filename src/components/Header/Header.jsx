@@ -24,14 +24,14 @@ const Header = () => {
   }, []);
 
   return (
-    <section className={`py-4 px-10 sticky z-50 top-0 border-b-2 md:py-6 md-px-16
+    <section className={`py-3 px-4 sticky z-50 top-0  md:py-4 md:px-12 lg:py-6 lg-px-16
     ${isScrolled ? 'glassBackground' : 'bg-sky-700'} 
     ${raleway.className} `}>
 
-      <div className='max-w-screen-xl mx-auto flex flex-col justify-between items-center md:flex-row'>
+      <div className='max-w-screen-xl mx-auto flex flex-row justify-between items-start lg:items-center'>
 
         <Image
-        className={`mb-4 md:mb-0`}
+          className={``}
           src={`${isScrolled ? content.logo.yourTourPrimaryLogo : content.logo.yourTourSecondaryLogo}`}
           width={250}
           height={150}
@@ -39,7 +39,6 @@ const Header = () => {
         />
 
         <NavLinks isScrolled={isScrolled} />
-        <LanguageSelector isScrolled={isScrolled} />
       </div>
     </section>
   );
