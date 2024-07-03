@@ -18,7 +18,7 @@ export default function Home() {
       <div className="py-6 px-6 text-lg mt-6">
         <p>
           <span dangerouslySetInnerHTML={{ __html: content.home.paragraphHome1 }}></span>
-          <span className={`text-2xl ${praise.className}`}> {content.home.spanHome} </span>
+          <span className={`text-2xl me-1 ${praise.className}`}> {content.home.spanHome} </span>
           <span dangerouslySetInnerHTML={{ __html: content.home.paragraphHome2 }}></span>
           <span className={`text-2xl ${praise.className}`}> {content.home.spanHomeFinal} </span>
         </p>

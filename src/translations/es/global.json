@@ -6,24 +6,35 @@
   "navLinks": {
     "link1": {
       "name": "Inicio",
+      "icon": "",
       "path": "/"
     },
     "link2": {
       "name": "Nosotros",
+      "icon": "",
       "path": "/about"
     },
     "link3": {
       "name": "Excursiones",
+      "icon": "",
       "path": "/excursions"
     },
     "link4": {
       "name": "Servicios",
+      "icon": "",
       "path": "/services"
     },
     "link5": {
       "name": "Contacto",
+      "icon": "",
       "path": "/contact"
     }
+  },
+  "languages": {
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "portuguese": "Portugués"
   },
   "header": {
     "titleHeader": "Your Tour",

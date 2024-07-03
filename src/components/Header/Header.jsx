@@ -24,12 +24,14 @@ const Header = () => {
   }, []);
 
   return (
-    <section className={`py-6 px-16 sticky z-50 top-0 border-b-2 
+    <section className={`py-4 px-10 sticky z-50 top-0 border-b-2 md:py-6 md-px-16
     ${isScrolled ? 'glassBackground' : 'bg-sky-700'} 
     ${raleway.className} `}>
-      <div className='max-w-screen-xl mx-auto flex flex-row justify-between items-center'>
+
+      <div className='max-w-screen-xl mx-auto flex flex-col justify-between items-center md:flex-row'>
 
         <Image
+        className={`mb-4 md:mb-0`}
           src={`${isScrolled ? content.logo.yourTourPrimaryLogo : content.logo.yourTourSecondaryLogo}`}
           width={250}
           height={150}
