@@ -9,11 +9,6 @@
       "icon": "",
       "path": "/"
     },
-    "link2": {
-      "name": "Nosotros",
-      "icon": "",
-      "path": "/about"
-    },
     "link3": {
       "name": "Excursiones",
       "icon": "",
@@ -55,16 +50,49 @@
     "subtitleHeader": "UN VIAJE A TU MEDIDA"
   },
   "home": {
-    "titleHome": "¡Bienvenidos!",
-    "paragraphHome1": "En",
-    "spanHome": "Your Tour",
-    "paragraphHome2": "nos complace recibirlos como puerta de entrada a las maravillas de <b>Mendoza, Argentina</b>.<br>Aquí podrán descubrir un lugar donde la naturaleza, la cultura y la aventura se entrelazan para crear experiencias inolvidables. Situada al pie de la majestuosa Cordillera de Los Andes, <b>Mendoza</b> ofrece una experiencia única para los amantes del vino, con sus numerosas bodegas que producen algunos de los mejores Malbecs del mundo. Además puedes disfrutar de actividades como el trekking y el montañismo en el pico más alto de América.<br>Nuestra provincia también es famosa por sus pintorescos caminos, aguas termales y una vibrante vida cultural y gastronómica en la ciudad. Con su clima soleado y sus imponentes paisajes, es el destino perfecto para una escapada relajante y llena de aventuras. Ven a disfrutar de tus excursiones y tu viaje con",
+    "title": "¡Bienvenidos!",
+    "paragraph1": "En",
+    "span": "Your Tour",
+    "paragraph2": "nos complace recibirlos como puerta de entrada a las maravillas de <b>Mendoza, Argentina</b>.<br>Con nosotros podrán disfrutar de excursiones y servicios <b>personalizados</b>, descubrir un lugar donde la naturaleza, la cultura y la aventura se entrelazan para crear experiencias inolvidables. Situada al pie de la majestuosa Cordillera de Los Andes, <b>Mendoza</b> ofrece una experiencia única para los amantes del vino, con sus numerosas bodegas que producen algunos de los mejores Malbecs del mundo. Además puedes disfrutar de actividades como el trekking y el montañismo en el pico más alto de América.<br>Nuestra provincia también es famosa por sus pintorescos caminos, aguas termales y una vibrante vida cultural y gastronómica en la ciudad. Con su clima soleado y sus imponentes paisajes, es el destino perfecto para una escapada relajante y llena de aventuras. Ven a disfrutar de tus excursiones y tu viaje con",
     "slogan": "un viaje a tu medida.",
-    "spanHomeFinal": "Your Tour."
+    "spanFinal": "Your Tour."
   },
   "about": {
-    "titleAbout": "Nosotros",
-    "paragraphAbout": "Somos una agencia de viajes que te brindará la mejor experiencia de viaje, con excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo."
+    "title": "Nosotros",
+    "paragraph": "Somos una agencia de viajes que te brindará la mejor experiencia de viaje, con excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo."
+  },
+  "excursions": {
+    "title": "Excursiones",
+    "listExcursions": {
+      "excursion1": {
+        "title": "Excursiones",
+        "image": {
+          "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
+          "alt": "Excursion"
+        },
+        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+      },
+      "excursion2": {
+        "title": "Excursiones",
+        "image": {
+          "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
+          "alt": "Excursion"
+        },
+        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+      },
+      "excursion3": {
+        "title": "Excursiones",
+        "image": {
+          "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
+          "alt": "Excursion"
+        },
+        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+      }
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "paragraph": "Ofrecemos una amplia gama de servicios turísticos para que puedas disfrutar de tu viaje al máximo. Desde alojamiento, transporte y actividades gastronómicas hasta actividades culturales y deportivas, tenemos una gama de opciones para que te encantes el viaje."
   },
   "contact": {
     "title": "Contácta",

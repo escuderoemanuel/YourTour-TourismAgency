@@ -1,0 +1,99 @@
+{
+  "logo": {
+    "yourTourPrimaryLogo": "https://i.ibb.co/wpDzMwM/Your-Tour-Primary-Logo.png",
+    "yourTourSecondaryLogo": "https://i.ibb.co/CVR1jKF/Your-Tour-Secondary-Logo.png"
+  },
+  "navLinks": {
+    "link1": {
+      "name": "Inicio",
+      "icon": "",
+      "path": "/"
+    },
+    "link2": {
+      "name": "Nosotros",
+      "icon": "",
+      "path": "/about"
+    },
+    "link3": {
+      "name": "Excursiones",
+      "icon": "",
+      "path": "/excursions"
+    },
+    "link4": {
+      "name": "Servicios",
+      "icon": "",
+      "path": "/services"
+    },
+    "link5": {
+      "name": "Contacto",
+      "icon": "",
+      "path": "/contact"
+    }
+  },
+  "languages": {
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "portuguese": "Portugués"
+  },
+  "carousel": {
+    "image1": {
+      "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
+      "alt": "Foto de Mendoza"
+    },
+    "image2": {
+      "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
+      "alt": "Foto de Mendoza"
+    },
+    "image3": {
+      "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
+      "alt": "Foto de Mendoza"
+    }
+  },
+  "header": {
+    "titleHeader": "Your Tour",
+    "subtitleHeader": "UN VIAJE A TU MEDIDA"
+  },
+  "home": {
+    "titleHome": "¡Bienvenidos!",
+    "paragraphHome1": "En",
+    "spanHome": "Your Tour",
+    "paragraphHome2": "nos complace recibirlos como puerta de entrada a las maravillas de <b>Mendoza, Argentina</b>.<br>Aquí podrán descubrir un lugar donde la naturaleza, la cultura y la aventura se entrelazan para crear experiencias inolvidables. Situada al pie de la majestuosa Cordillera de Los Andes, <b>Mendoza</b> ofrece una experiencia única para los amantes del vino, con sus numerosas bodegas que producen algunos de los mejores Malbecs del mundo. Además puedes disfrutar de actividades como el trekking y el montañismo en el pico más alto de América.<br>Nuestra provincia también es famosa por sus pintorescos caminos, aguas termales y una vibrante vida cultural y gastronómica en la ciudad. Con su clima soleado y sus imponentes paisajes, es el destino perfecto para una escapada relajante y llena de aventuras. Ven a disfrutar de tus excursiones y tu viaje con",
+    "slogan": "un viaje a tu medida.",
+    "spanHomeFinal": "Your Tour."
+  },
+  "about": {
+    "titleAbout": "Nosotros",
+    "paragraphAbout": "Somos una agencia de viajes que te brindará la mejor experiencia de viaje, con excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo."
+  },
+  "contact": {
+    "title": "Contácta",
+    "span-contact": "Me!",
+    "form": {
+      "fullname": "Nombre y Apellido",
+      "email": "Correo Electrónico",
+      "mobile-number": "Número Celular",
+      "text-area": "Tu Mensaje",
+      "button": "Enviar"
+    }
+  },
+  "footer": {
+    "owner": {
+      "copyright": "Todos los derechos reservados",
+      "name": "Your Tour",
+      "address": "Mendoza - Argentina",
+      "email": "email@yourtour.com",
+      "telephone": "1234567890",
+      "instagram": "yourtourInstagram",
+      "facebook": "yourtourFacebook",
+      "twitter": "yourtourTwitter"
+    },
+    "dev": {
+      "paragraph": "Diseñado & Desarrollado por Emanuel Escudero",
+      "img": {
+        "url": "https://i.ibb.co/Gxk0ktL/Logo2024.png",
+        "alt": "Developer Logo"
+      }
+    }
+  }
+}
