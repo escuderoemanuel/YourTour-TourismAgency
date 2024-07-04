@@ -24,7 +24,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section className={`py-3 px-4 sticky z-50 top-0  md:py-4 md:px-12 lg:py-6 lg-px-16
+    <section className={`py-3 px-4 sticky z-50 top-0  md:py-4 md:px-12 lg:py-6 lg:px-24
     ${isScrolled ? 'glassBackground' : 'bg-sky-700'} 
     ${raleway.className} `}>
 

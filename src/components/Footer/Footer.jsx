@@ -21,7 +21,7 @@ const Footer = () => {
   return (
     <section className={`${raleway.className} flex py-6 px-4 lg:px-16 items-center justify-center bg-sky-700`}>
       <div className='max-w-screen-xl  flex justify-between items-center gap-2 md_gap-4'>
-        <p className='text-xs text-neutral-50 text-center text-wrap'>{content.footer.dev.paragraph}</p>
+        <p className='text-xs md:text-sm text-neutral-50 text-center text-wrap'>{content.footer.dev.paragraph}</p>
         <Link
           href={devUrl}
           target='_blank'

@@ -1,6 +1,6 @@
 'use client'
 import 'flowbite';
-import { praise, inter } from '../ui/fonts';
+import { praise, raleway } from '../ui/fonts';
 import Carousel from '@/components/Carousel/Carousel';
 import content from '../translations/es/global.json';
 
@@ -8,10 +8,7 @@ import content from '../translations/es/global.json';
 export default function Home() {
 
   return (
-    <section className="min-h-screen align-middle">
-      <h1 className="text-xl font-bold mb-2 md:mb-10 md:mt-2 text-center uppercase">
-        {content.home.title}
-      </h1>
+    <section className="min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14">
 
       <Carousel />
 
