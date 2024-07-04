@@ -5,3 +5,13 @@
 .devLogo:hover {
   transform: rotate(7deg);
 }
+
+.svgIcon {
+  display: inline-block;
+}
+
+.svgIcon {
+  fill: currentColor;
+  color: #646464;
+
+}
