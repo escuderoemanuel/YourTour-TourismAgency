@@ -21,8 +21,7 @@ export default function RootLayout({ children }) {
 
       <body className={`${inter.className} antialiased bg-neutral-100`}>
         <Header />
-        <div className='max-w-screen-xl mx-auto relative'>
-
+        <div className='max-w-screen-xl mx-auto py-2 px-4 md:py-4 px-8 lg:py-8 lg:px-16'>
           {children}
           <Whatsapp />
         </div>

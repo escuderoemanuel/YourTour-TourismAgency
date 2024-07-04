@@ -8,9 +8,9 @@ import styles from './Whatsapp.module.css';
 
 const Whatsapp = () => {
   return (
-    <Link href={whatsappLink} target='_blank' rel='noopener noreferrer'>
+    <Link href={whatsappLink} target='_blank' rel='noopener noreferrer' className='z-10'>
       <Image
-        className={`${styles.whatsappLogo} sticky z-50 right-4 bottom-8 mb-4 ml-auto`}
+        className={`${styles.whatsappLogo} sticky z-50 bottom-4 ml-auto`}
         src={whatsappLogo}
         width={60}
         height={60}

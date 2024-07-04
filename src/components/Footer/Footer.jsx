@@ -19,9 +19,9 @@ const Footer = () => {
     });
   };
   return (
-    <section className={`${raleway.className} flex py-6 px-4 lg:px-16 items-center justify-center bg-sky-700 text-sm `}>
+    <section className={`${raleway.className} flex py-6 px-4 lg:px-16 items-center justify-center bg-sky-700`}>
       <div className='max-w-screen-xl  flex justify-between items-center gap-2 md_gap-4'>
-        <p className='text-neutral-50 text-center text-wrap'>{content.footer.dev.paragraph}</p>
+        <p className='text-xs text-neutral-50 text-center text-wrap'>{content.footer.dev.paragraph}</p>
         <Link
           href={devUrl}
           target='_blank'
@@ -30,7 +30,7 @@ const Footer = () => {
           <Image
             width={30}
             height={30}
-            className={`w-6 h-auto md:w-7 ${styles.devLogo}`}
+            className={`w-5 h-auto ${styles.devLogo}`}
             src={content.footer.dev.img.url}
             alt={content.footer.dev.img.alt}
           />

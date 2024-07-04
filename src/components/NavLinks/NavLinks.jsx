@@ -10,8 +10,14 @@ const NavLinks = ({ isScrolled }) => {
   const links = Object.values(content.navLinks);
   const [isOpen, setIsOpen] = useState(false);
 
+  // Set menu as Close
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+  };
+
+  // Close menu before clicked/touched it
+  const handleLinkClick = () => {
+    setIsOpen(false);
   };
 
   return (
@@ -33,6 +39,7 @@ const NavLinks = ({ isScrolled }) => {
           <Link
             key={link.name}
             href={link.path}
+            onClick={handleLinkClick}
             className={`hover:font-bold rounded-md
               ${isScrolled ? 'text-primary-color' : 'text-white-color'}
               ${pathname === link.path ? 'font-bold underline underline-offset-4' : ''}
