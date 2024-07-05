@@ -2,7 +2,11 @@ import React from 'react';
 
 const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, TermsLink, SubmitText }) => {
   return (
-    <form className="max-w-md mx-auto">
+    <form className="max-w-md mx-auto"
+      action='https://formsubmit.co/escudero.mdz@gmail.com'
+      method='POST'
+    >
+
 
       {/* Email */}
       <div className="relative z-0 w-full mb-7 group">
@@ -26,7 +30,7 @@ const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuanti
       <div className="grid md:grid-cols-2 md:gap-6">
         {/* Phone Number */}
         <div className="relative z-0 w-full mb-7 group">
-          <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-sky-500 focus:outline-none focus:ring-0 focus:border-sky-700 peer" placeholder=" " required />
+          <input type="tel" pattern="^(?:[0-9]\s*){12,14}$" name="floating_phone" id="floating_phone" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-sky-500 focus:outline-none focus:ring-0 focus:border-sky-700 peer" placeholder=" " required />
           <label for="floating_phone" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-sky-700 peer-focus:dark:text-sky-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">{PhoneNumber}</label>
         </div>
         {/* paxQuantity */}
@@ -52,6 +56,13 @@ const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuanti
 
       {/* Button */}
       <button type="submit" className="text-white hover:bg-sky-700 bg-sky-600 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-sky-700 dark:hover:bg-sky-700 dark:focus:ring-sky-600">{SubmitText}</button>
+
+      <input
+        type='hidden'
+        name='_next'
+        defaultValue='http://localhost:3000/contact'
+      />
+      <input type='hidden' name='_captcha' defaultValue='false' />
     </form>
   );
 }
