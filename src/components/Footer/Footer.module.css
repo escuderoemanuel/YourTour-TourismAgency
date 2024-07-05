@@ -3,7 +3,7 @@
 }
 
 .devLogo:hover {
-  transform: rotate(7deg);
+  transform: rotate(6deg) scale(1.1);
 }
 
 .svgIcon {
