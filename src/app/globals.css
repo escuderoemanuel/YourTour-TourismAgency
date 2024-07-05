@@ -47,3 +47,8 @@ body {
   backdrop-filter: blur(10px);
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+.glassBackground {
+  background-color: #0369a1;
+  ;
+}
