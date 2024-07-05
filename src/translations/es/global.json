@@ -146,5 +146,17 @@
       "url": "https://i.ibb.co/Gxk0ktL/Logo2024.png",
       "alt": "Developer Logo"
     }
+  },
+  "form": {
+    "email": "Correo Electrónico",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "phoneNumber": "Número de Celular",
+    "paxQuantity": "Cantidad de Pasajeros",
+    "message": "Mensaje (fecha y servicios requeridos)",
+    "termsText1": "He leído y acepto los ",
+    "termsText2": "términos y condiciones.",
+    "termsLink": "/terms",
+    "submitText": "Enviar"
   }
 }
