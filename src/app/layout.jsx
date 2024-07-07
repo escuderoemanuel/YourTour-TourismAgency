@@ -5,11 +5,12 @@ import Header from '@/components/Header/Header';
 import React from 'react'
 import Whatsapp from '@/components/Whatsapp/Whatsapp';
 import { inter } from '../ui/fonts';
+import favicon from '../../public/favicon.ico'
 
 
 export const metadata = {
   icons: {
-    icon: 'https://i.ibb.co/Gxk0ktL/Logo2024.png',
+    icon: `https://i.ibb.co/vQM5vzg/favicon.png` || favicon,
   },
   title: "Your Tour ● Turism Agency",
   description: "Turism Agency Website located in Mendoza, Argentina",
