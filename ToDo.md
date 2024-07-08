@@ -1,7 +1,7 @@
 # ToDo:
 
 - Chequear etiquetas html, area label, open graph y demás SEO
-- Diseñar términos y condiciones
+- Escribir términos y condiciones
 - Enseñarles a configurar cuerpos del email predefinidos
 - Sugerir crear email más profesional
 - Cambiar email en el contactForm
