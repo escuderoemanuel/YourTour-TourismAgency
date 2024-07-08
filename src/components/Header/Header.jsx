@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import styles from './Header.module.css';
 import Image from 'next/image';
 import NavLinks from '../NavLinks/NavLinks';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';

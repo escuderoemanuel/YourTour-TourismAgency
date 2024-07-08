@@ -1,6 +1,5 @@
 'use client'
 import React from 'react';
-import styles from './Footer.module.css';
 import Image from 'next/image';
 import content from '../../translations/es/global.json'
 import Link from 'next/link';
@@ -44,7 +43,7 @@ const Footer = () => {
             width={24}
             height={24}
             viewBox="0 0 24 24"
-            className='w-7 h-auto fill-gray-100 hover:fill-gray-300'
+            className='w-7 h-auto fill-gray-100 hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300'
           >
             <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z" />
             <circle cx="16.806" cy="7.207" r="1.078" />
@@ -63,7 +62,7 @@ const Footer = () => {
             width={24}
             height={24}
             viewBox="0 0 24 24"
-            className='w-7 h-auto fill-gray-100 hover:fill-gray-300'
+            className='w-7 h-auto fill-gray-100 hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300'
           >
             <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z" />
           </svg>
@@ -76,14 +75,14 @@ const Footer = () => {
           rel='noopener noreferrer'
           title='Gmail'
           aria-label='Gmail'
-          className='cursor-pointer'
+          className={`cursor-pointer`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width={24}
             height={24}
             viewBox="0 0 24 24"
-            className='w-7 h-auto fill-gray-100 hover:fill-gray-300'
+            className={`w-7 h-auto fill-gray-100 hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
           >
             <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
           </svg>
@@ -103,7 +102,7 @@ const Footer = () => {
           <Image
             width={30}
             height={30}
-            className={`w-5 h-auto ${styles.devLogo}`}
+            className={`w-5 h-auto  hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
             src={content.dev.img.url}
             alt={content.dev.img.alt}
           />
