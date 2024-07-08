@@ -11,7 +11,7 @@ const Excursions = () => {
 
   return (
     <section className={`min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14`}>
-      <div className='flex flex-col md:flex-row md:flex-wrap items-center justify-center'>
+      <div className='flex flex-col md:flex-row md:flex-wrap justify-center'>
         {listExcursions.map((excursion, index) => (
           <Card
             key={index}

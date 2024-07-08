@@ -68,178 +68,241 @@
         "title": "City Tour",
         "listImages": {
           "image1": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/w0Hky6g/city-1.jpg",
+            "alt": "Museo Área Fundacional"
           },
           "image2": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/wyqgr1k/city-2.jpg",
+            "alt": "Vista de la ciudad"
           },
           "image3": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/FWV5hT6/city-3.jpg",
+            "alt": "Plaza San Martín"
           },
           "image4": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/2564T89/city-4.jpg",
+            "alt": "Plaza España"
           },
           "image5": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/3cXC91W/city-6.webp",
+            "alt": "Cerro de la Gloria"
+          },
+          "image6": {
+            "url": "https://i.ibb.co/NZPS3CJ/city-9.jpg",
+            "alt": "Parque General San Martín"
+          },
+          "image7": {
+            "url": "https://i.ibb.co/R3DcYLc/city-8.jpg",
+            "alt": "Plaza Independencia"
           }
         },
-        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+        "description": "El paseo incluye un recorrido por el Área Fundacional de Mendoza, centro histórico de la ciudad vieja, la Plaza Pedro del Castillo y las Ruinas de San Francisco. Luego, en la “Ciudad Nueva” se visitan las plazas satélite. Continua hacia el Parque General San Martín y el Cerro de la Gloria, donde se encuentra el monumento histórico al Ejército de los Andes que rinde homenaje a la exitosa campaña libertadora. Finaliza en la plaza Independencia."
       },
       "excursion2": {
-        "title": "Excursiones",
+        "title": "Villavicencio",
         "listImages": {
           "image1": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/6v9vSzV/villavicencio-2.jpg",
+            "alt": "Vista Hotel Villavicencio"
           },
           "image2": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/k8bCBJv/villavicencio-1.jpg",
+            "alt": "Monumento Canota"
           },
           "image3": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/7KsV1R5/villavicencio-5.jpg",
+            "alt": "Vista Camino de Caracoles"
           },
           "image4": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
-          },
-          "image5": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/b3dx5FK/villavicencio-4.jpg",
+            "alt": "Foto Zorro Colorado"
           }
         },
-        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+        "description": "El paseo inicia saliendo de la ciudad de Mendoza, recorriendo la ruta N°52, antigua ruta utilizada para a Chile.Nuestra primera parada es en el monumento de Canota, hasta llegar a la primera seccional de Guardaparques de la Reserva Natural Villavicencio. Un sitio de delicado equilibrio ecológico, de unas 70.000 hectáreas de extensión. Luego, seguiremos por el camino de las 365 curvas, que dan el nombre a la ruta del año y donde recorremos parte del camino de caracoles. Finalmente, culminamos nuestro paseo en el histórico del Hotel Villavicencio y sus jardines."
       },
       "excursion3": {
+        "title": "Cañón del Atuel",
         "listImages": {
           "image1": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/rpmPrd6/atuel-1.jpg",
+            "alt": "Foto Cañón del Atuel"
           },
           "image2": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/LPd62mX/atuel-2.jpg",
+            "alt": "Foto Cañón del Atuel"
           },
           "image3": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/4fWnyfj/atuel-4.jpg",
+            "alt": "Foto Cañón del Atuel"
           },
           "image4": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
-          },
-          "image5": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/1dDf187/atuel-3.jpg",
+            "alt": "Foto Cañón del Atuel"
           }
         },
-        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+        "description": "Partiendo temprano desde la ciudad de Mendoza recorremos esta hermosa aventura sobre el estrecho Cañón del Atuel hasta su desembocadura varios kilómetros aguas abajo del embalse Valle Grande, con una extensión de unos 50 km y una profundidad promedio de 260 m. La erosión producida por el viento y el agua del río Atuel tallaron en otras épocas sorprendentes figuras que hoy poseen cada una su nombre: el Mendigo, el Bosque de Coníferas, los Jardines Colgantes, el Elefante, el Lagarto, y muchas más. Además, también se pueden observar las centrales hidroeléctricas del sistema de generación de energía del Atuel. En Valle Grande finalizamos el tour disfrutando un almuerzo y actividades opcionales como paseo por el Dique Valle Grande o navegar por el Río Atuel."
       },
       "excursion4": {
+        "title": "Parque Aconcagua",
         "listImages": {
           "image1": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/VgCVKJD/alta-5.jpg",
+            "alt": "Vista Cerro Aconcagua"
           },
           "image2": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/pwsq5s6/alta-0.jpg",
+            "alt": "Túnel Cacheuta-Potrerillos"
           },
           "image3": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/fHThRxx/alta-1.jpg",
+            "alt": "Vista Pueblo Potrerillos"
           },
           "image4": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/FmnYZhJ/alta-4.jpg",
+            "alt": "Foto Laguna de Horcones"
           },
           "image5": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/m82nD0H/alta-6.jpg",
+            "alt": "Cartel Bienvenida Parque Aconcagua"
           }
         },
-        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+        "description": "La experiencia comienza recorriendo la RP86, con los paisajes de Cacheuta hasta atravesar el túnel que conecta esta localidad con Potrerillos. Contemplamos la maravillosa vista del Cordón del Plata, principal fuente de agua de Mendoza. Atravesando túneles y puentes, llegaremos hasta al Valle de Uspallata, donde se hace una parada estratégica. Una vez que continuamos por la ruta, nos vamos preparando para el punto destacado de la salida: el Parque Provincial Aconcagua, donde se realiza una caminata de 2 hs aproximadamente, hasta el mirador de la Laguna de Horcones, donde se logra apreciar la Pared Sur y la cumbre de la montaña más alta de América (6962 msnm). ¡Te invitamos a vivir la sensación de estar de pie frente al Cerro Aconcagua!"
       },
       "excursion5": {
+        "title": "Alta Montaña",
         "listImages": {
           "image1": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/xDBH8NL/alta-1.webp",
+            "alt": "Túnel Cacheuta-Potrerillos"
           },
           "image2": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/4Tkk4bM/alta-4.jpg",
+            "alt": "Puente del Inca"
           },
           "image3": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/fxVZW8k/alta-6.webp",
+            "alt": "Cristo Redentor"
           },
           "image4": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
-          },
-          "image5": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/KVKc5vw/alta-7.jpg",
+            "alt": "Las Cuevas"
           }
         },
-        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+        "description": "Emocionante excursión a través de la famosa RN7. Recorreremos el túnel del pueblo de Cacheuta, el dique Potrerillos con vista a las Altas Cumbres de fondo. Llegaremos hasta el pueblo de montaña Uspallata, lugar histórico, escenario de la ocupación indígena Huarpe en la época prehispánica y marca la transición entre la precordillera y la cordillera frontal. Parada para desayunar en Uspallata y continuar el recorrido a través de un paisaje montañoso de las encantadoras villas de Picheuta, Polvaredas y Punta de Vacas, el antiguo complejo de esquí, Los Penitentes. Nos encontraremos con el icónico Puente del Inca, un monumento natural de asombrosa belleza geológica, reconocido como Patrimonio Mundial por la Unesco. Kilómetros más adelante, el mirador del Cerro Aconcagua. El tour culmina en el límite con Chile, Las Cuevas, un encantador pueblo construido con un distintivo estilo europeo. Allí disfrutarás de almuerzo Mendocino en un restaurante típico de montaña."
       },
       "excursion6": {
+        "title": "Cacheuta Parque Termal",
         "listImages": {
           "image1": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/yRp2dRF/cacheuta-1.jpg",
+            "alt": "Ingreso Termas de Cacheuta"
           },
           "image2": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/DDgLvsb/cacheuta-4.jpg",
+            "alt": "Parque Termas de Cacheuta"
           },
           "image3": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
+            "url": "https://i.ibb.co/jwm2C4X/cacheuta-3.jpg",
             "alt": "Excursion"
           },
           "image4": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
-          },
-          "image5": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/kxDyGQz/cacheuta-2.png",
+            "alt": "Parque Termas de Cacheuta"
           }
         },
-        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+        "description": "A 38 kilómetros de la Ciudad de Mendoza, se encuentra el Parque de Agua Termal en Cacheuta. Este oasis termal está rodeado por la majestuosa Cordillera de Los Andes y se extiende a orillas del Río Mendoza. El parque ofrece una variada selección de piscinas con temperaturas diversas y una variedad de hidroterapias. Para las familias, se ofrece un área interactiva para niños y cuatro toboganes emocionantes. El parque dispone de acogedores quinchos y parrillas, perfectos para realizar un picnic. Además, hay un almacén donde podrán adquirir todo lo necesario para disfrutar de su día al máximo. Aquellos que prefieran no cocinar pueden deleitarse con la oferta gastronómica de los restaurantes del Pueblo de Cacheuta."
       },
       "excursion7": {
+        "title": "Los Reyunos",
         "listImages": {
           "image1": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/s9hn6gv/reyunos-1.jpg",
+            "alt": "Foto Dique Los Reyunos"
           },
           "image2": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/tQk5RK3/reyunos-2.webp",
+            "alt": "Tirolesa en el Dique Los Reyunos"
           },
           "image3": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/843HRTz/reyunos-3.jpg",
+            "alt": "Rafting en el Dique Los Reyunos"
           },
           "image4": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
-          },
-          "image5": {
-            "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-            "alt": "Excursion"
+            "url": "https://i.ibb.co/BjMsPDk/reyunos-4.jpg",
+            "alt": "Formación Rocosa en el Dique Los Reyunos"
           }
         },
-        "description": "Aquí encontrarás una amplia gama de excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo. Desde parques temáticos y actividades artesanales hasta actividades acuáticas y aventuras, tenemos una gama de opciones para que te encantes el viaje."
+        "description": "Viaje hacia la Villa 25 de Mayo, un lugar que alberga el casco histórico de la primera fundación de San Rafael. Aquí, podrás sumergirte en la historia de la región mientras exploras sus calles empedradas y edificios antiguos. La arquitectura y el ambiente de la villa te transportarán a épocas pasadas, ofreciéndote una visión única de la herencia de Mendoza.Luego, continuará hacia la Presa Los Reyunos, un impresionante embalse ubicado en la cuenca del río Diamante. La construcción de esta presa comenzó en 1980, y su entorno natural es simplemente deslumbrante. Rodeada de majestuosas montañas y aguas cristalinas, la Presa Los Reyunos ofrece un paisaje de belleza incomparable. Aquí, tendrás la oportunidad de admirar la magnitud de la presa y disfrutar de las vistas panorámicas, además de realizar catamarán, tirolesa, canoa, rafting."
+      },
+      "excursion8": {
+        "title": "Malargüe",
+        "listImages": {
+          "image1": {
+            "url": "https://i.ibb.co/JtJN5ZW/malargue-1.jpg",
+            "alt": "Caverna de las Brujas"
+          },
+          "image2": {
+            "url": "https://i.ibb.co/2h1sHxY/malargue-2.jpg",
+            "alt": "Laguna de la Niña Encantada"
+          },
+          "image3": {
+            "url": "https://i.ibb.co/bmXYc1p/malargue-3.jpg",
+            "alt": "Pozo de las Ánimas"
+          }
+        },
+        "description": "Malargüe ofrece una extraordinaria opción para el turismo aventura y ecológico. Algunos de sus atractivos más importantes son La Caverna de las Brujas, La Laguna de la Niña Encantada y el Pozo de las Ánimas. Aunque también posee un pintoresco casco céntrico y grandes reservas naturales y faunísticas como Laguna de Llancanelo y la Payunia. En este paseo recorreremos las primeras tres atracciones, pero como bien sabes, en Your Tour podemos diseñar el viaje a tu medida."
+      },
+      "excursion9": {
+        "title": "Cacheuta Spa",
+        "listImages": {
+          "image1": {
+            "url": "https://i.ibb.co/Jj3VHNB/cacheuta-Spa-2.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image2": {
+            "url": "https://i.ibb.co/KsMD8fs/cacheuta-Spa-3.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image3": {
+            "url": "https://i.ibb.co/Y0Sbtms/cacheuta-Spa-4.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image4": {
+            "url": "https://i.ibb.co/dj4yY9D/cacheuta-Spa-5.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image5": {
+            "url": "https://i.ibb.co/8NvhfX5/cacheuta-Spa-6.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          }
+        },
+        "description": "El spa termal del hotel Termas de Cacheuta le abre las puertas a todo aquel que quiera disfrutar del agua termal sólo por el día, donde ofrece un conjunto de piletones de piedras con diferentes temperaturas e hidroterapias, la fangoterapia y la gruta (vaporarium natural), rodeados de la pre cordillera de los andes, creando el lugar indicado para un día de relax. La estrella indiscutida para los amantes de las gastronomía, es el almuerzo criollo, un buffet de comidas regionales preparadas con los mejores ingredientes locales para disfrutar junto a un día de spa, un completo asado a leña, acompañado de una gran variedad de verduras y hortalizas de Mendoza, de exquisitas recetas criollas y de otros platos vegetarianos. coronan la propuesta los excelentes postres regionales."
+      },
+      "excursion10": {
+        "title": "Cacheuta Spa",
+        "listImages": {
+          "image1": {
+            "url": "https://i.ibb.co/Jj3VHNB/cacheuta-Spa-2.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image2": {
+            "url": "https://i.ibb.co/KsMD8fs/cacheuta-Spa-3.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image3": {
+            "url": "https://i.ibb.co/Y0Sbtms/cacheuta-Spa-4.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image4": {
+            "url": "https://i.ibb.co/dj4yY9D/cacheuta-Spa-5.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          },
+          "image5": {
+            "url": "https://i.ibb.co/8NvhfX5/cacheuta-Spa-6.jpg",
+            "alt": "Spa Termas de Cacheuta"
+          }
+        },
+        "description": "El spa termal del hotel Termas de Cacheuta le abre las puertas a todo aquel que quiera disfrutar del agua termal sólo por el día, donde ofrece un conjunto de piletones de piedras con diferentes temperaturas e hidroterapias, la fangoterapia y la gruta (vaporarium natural), rodeados de la pre cordillera de los andes, creando el lugar indicado para un día de relax. La estrella indiscutida para los amantes de las gastronomía, es el almuerzo criollo, un buffet de comidas regionales preparadas con los mejores ingredientes locales para disfrutar junto a un día de spa, un completo asado a leña, acompañado de una gran variedad de verduras y hortalizas de Mendoza, de exquisitas recetas criollas y de otros platos vegetarianos. coronan la propuesta los excelentes postres regionales."
       }
     }
   },
