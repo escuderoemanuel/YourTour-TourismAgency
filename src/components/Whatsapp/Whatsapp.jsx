@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 const whatsappLogo = 'https://i.ibb.co/Z6TZgYM/Whatsapp-37229.png'
-const whatsappLink = 'https://wa.me/5492612061160'
+const whatsappLink = 'https://wa.me/542613333966'
 import styles from './Whatsapp.module.css';
 
 

@@ -1,10 +1,14 @@
+'use client'
 import React from 'react';
 import styles from './Footer.module.css';
 import Image from 'next/image';
 import content from '../../translations/es/global.json'
 import Link from 'next/link';
 const devUrl = 'https://emanuelescudero.ar';
-import { inter, praise, raleway } from '../../ui/fonts';
+const yourTourFacebookProfile = 'https://www.facebook.com/profile.php?id=100094165443751'
+const yourTourInstagramProfile = 'https://www.instagram.com/your_tour_mendoza'
+const yourTourEmail = 'danielaguadoeve@gmail.com'
+import { raleway } from '../../ui/fonts';
 
 // import { useTranslation } from 'react-i18next';
 
@@ -29,7 +33,7 @@ const Footer = () => {
           alt="Picture of the author"
         />
         <Link
-          href='http://instagram.com'
+          href={yourTourInstagramProfile}
           target='_blank'
           rel='noopener noreferrer'
           title='Instagram'
@@ -48,7 +52,7 @@ const Footer = () => {
           </svg>
         </Link>
         <Link
-          href='http://facebook.com'
+          href={yourTourFacebookProfile}
           target='_blank'
           rel='noopener noreferrer'
           title='Facebook'
@@ -66,7 +70,8 @@ const Footer = () => {
 
         </Link>
         <Link
-          href='http://gmail.com'
+          href={`mailto:${yourTourEmail}`}
+          id='mailto'
           target='_blank'
           rel='noopener noreferrer'
           title='Gmail'
@@ -104,7 +109,7 @@ const Footer = () => {
           />
         </Link>
       </div>
-    </section>
+    </section >
   );
 };
 

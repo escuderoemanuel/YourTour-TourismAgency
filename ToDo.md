@@ -1,8 +1,9 @@
 # ToDo:
 
-- Move all text to the json file
-- Enseñarles a configurar cuerpos del email predefinidos
+- Chequear etiquetas html, area label, open graph y demás SEO
 - Diseñar términos y condiciones
+- Enseñarles a configurar cuerpos del email predefinidos
+- Sugerir crear email más profesional
 
 # Excursiones
 
