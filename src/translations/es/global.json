@@ -161,6 +161,19 @@
   },
   "termsAndConditions": {
     "title": "Términos y condiciones",
-    "text": "CONDICIONES SERVICIOS Nota: Tener en cuenta que las cotizaciones no garantizan disponibilidad ni tarifas. Las mismas pueden sufrir cambios sin previo aviso. CONDICIONES DE ALOJAMIENTO PARA PASAJEROS EXTRANJEROS A partir del 2 de enero de 2017 y según Resolución Conjunta General 3971 de la Administración Federal de Ingresos Públicos y el Ministerio de Turismo de la Nación, se realizará la devolución de IVA a pasajeros extranjeros. Para ello, será necesario informar la nacionalidad y el número de pasaporte al momento de generar la reserva. Al momento de realizar el Check In en el hotel se deben presentar pasaporte y Visa de Ingreso a Argentina. En caso de No Show se debe sumar 21% de IVA. CONDICIONES PROGRAMAS Esta cotización no implica reserva de servicios ni bloqueo de espacios, así como tampoco garantiza la disponibilidad de los mismos. Esta cotización no garantiza tarifas. Las mismas pueden sufrir cambios sin previo aviso. SERVICIOS NO INCLUIDOS: Otros traslados, comidas, bebidas o servicios no mencionados. Gastos ocasionados por el abandono del programa. Tarifas aéreas o terrestres de aproximación a Mendoza. Extras, opcionales y propinas. Gastos Administrativos por uso de tarjeta de Créditos."
+    "listTerms": {
+      "term1": {
+        "term": "Condiciones y Servicios:",
+        "text": "Tener en cuenta que las cotizaciones no garantizan disponibilidad ni tarifas. Las mismas pueden sufrir cambios sin previo aviso. CONDICIONES DE ALOJAMIENTO PARA PASAJEROS EXTRANJEROS A partir del 2 de enero de 2017 y según Resolución Conjunta General 3971 de la Administración Federal de Ingresos Públicos y el Ministerio de Turismo de la Nación, se realizará la devolución de IVA a pasajeros extranjeros. Para ello, será necesario informar la nacionalidad y el número de pasaporte al momento de generar la reserva.<br>Al momento de realizar el Check In en el hotel se deben presentar pasaporte y Visa de Ingreso a Argentina. En caso de No Show se debe sumar 21% de IVA."
+      },
+      "term2": {
+        "term": "Condiciones Programa:",
+        "text": "Esta cotización no implica reserva de servicios ni bloqueo de espacios, así como tampoco garantiza la disponibilidad de los mismos. Esta cotización no garantiza tarifas. Las mismas pueden sufrir cambios sin previo aviso."
+      },
+      "term3": {
+        "term": "Servicios no incluidos:",
+        "text": "Otros traslados, comidas, bebidas o servicios no mencionados. Gastos ocasionados por el abandono del programa. Tarifas aéreas o terrestres de aproximación a Mendoza. Extras, opcionales y propinas. Gastos Administrativos por uso de tarjeta de Créditos."
+      }
+    }
   }
 }

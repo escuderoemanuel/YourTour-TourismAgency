@@ -26,7 +26,6 @@ export default function contact() {
         Message={form.message}
         TermsText1={form.termsText1}
         TermsText2={form.termsText2}
-        TermsLink={form.termsLink}
         SubmitText={form.submitText}
       />
 

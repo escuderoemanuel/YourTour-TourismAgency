@@ -4,6 +4,7 @@
 - Diseñar términos y condiciones
 - Enseñarles a configurar cuerpos del email predefinidos
 - Sugerir crear email más profesional
+- Cambiar email en el contactForm
 
 # Excursiones
 

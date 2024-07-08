@@ -1,6 +1,7 @@
 import React from 'react';
 
-const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, TermsLink, SubmitText }) => {
+const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, SubmitText }) => {
+  const TermsLink = `/terms`
   return (
     <form className="max-w-md mx-auto"
       action='https://formsubmit.co/escudero.mdz@gmail.com'
