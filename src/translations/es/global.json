@@ -33,16 +33,36 @@
   },
   "carousel": {
     "image1": {
-      "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-      "alt": "Foto de Mendoza"
+      "url": "https://i.ibb.co/pJ8yPwM/city-9.jpg",
+      "alt": "Foto Parque General San Martín"
     },
     "image2": {
-      "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-      "alt": "Foto de Mendoza"
+      "url": "https://i.ibb.co/wyqgr1k/city-2.jpg",
+      "alt": "Foto de la Ciudad de Mendoza"
     },
     "image3": {
-      "url": "https://i.ibb.co/0j028qp/portones-parque-general-san-martin.jpg",
-      "alt": "Foto de Mendoza"
+      "url": "https://i.ibb.co/344mDQN/lenas-4.jpg",
+      "alt": "Foto Personas en Aerosilla Las Leñas"
+    },
+    "image4": {
+      "url": "https://i.ibb.co/7VrzHzH/lenas-5.webp",
+      "alt": "Foto Personas en Gomones para Nieve en Las Leñas"
+    },
+    "image5": {
+      "url": "https://i.ibb.co/BjMsPDk/reyunos-4.jpg",
+      "alt": "Foto Personas sobre Formaciones Rocosas en los Reyunos"
+    },
+    "image6": {
+      "url": "https://i.ibb.co/4Tkk4bM/alta-4.jpg",
+      "alt": "Foto Puente del Inca"
+    },
+    "image7": {
+      "url": "https://i.ibb.co/843HRTz/reyunos-3.jpg",
+      "alt": "Foto Personas haciendo Rafting"
+    },
+    "image8": {
+      "url": "https://i.ibb.co/tQk5RK3/reyunos-2.webp",
+      "alt": "Foto Persona haciendo Tirolesa"
     }
   },
   "header": {

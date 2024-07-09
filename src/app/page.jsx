@@ -8,7 +8,7 @@ import content from '../translations/es/global.json';
 export default function Home() {
 
   return (
-    <section className="min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14">
+    <section className="max-w-screen-lg mx-auto min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14">
 
       <Carousel />
 

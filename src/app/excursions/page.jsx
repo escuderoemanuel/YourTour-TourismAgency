@@ -10,8 +10,8 @@ const Excursions = () => {
   }));
 
   return (
-    <section className={`min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14`}>
-      <div className='flex flex-col md:flex-row md:flex-wrap justify-center'>
+    <section className={`max-w-screen-lg mx-auto min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14 2xl:max-w-screen-2xl`}>
+      <div className='flex flex-col mx-auto items-center md:items-stretch  md:flex-row md:flex-wrap md:justify-center'>
         {listExcursions.map((excursion, index) => (
           <Card
             key={index}

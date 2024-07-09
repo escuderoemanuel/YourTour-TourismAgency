@@ -6,7 +6,7 @@ export default function terms() {
   const listTerms = Object.values(content.termsAndConditions.listTerms)
 
   return (
-    <section className={`min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14`}>
+    <section className={`max-w-screen-lg mx-auto min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14`}>
 
       <div className='flex flex-col'>
         <h1 className='font-bold text-center uppercase mb-2 md:mb-4 lg:mb-6'>{terms.title}</h1>

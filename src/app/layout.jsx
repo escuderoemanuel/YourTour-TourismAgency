@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
 
       <body className={`${inter.className} antialiased bg-neutral-100`}>
         <Header />
-        <div className='max-w-screen-lg mx-auto'>
+        <div>
           {children}
           <Whatsapp />
         </div>
