@@ -436,7 +436,7 @@
             "alt": "Camionetas de traslado"
           },
           "image3": {
-            "url": "https://i.ibb.co/ZzpchRG/cronos.jpg",
+            "url": "https://i.ibb.co/rwz3QS1/cronos.webp",
             "alt": "Fiat Cronos Blanco"
           }
         }
@@ -456,6 +456,24 @@
           "image3": {
             "url": "https://i.ibb.co/TtPMN6q/traffic.jpg",
             "alt": "Camioneta tipo minivan de traslado blanca"
+          }
+        }
+      },
+      "service4": {
+        "title": "Traslado de Negocios",
+        "description": "Lo llevamos a sus reuniones, conferencias, congresos, coworkings de forma segura y cómoda para que pueda centrarse únicamente en sus labores o en descansar mientras nos aseguramos de que llegue a su destino en tiempo y forma.",
+        "listImages": {
+          "image1": {
+            "url": "https://i.ibb.co/1fZYzjX/coche-alquiler.jpg",
+            "alt": "Persona viajando por negocios"
+          },
+          "image2": {
+            "url": "https://i.ibb.co/9VwkQpC/negocios.jpg",
+            "alt": "Persona viajando por negocios"
+          },
+          "image3": {
+            "url": "https://i.ibb.co/8KhTpR6/cronos.jpg",
+            "alt": "Fiat Cronos Blanco"
           }
         }
       }

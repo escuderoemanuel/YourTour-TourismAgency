@@ -1,35 +1,25 @@
-'use client'
+'use client';
 import React from 'react';
 import Image from 'next/image';
-import content from '../../translations/es/global.json'
+import content from '../../translations/es/global.json';
 import Link from 'next/link';
-const devUrl = 'https://emanuelescudero.ar';
-const yourTourFacebookProfile = 'https://www.facebook.com/profile.php?id=100094165443751'
-const yourTourInstagramProfile = 'https://www.instagram.com/your_tour_mendoza'
-const yourTourEmail = 'danielaguadoeve@gmail.com'
 import { raleway } from '../../ui/fonts';
 
-// import { useTranslation } from 'react-i18next';
+const devUrl = 'https://emanuelescudero.ar';
+const yourTourFacebookProfile = 'https://www.facebook.com/profile.php?id=100094165443751';
+const yourTourInstagramProfile = 'https://www.instagram.com/your_tour_mendoza';
+const yourTourEmail = 'danielaguadoeve@gmail.com';
 
 const Footer = () => {
-  /* i18Next Translation */
-  // const [t, i18n] = useTranslation('global');
-
-  const handleScrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
   return (
-    <section className={`${raleway.className} flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-sky-700 `}>
-      <div className={`max-w-screen-xl  flex justify-between items-center gap-2 md:gap-4`}>
+    <section className={`${raleway.className} flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-sky-700`}>
+      <div className={`max-w-screen-xl flex justify-between items-center gap-2 md:gap-4`}>
         <Image
           className={`w-40 h-auto md:w-44`}
           src={content.logo.yourTourSecondaryLogo}
           width={150}
           height={70}
-          alt="Picture of the author"
+          alt="Your Tour Logo"
         />
         <Link
           href={yourTourInstagramProfile}
@@ -66,7 +56,6 @@ const Footer = () => {
           >
             <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z" />
           </svg>
-
         </Link>
         <Link
           href={`mailto:${yourTourEmail}`}
@@ -90,10 +79,8 @@ const Footer = () => {
       </div>
 
       {/* DEV */}
-      <div className='max-w-screen-xl flex justify-between items-center gap-2 md:gap-4 pt-8
-      '>
-        <p className='text-xs md:text-sm text-neutral-50 text-center text-wrap
-        '>{content.dev.paragraph}</p>
+      <div className='max-w-screen-xl flex justify-between items-center gap-2 md:gap-4 pt-8'>
+        <p className='text-xs md:text-sm text-neutral-50 text-center'>{content.dev.paragraph}</p>
         <Link
           href={devUrl}
           target='_blank'
@@ -108,7 +95,7 @@ const Footer = () => {
           />
         </Link>
       </div>
-    </section >
+    </section>
   );
 };
 

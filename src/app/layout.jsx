@@ -1,16 +1,17 @@
 
-import "./globals.css";
+import React from 'react'
 import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
-import React from 'react'
 import Whatsapp from '@/components/Whatsapp/Whatsapp';
 import { inter } from '../ui/fonts';
-import favicon from '../../public/favicon.ico'
+import "./globals.css";
+
+const favicon = 'https://i.ibb.co/vQM5vzg/favicon.png'
 
 
 export const metadata = {
   icons: {
-    icon: `https://i.ibb.co/vQM5vzg/favicon.png` || favicon,
+    icon: favicon,
   },
   title: "Your Tour ● Turism Agency",
   description: "Turism Agency Website located in Mendoza, Argentina",
@@ -19,13 +20,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
+      <head>
+        <link rel="icon" href={metadata.icons.icon} />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </head>
       <body className={`${inter.className} antialiased bg-neutral-100`}>
         <Header />
-        <div>
+        <main>
           {children}
           <Whatsapp />
-        </div>
+        </main>
         <Footer />
       </body>
     </html>

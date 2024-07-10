@@ -10,8 +10,8 @@ const Services = () => {
   }));
 
   return (
-    <section className={`max-w-screen-lg mx-auto min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14 2xl:max-w-screen-2xl`}>
-      <div className='flex flex-col mx-auto items-center md:items-stretch  md:flex-row md:flex-wrap md:justify-center'>
+    <section className="max-w-screen-lg mx-auto min-h-screen p-4 sm:p-6 md:p-8 lg:p-14 2xl:max-w-screen-2xl">
+      <div className="flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:justify-center">
         {listServices.map((service, index) => (
           <Card
             key={index}
