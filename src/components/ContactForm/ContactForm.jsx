@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, SubmitText }) => {
   const TermsLink = `/terms`
@@ -52,7 +53,16 @@ const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuanti
         <div className="flex items-center h-5">
           <input id="terms" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-sky-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-sky-700 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
         </div>
-        <label for="terms" className="ms-2 text-start text-sm font-medium text-gray-900 dark:text-gray-300">{TermsText1}<a href={TermsLink} className="text-sky-700 hover:underline dark:text-sky-500">{TermsText2}</a></label>
+        <label for="terms" className="ms-2 text-start text-sm font-medium text-gray-900 dark:text-gray-300">{TermsText1}
+          <Link
+            target='_blank'
+            rel='noopener noreferrer'
+            title='Terms and Conditions'
+            aria-label='Terms and Conditions'
+            href={TermsLink}
+            className="text-sky-700 hover:underline dark:text-sky-500">{TermsText2}
+          </Link>
+        </label>
       </div>
 
       {/* Button */}

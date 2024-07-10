@@ -1,20 +1,23 @@
 import React from 'react';
 import content from '../../translations/es/global.json';
-import CardService from '@/components/CardService/CardService';
+import Card from '@/components/Card/Card';
 
 const Services = () => {
-  const listServices = Object.values(content.services.listServices);
+  const listServices = Object.values(content.services.listServices).map(service => ({
+    title: service.title,
+    description: service.description,
+    images: Object.values(service.listImages)
+  }));
 
   return (
-    <section className={`max-w-screen-lg mx-auto min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14`}>
-      <div className='flex flex-col md:flex-row md:flex-wrap items-center justify-center'>
+    <section className={`max-w-screen-lg mx-auto min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-14 2xl:max-w-screen-2xl`}>
+      <div className='flex flex-col mx-auto items-center md:items-stretch  md:flex-row md:flex-wrap md:justify-center'>
         {listServices.map((service, index) => (
-          <CardService
+          <Card
             key={index}
             title={service.title}
             description={service.description}
-            src={service.image.url}
-            alt={service.image.alt}
+            images={service.images}
           />
         ))}
       </div>
