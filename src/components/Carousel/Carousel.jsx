@@ -12,7 +12,7 @@ const Carousel = () => {
       {/* CAROUSEL */}
       <div id="default-carousel" className="relative w-full z-40" data-carousel="slide">
         {/* Carousel wrapper */}
-        <div className="relative h-56 overflow-hidden rounded-lg md:h-[500px]">
+        <div className="relative h-56 sm:h-64 md:h-80 overflow-hidden rounded-lg lg:h-[500px]">
           {carouselImages.map((image, index) => (
             <div key={index} className="duration-700 ease-in-out" data-carousel-item>
               <Image
@@ -21,7 +21,7 @@ const Carousel = () => {
                 width={1080}
                 height={920}
                 quality={100}
-                className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                className="absolute block w-full min-h-56 sm:min-h-64 md:min-h-80 lg:min-h-[500px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               />
             </div>
           ))}
