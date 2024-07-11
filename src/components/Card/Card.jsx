@@ -25,7 +25,6 @@ const Card = ({ images, title, description }) => {
                 fill
                 sizes="(max-width: 500px)"
                 style={{ objectFit: 'cover' }}
-                quality={100}
                 loading="lazy"
                 className="absolute inset-0 w-full h-full object-cover"
               />

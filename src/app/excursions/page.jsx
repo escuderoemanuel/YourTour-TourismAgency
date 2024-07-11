@@ -1,5 +1,4 @@
 import React from 'react';
-// import content from '../../translations/es/global.json';
 import excursions from '../../translations/es/excursions.json'
 import Card from '@/components/Card/Card';
 
