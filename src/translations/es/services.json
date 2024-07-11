@@ -1,0 +1,65 @@
+{
+  "title": "Servicios",
+  "listServices": {
+    "service1": {
+      "title": "Traslado In-Out",
+      "description": "Puedes contactarnos para ponernos a cargo de tu traslado desde tu lugar de llegada, sea la Terminal de Ómnibus Estación del Sol o el Aeropuerto Internacional Gobernador Francisco Gabrielli hacia tu alojamiento en la ciudad de Mendoza y alrededores o viceversa.",
+      "listImages": {
+        "image1": {
+          "url": "/img/Varias/cronos.jpg",
+          "alt": "Fiat Cronos Blanco"
+        },
+        "image2": {
+          "url": "/img/Varias/traffic.jpg",
+          "alt": "Camioneta tipo minivan de traslado blanca"
+        }
+      }
+    },
+    "service2": {
+      "title": "Traslado Interno",
+      "description": "Puedes confiarnos tus traslados durante tu estadía, desde y hacia donde quieras o desees. Disfruta de un viaje confortable y seguro con Your Tour.",
+      "listImages": {
+        "image1": {
+          "url": "/img/Varias/traffic.jpg",
+          "alt": "Camioneta tipo minivan de traslado blanca"
+        },
+        "image3": {
+          "url": "/img/Varias/cronos.webp",
+          "alt": "Fiat Cronos Blanco"
+        }
+      }
+    },
+    "service3": {
+      "title": "Excursión Personalizada",
+      "description": "Lo más importante es que nos adaptamos a tus necesidades y deseos. Por eso puedes solicitarnos excursiones personalizadas, con los destinos y paradas que quieras. Porque en Your Tour el viaje es a tu medida.",
+      "listImages": {
+        "image1": {
+          "url": "/img/Varias/traffic.webp",
+          "alt": "Camionetas de traslado"
+        },
+        "image2": {
+          "url": "/img/Varias/cronos.jpg",
+          "alt": "Fiat Cronos Blanco"
+        },
+        "image3": {
+          "url": "/img/Varias/traffic.jpg",
+          "alt": "Camioneta tipo minivan de traslado blanca"
+        }
+      }
+    },
+    "service4": {
+      "title": "Traslado de Negocios",
+      "description": "Lo llevamos a sus reuniones, conferencias, congresos, coworkings de forma segura y cómoda para que pueda centrarse únicamente en sus labores o en descansar mientras nos aseguramos de que llegue a su destino en tiempo y forma.",
+      "listImages": {
+        "image1": {
+          "url": "/img/Varias/coche-alquiler.jpg",
+          "alt": "Persona viajando por negocios"
+        },
+        "image2": {
+          "url": "/img/Varias/negocios.jpg",
+          "alt": "Persona viajando por negocios"
+        }
+      }
+    }
+  }
+}

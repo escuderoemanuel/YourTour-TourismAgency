@@ -1,9 +1,10 @@
 import React from 'react';
-import content from '../../translations/es/global.json';
+import services from '../../translations/es/services.json'
 import Card from '@/components/Card/Card';
 
-const Services = () => {
-  const listServices = Object.values(content.services.listServices).map(service => ({
+export default function Services() {
+
+  const listServices = Object.values(services.listServices).map(service => ({
     title: service.title,
     description: service.description,
     images: Object.values(service.listImages)
@@ -17,7 +18,7 @@ const Services = () => {
             key={index}
             title={service.title}
             description={service.description}
-            
+
             images={service.images}
           />
         ))}
@@ -26,4 +27,3 @@ const Services = () => {
   );
 }
 
-export default Services;

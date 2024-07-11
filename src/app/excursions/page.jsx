@@ -1,9 +1,11 @@
 import React from 'react';
-import content from '../../translations/es/global.json';
+// import content from '../../translations/es/global.json';
+import excursions from '../../translations/es/excursions.json'
 import Card from '@/components/Card/Card';
 
-const Excursions = () => {
-  const listExcursions = Object.values(content.excursions.listExcursions).map(excursion => ({
+export default function Excursions() {
+
+  const listExcursions = Object.values(excursions.listExcursions).map(excursion => ({
     title: excursion.title,
     description: excursion.description,
     images: Object.values(excursion.listImages)
@@ -24,5 +26,3 @@ const Excursions = () => {
     </section>
   );
 }
-
-export default Excursions;

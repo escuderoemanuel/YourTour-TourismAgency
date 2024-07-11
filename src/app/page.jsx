@@ -2,8 +2,8 @@
 
 import 'flowbite';
 import { praise } from '../ui/fonts';
-import HomeCarousel from '@/components/Carousel/Carousel';
 import content from '../translations/es/global.json';
+import HomeCarousel from '@/components/HomeCarousel/HomeCarousel';
 
 export default function Home() {
   return (
