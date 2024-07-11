@@ -19,9 +19,12 @@ const HomeCarousel = () => {
                 alt={image.alt}
                 src={image.url}
                 fill
-                objectFit="cover"
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                style={{ objectFit: 'cover' }}
                 quality={100}
                 loading="lazy"
+                // priority={false} //! CHECK THIS!
+                priority={false}
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
