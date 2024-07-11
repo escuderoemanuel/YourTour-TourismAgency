@@ -16,6 +16,8 @@ export default function Contact() {
         alt="Persona enviando email"
         width={100}
         height={100}
+        quality={100}
+        loading="lazy"
       />
       <ContactForm
         EmailAddress={form.email}

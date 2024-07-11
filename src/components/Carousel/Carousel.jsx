@@ -4,24 +4,25 @@ import Image from 'next/image';
 import 'flowbite';
 import content from '../../translations/es/global.json';
 
-const Carousel = () => {
-  const carouselImages = Object.values(content.carousel);
+const HomeCarousel = () => {
+  const carouselImages = Object.values(content.homeCarousel);
 
   return (
     <>
       {/* CAROUSEL */}
       <div id="default-carousel" className="relative w-full z-40" data-carousel="slide">
         {/* Carousel wrapper */}
-        <div className="relative h-56 sm:h-64 md:h-80 overflow-hidden rounded-lg lg:h-[500px]">
+        <div className="relative aspect-w-4 aspect-h-3 sm:aspect-w-4 sm:aspect-h-3 md:aspect-w-16 md:aspect-h-9 overflow-hidden rounded-lg">
           {carouselImages.map((image, index) => (
-            <div key={index} className="duration-700 ease-in-out" data-carousel-item>
+            <div key={index} className="duration-700 ease-in-out absolute inset-0 w-full h-full" data-carousel-item>
               <Image
                 alt={image.alt}
                 src={image.url}
-                width={1080}
-                height={920}
+                fill
+                objectFit="cover"
                 quality={100}
-                className="absolute block w-full min-h-56 sm:min-h-64 md:min-h-80 lg:min-h-[500px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                loading="lazy"
+                className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
           ))}
@@ -63,4 +64,4 @@ const Carousel = () => {
   );
 }
 
-export default Carousel;
+export default HomeCarousel;

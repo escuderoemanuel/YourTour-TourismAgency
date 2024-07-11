@@ -13,7 +13,7 @@ const CardCarousel = ({ images }) => {
               src={image.url}
               width={500}
               height={500}
-              quality={100}
+              loading="lazy"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>

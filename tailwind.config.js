@@ -12,12 +12,16 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      variants: {
+        aspectRatio: ['responsive'],
+      },
       height: {
         '500px': '500px',
       },
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 };

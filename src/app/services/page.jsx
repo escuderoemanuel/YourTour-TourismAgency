@@ -17,6 +17,7 @@ const Services = () => {
             key={index}
             title={service.title}
             description={service.description}
+            
             images={service.images}
           />
         ))}

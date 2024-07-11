@@ -20,6 +20,9 @@ const Footer = () => {
           width={150}
           height={70}
           alt="Your Tour Logo"
+          quality={100}
+          loading="lazy"
+
         />
         <Link
           href={yourTourInstagramProfile}
@@ -92,6 +95,8 @@ const Footer = () => {
             className={`w-5 h-auto  hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
             src={content.dev.img.url}
             alt={content.dev.img.alt}
+            quality={100}
+            loading="lazy"
           />
         </Link>
       </div>
