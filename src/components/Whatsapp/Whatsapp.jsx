@@ -15,7 +15,7 @@ const Whatsapp = () => {
         src={whatsappLogo}
         width={60}
         height={60}
-        quality={100}
+        // quality={100}
         loading="lazy"
         alt="Whatsapp Icon" />
     </Link>

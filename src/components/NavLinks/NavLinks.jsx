@@ -38,9 +38,9 @@ const NavLinks = ({ isScrolled }) => {
         {links.map((link) => (
           <Link
             key={link.name}
-            href={link.path}
+            href={link.href}
             onClick={handleLinkClick}
-            className={`hover:font-bold rounded-md ${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname === link.path ? 'font-bold underline underline-offset-4' : ''}`}
+            className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== link.href ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === link.href ? 'font-bold cursor-default' : ''}`}
           >
             {link.name}
           </Link>

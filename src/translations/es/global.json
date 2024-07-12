@@ -7,22 +7,22 @@
     "link1": {
       "name": "Inicio",
       "icon": "",
-      "path": "/"
+      "href": "/"
     },
     "link3": {
       "name": "Excursiones",
       "icon": "",
-      "path": "/excursions"
+      "href": "/excursions"
     },
     "link4": {
       "name": "Servicios",
       "icon": "",
-      "path": "/services"
+      "href": "/services"
     },
     "link5": {
       "name": "Contacto",
       "icon": "",
-      "path": "/contact"
+      "href": "/contact"
     }
   },
   "languages": {
@@ -45,7 +45,7 @@
       "alt": "Foto Puente del Inca"
     },
     "image7": {
-      "url": "/img/Home/lenas_6.webp",
+      "url": "/img/Home/lenas_6.jpg",
       "alt": "Foto Personas haciendo Rafting"
     }
   },

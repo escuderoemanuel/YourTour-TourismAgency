@@ -3,7 +3,6 @@ import React from 'react';
 import Image from 'next/image';
 import content from '../../translations/es/global.json';
 import Link from 'next/link';
-import { raleway } from '../../ui/fonts';
 
 const devUrl = 'https://emanuelescudero.ar';
 const yourTourFacebookProfile = 'https://www.facebook.com/profile.php?id=100094165443751';
@@ -12,7 +11,7 @@ const yourTourEmail = 'danielaguadoeve@gmail.com';
 
 const Footer = () => {
   return (
-    <section className={`${raleway.className} flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-sky-700`}>
+    <section className={`flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-sky-700`}>
       <div className={`max-w-screen-xl flex justify-between items-center gap-2 md:gap-4`}>
         <Image
           className={`w-40 h-auto md:w-44`}
@@ -20,7 +19,7 @@ const Footer = () => {
           width={150}
           height={70}
           alt="Your Tour Logo"
-          quality={100}
+          // quality={100}
           loading="lazy"
 
         />
@@ -95,7 +94,7 @@ const Footer = () => {
             className={`w-5 h-auto  hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
             src={content.dev.img.url}
             alt={content.dev.img.alt}
-            quality={100}
+            // quality={100}
             loading="lazy"
           />
         </Link>
