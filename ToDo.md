@@ -1,6 +1,5 @@
 # ToDo:
 
-- Compartir url de localhost para ver en el cel
 - Chequear etiquetas html, area label, open graph y demás SEO
 - Analizar rendimiento, carga de img, etc.
 - Realizar cambio de idioma

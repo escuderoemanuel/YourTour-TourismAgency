@@ -23,7 +23,6 @@ const HomeCarousel = () => {
                 style={{ objectFit: 'cover' }}
                 quality={100}
                 loading="lazy"
-                // priority={false} //! CHECK THIS!
                 priority={false}
                 className="absolute inset-0 w-full h-full object-cover"
               />

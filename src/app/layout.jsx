@@ -6,7 +6,7 @@ import Whatsapp from '@/components/Whatsapp/Whatsapp';
 import { inter } from '../ui/fonts';
 import "./globals.css";
 
-const favicon = 'https://i.ibb.co/vQM5vzg/favicon.png'
+const favicon = '/favicon.ico'
 
 
 export const metadata = {

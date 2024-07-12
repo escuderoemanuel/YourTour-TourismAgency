@@ -1,3 +1,5 @@
+'use client';
+
 import ContactForm from '@/components/ContactForm/ContactForm';
 import React from 'react';
 import content from '../../translations/es/global.json';

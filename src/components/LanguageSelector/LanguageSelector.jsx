@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import content from '../../translations/es/global.json';
 import { use } from 'i18next';

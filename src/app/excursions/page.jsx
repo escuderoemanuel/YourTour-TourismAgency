@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import excursions from '../../translations/es/excursions.json'
 import Card from '@/components/Card/Card';
