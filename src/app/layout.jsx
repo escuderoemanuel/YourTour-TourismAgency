@@ -4,7 +4,7 @@ import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import Whatsapp from '@/components/Whatsapp/Whatsapp';
 import "./globals.css";
-import { inter, raleway } from '../ui/fonts';
+import { inter } from '../ui/fonts';
 
 
 const favicon = '/favicon.ico'
@@ -28,10 +28,8 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${inter.className} antialiased bg-neutral-100`}>
         <Header />
-        <main>
-          {children}
-          <Whatsapp />
-        </main>
+        {children}
+        <Whatsapp />
         <Footer />
       </body>
     </html>
