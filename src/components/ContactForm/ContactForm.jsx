@@ -9,7 +9,7 @@ const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuanti
   return (
     <form
       className="max-w-md mx-auto"
-      action="https://formsubmit.co/escudero.mdz@gmail.com"
+      action="https://formsubmit.co/yourtour.ar@gmail.com"
       method="POST"
     >
       {/* Email */}
