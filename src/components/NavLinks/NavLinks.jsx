@@ -24,6 +24,10 @@ const NavLinks = ({ isScrolled }) => {
     <nav className={`flex flex-col items-end ${isScrolled ? 'text-primary-color' : 'text-white-color'}`}>
       {/* Mobile menu toggle button */}
       <button
+        type="button"
+        aria-label="Toggle menu"
+        aria-expanded={isOpen}
+        aria-controls="mobile-menu"
         onClick={toggleMenu}
         className={`lg:hidden p-2 rounded-md focus:outline-none hover:origin-center hover:scale-y-110 hover:scale-x-110 ease-in-out duration-200`}
       >

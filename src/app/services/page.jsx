@@ -18,8 +18,8 @@ export default function Services() {
               <Image
                 alt={service.imageAlt}
                 src={service.imageUrl}
-                layout="fill"
-                objectFit="cover"
+                fill
+                sizes="(max-width: 384px)"
                 loading="lazy"
                 className="rounded-t-lg"
               />

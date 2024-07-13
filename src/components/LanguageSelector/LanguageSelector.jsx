@@ -17,8 +17,11 @@ const LanguageSelector = ({ isScrolled }) => {
   return (
     <div className={`flex items-center justify-center ${isScrolled ? 'text-primary-color' : 'text-white-color'}`}>
       <form className="max-w-sm mx-auto">
+        <label htmlFor="language-selector" className="sr-only">
+          {content.languages.language}
+        </label>
         <select
-          id="underline_select"
+          id="language-selector"
           className="block py-1 px-2 rounded-md bg-transparent border border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer"
           value={language}
           onChange={handleChangeLanguage}>

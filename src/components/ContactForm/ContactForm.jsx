@@ -68,7 +68,7 @@ const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuanti
       </div>
 
       {/* Button */}
-      <button type="submit" className="text-white hover:bg-sky-700 bg-sky-600 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-sky-700 dark:hover:bg-sky-700 dark:focus:ring-sky-600">{SubmitText}</button>
+      <button type="submit" className="text-white uppercase hover:bg-sky-600 bg-sky-700 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-sky-700 dark:hover:bg-sky-700 dark:focus:ring-sky-600">{SubmitText}</button>
 
       <input type="hidden" name="_next" defaultValue="http://localhost:3000/contact" />
       <input type="hidden" name="_captcha" defaultValue="false" />
