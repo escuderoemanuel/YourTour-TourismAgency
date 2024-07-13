@@ -4,7 +4,7 @@ import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import Whatsapp from '@/components/Whatsapp/Whatsapp';
 import "./globals.css";
-import { raleway } from '../ui/fonts';
+import { inter, raleway } from '../ui/fonts';
 
 
 const favicon = '/favicon.ico'
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
-      <body className={`${raleway.className} antialiased bg-neutral-100`}>
+      <body className={`${inter.className} antialiased bg-neutral-100`}>
         <Header />
         <main>
           {children}
