@@ -1,7 +1,5 @@
 # ToDo:
 
-- Chequear etiquetas html, area label, open graph y demás SEO
-- Analizar rendimiento, carga de img, etc.
 - Realizar cambio de idioma
 - Enseñarles a configurar cuerpos del email predefinidos
 - Sugerir crear email más profesional
