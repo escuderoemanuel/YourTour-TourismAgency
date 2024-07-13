@@ -1,208 +1,440 @@
 {
+  "logo": {
+    "yourTourPrimaryLogo": "/img/YourTour/YourTourPrimaryLogo.png",
+    "yourTourSecondaryLogo": "/img/YourTour/YourTourSecondaryLogo.png"
+  },
   "navLinks": {
     "link1": {
-      "name": "WELCOME",
-      "path": "/"
-    },
-    "link2": {
-      "name": "ABOUT",
-      "path": "/about"
+      "name": "Inicio",
+      "icon": "",
+      "href": "/"
     },
     "link3": {
-      "name": "EXCURSIONS",
-      "path": "/excursions"
+      "name": "Excursiones",
+      "icon": "",
+      "href": "/excursions"
     },
     "link4": {
-      "name": "SERVICES",
-      "path": "/services"
+      "name": "Servicios",
+      "icon": "",
+      "href": "/services"
     },
     "link5": {
-      "name": "CONTACT",
-      "path": "/contact"
+      "name": "Contacto",
+      "icon": "",
+      "href": "/contact"
     }
+  },
+  "languages": {
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "portuguese": "Portugués"
+  },
+  "homeCarousel": {
+    "image1": {
+      "url": "/img/Home/city_9.jpg",
+      "alt": "Foto Parque General San Martín"
+    },
+    "image3": {
+      "url": "/img/Home/lenas_4.jpg",
+      "alt": "Foto Personas en Aerosilla Las Leñas"
+    },
+    "image6": {
+      "url": "/img/Home/alta_4.jpg",
+      "alt": "Foto Puente del Inca"
+    },
+    "image7": {
+      "url": "/img/Home/lenas_6.jpg",
+      "alt": "Foto Personas haciendo Rafting"
+    }
+  },
+  "header": {
+    "titleHeader": "Your Tour",
+    "subtitleHeader": "UN VIAJE A TU MEDIDA"
   },
   "home": {
-    "title-home": "Your Tour",
-    "subtitle-home": "A Trip Made Just for You",
-    "about": "I invite you to learn about the projects I have recently worked on. Do not hesitate to contact me to carry out your project, work together or send me a proposal.\nI am always eager to face new challenges!",
-    "window-float": {
-      "paragraph": "I am Emanuel, a dedicated and enthusiastic developer. I invite you to download and read my CV."
-    },
-    "btn-download": "downloadCV!"
+    "title": "¡Bienvenidos!",
+    "paragraph1": "En",
+    "span": "Your Tour",
+    "paragraph2": "nos complace recibirlos como puerta de entrada a las maravillas de Mendoza, Argentina.\n Con nosotros podrán disfrutar de excursiones y servicios personalizados, descubrir un lugar donde la naturaleza, la cultura y la aventura se entrelazan para crear experiencias inolvidables. Situada al pie de la majestuosa Cordillera de Los Andes, Mendoza ofrece una experiencia única para los amantes del vino, con sus numerosas bodegas que producen algunos de los mejores Malbecs del mundo. Además puedes disfrutar de actividades como el trekking y el montañismo en el pico más alto de América.\nNuestra provincia también es famosa por sus pintorescos caminos, aguas termales y una vibrante vida cultural y gastronómica en la ciudad. Con su clima soleado y sus imponentes paisajes, es el destino perfecto para una escapada relajante y llena de aventuras. Ven a disfrutar de tus excursiones y tu viaje con",
+    "slogan": "un viaje a tu medida.",
+    "spanFinal": "Your Tour."
   },
-  "portfolio": {
-    "title": "Portfolio",
-    "span-portfolio": "!",
-    "projects": {
-      "project-00": {
-        "img": "https://i.ibb.co/G2pHdk6/BiMar.jpg",
-        "title": "BiM.ar",
-        "type": "Real Project",
-        "tools": "React, Vite, JavaScript, HTML, CSS, Vercel, BoxIcons, Fontawesome",
-        "github": "https://github.com/escuderoemanuel/bim-ar",
-        "deploy": "https://bim-ar.vercel.app/"
-      },
-      "project-01": {
-        "id": 1,
-        "img": "https://i.ibb.co/3S3366B/retroplace.jpg",
-        "title": "RetroPlace Store",
-        "type": "Online Store",
-        "tools": "ReactJs, Vite, Firebase, Git,Toastify, Bootstrap...",
-        "github": "https://github.com/escuderoemanuel/RetroPlaceStore",
-        "deploy": "https://retro-place-store.vercel.app/"
-      },
-      "project-02": {
-        "id": 2,
-        "img": "https://i.ibb.co/3hBSSRq/Movie-Search.jpg",
-        "title": "MovieSearch!",
-        "type": "Movies Web App",
-        "tools": "ReactJS, React-YouTube, Axios, Vite, TMDB API, Netflify...",
-        "github": "https://github.com/escuderoemanuel/MovieSearch",
-        "deploy": "https://emanuel-moviesearch.netlify.app/"
-      },
-      "project-03": {
-        "id": 2,
-        "img": "https://i.ibb.co/LNMzZ1X/Weather-App.jpg",
-        "title": "Weather App",
-        "type": "Weather Web App",
-        "tools": "React, Vite, Weather API, Bootstrap, Netflify...",
-        "github": "https://github.com/escuderoemanuel/WeatherApp",
-        "deploy": "https://emanuel-weatherapp.netlify.app/"
-      },
-      "project-04": {
-        "id": 2,
-        "img": "https://i.ibb.co/dprm1cR/kprem.jpg",
-        "title": "KPREM Arte Gráfico",
-        "type": "Online store",
-        "tools": "HTML, CSS, JavaScrit Vanilla, Sass, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/KPREM-ArteGrafico",
-        "deploy": "https://escuderoemanuel.github.io/KPREM-ArteGrafico/"
-      },
-      "project-05": {
-        "id": 3,
-        "img": "https://i.ibb.co/f0fGVQH/mahoarcaoltra.jpg",
-        "title": "Maho Arca Oltra",
-        "type": "Personal website",
-        "tools": "HTML, CSS, Sass, JavaScript, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/MahoArcaOltra",
-        "deploy": "https://escuderoemanuel.github.io/MahoArcaOltra/"
-      },
-      "project-06": {
-        "id": 4,
-        "img": "https://i.ibb.co/xsSBk8f/edguitars2.jpg",
-        "title": "ED Guitars",
-        "type": "Website about guitars",
-        "tools": "HTML, CSS, Sass, Bootstrap, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/EDGuitars",
-        "deploy": "https://escuderoemanuel.github.io/EDGuitars/"
-      },
-      "project-07": {
-        "id": 5,
-        "img": "https://i.ibb.co/5G9SXBW/florescastillo.jpg",
-        "title": "F&C Accounting",
-        "type": "Personal website",
-        "tools": "HTML, CSS, Sass, Git, Seo...",
-        "github": "https://github.com/escuderoemanuel/FC-AsesorasContables",
-        "deploy": "https://escuderoemanuel.github.io/FC-AsesorasContables/"
-      },
-      "project-08": {
-        "id": 6,
-        "img": "https://i.ibb.co/MhKbnn6/portfolio-AP.jpg",
-        "title": "Editable Portfolio",
-        "type": "Argentina Programa Project",
-        "tools": "HTML, CSS, TypeScript, Angular, Firebase | Java, SpringBoot, Render | MySQL, Clever Cloud",
-        "github": "https://github.com/escuderoemanuel/ArgentinaProgramaFrontend",
-        "deploy": "https://portfoliofrontargprog.web.app/"
-      }
-    }
+  "about": {
+    "title": "Nosotros",
+    "paragraph": "Somos una agencia de viajes que te brindará la mejor experiencia de viaje, con excursiones y actividades turísticas para que puedas disfrutar de tu viaje al máximo."
   },
-  "skills": {
-    "title": "Skills",
-    "span-skills": "!",
-    "skillsList": {
-      "skill-01": {
-        "id": 1,
-        "title": "HTML",
-        "img": "https://i.ibb.co/VH4bp5Y/html.png"
-      },
-      "skill-02": {
-        "id": 2,
-        "title": "CSS",
-        "img": "https://i.ibb.co/mDNKpgM/css.png"
-      },
-      "skill-03": {
-        "id": 3,
-        "title": "SASS",
-        "img": "https://i.ibb.co/n7gsyQ5/sass-icon-130835.png"
-      },
-      "skill-04": {
-        "id": 4,
-        "title": "Bootstrap",
-        "img": "https://i.ibb.co/TmwQPdB/bootstrap.png"
-      },
-      "skill-05": {
-        "id": 5,
-        "title": "JavaScript",
-        "img": "https://i.ibb.co/TW6ChMh/js.png"
-      },
-      "skill-06": {
-        "id": 6,
-        "title": "TypeScript",
-        "img": "https://i.ibb.co/VNbg3FV/typescript.png"
-      },
-      "skill-07": {
-        "id": 7,
-        "title": "ReactJs",
-        "img": "https://i.ibb.co/CHZkf9M/reactjs.png"
-      },
-      "skill-08": {
-        "id": 8,
-        "title": "Angular",
-        "img": "https://i.ibb.co/rQpw3fM/angular.png"
-      },
-      "skill-09": {
-        "id": 9,
-        "title": "MySQL",
-        "img": "https://i.ibb.co/mSRmnRV/mysql.png"
-      },
-      "skill-10": {
-        "id": 10,
-        "title": "Git",
-        "img": "https://i.ibb.co/5ByKx1H/Git.png"
-      },
-      "skill-11": {
-        "id": 11,
-        "title": "SEO",
-        "img": "https://i.ibb.co/Lh8yP9R/seo.png"
-      },
-      "skill-12": {
-        "id": 12,
-        "title": "Java",
-        "img": "https://i.ibb.co/NpF5Zxf/java.png"
-      },
-      "skill-13": {
-        "id": 13,
-        "title": "Spring Boot",
-        "img": "https://i.ibb.co/JH1kwQB/springboot.png"
-      }
-    }
+  "owner": {
+    "copyright": "Todos los derechos reservados",
+    "name": "Your Tour",
+    "address": "Mendoza - Argentina",
+    "email": "email@yourtour.com",
+    "telephone": "1234567890",
+    "instagram": "yourtourInstagram",
+    "facebook": "yourtourFacebook",
+    "twitter": "yourtourTwitter"
   },
-  "contact": {
-    "title": "Contact",
-    "span-contact": "Me!",
-    "form": {
-      "fullname": "Full Name",
-      "email": "E-mail Address",
-      "mobile-number": "Mobile Number",
-      "text-area": "Your Message",
-      "button": "Send"
-    }
-  },
-  "footer": {
-    "paragraph": "[ Developed by Emanuel Escudero ]",
+  "dev": {
+    "paragraph": "Diseñado & Desarrollado por Emanuel Escudero",
     "img": {
-      "url": "https://i.ibb.co/ZT13Snc/Logo2023.png",
+      "url": "https://i.ibb.co/Gxk0ktL/Logo2024.png",
       "alt": "Developer Logo"
+    }
+  },
+  "form": {
+    "email": "Correo Electrónico",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "phoneNumber": "Teléfono (54 011 2091218)",
+    "paxQuantity": "Cantidad de Pasajeros",
+    "message": "Mensaje (fecha y servicios requeridos)",
+    "termsText1": "He leído y acepto los ",
+    "termsText2": "términos y condiciones.",
+    "termsLink": "/terms",
+    "submitText": "Enviar"
+  },
+  "termsAndConditions": {
+    "title": "Términos y condiciones",
+    "listTerms": {
+      "term1": {
+        "term": "Condiciones y Servicios:",
+        "text": "Tener en cuenta que las cotizaciones no garantizan disponibilidad ni tarifas. Las mismas pueden sufrir cambios sin previo aviso."
+      },
+      "term2": {
+        "term": "Condiciones Programa:",
+        "text": "La cotización no implica reserva de servicios ni bloqueo de espacios, así como tampoco garantiza la disponibilidad de los mismos. Es decir que hasta el momento del pago o adelanto de dinero para tal servicio, la reserva no se encuentra efectuada."
+      },
+      "term3": {
+        "term": "Disponibilidad:",
+        "text": "Todos los servicios están sujetos a condiciones climáticas imprevistas o previstas según la época del año, estado de la carretera, sugerencias de la autoridad de caminos y/o cualquier otra eventualidad que se considere relevante."
+      },
+      "term4": {
+        "term": "Servicios no incluidos:",
+        "text": "Traslados, desayunos, meriendas, cenas, almuerzos, otras comidas, bebidas o servicios NO especificados en la cotización reservada. Gastos ocasionados por el abandono del programa. Tarifas aéreas o terrestres de aproximación a Mendoza NO especificadas en la cotización reservada. Extras, opcionales y propinas. Gastos administrativos por uso de tarjeta de créditos. Seguros NO mencionados específicamente en la cotización que el pasajero haya reservado. Cualquier servicio o bien NO mencionado explícitamente en la cotización reservada por el pasajero."
+      }
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "listServices": {
+      "service1": {
+        "title": "Traslado In-Out",
+        "description": "Puedes contactarnos para ponernos a cargo de tu traslado desde tu lugar de llegada, sea la Terminal de Ómnibus Estación del Sol o el Aeropuerto Internacional Gobernador Francisco Gabrielli hacia tu alojamiento en la ciudad de Mendoza y alrededores o viceversa.",
+        "imageUrl": "/img/Varias/cronos.jpg",
+        "imageAlt": "Fiat Cronos Blanco"
+      },
+      "service2": {
+        "title": "Traslado Interno",
+        "description": "Puedes confiarnos tus traslados durante tu estadía, desde y hacia donde quieras o desees. Disfruta de un viaje confortable y seguro con Your Tour.",
+        "imageUrl": "/img/Varias/traffic.jpg",
+        "imageAlt": "Camioneta tipo minivan de traslado blanca"
+      },
+      "service3": {
+        "title": "Excursión Personalizada",
+        "description": "Lo más importante es que nos adaptamos a tus necesidades y deseos. Por eso puedes solicitarnos excursiones personalizadas, con los destinos y paradas que quieras. Porque en Your Tour el viaje es a tu medida.",
+        "imageUrl": "/img/Varias/cronos2.jpg",
+        "imageAlt": "Camioneta tipo minivan de traslado blanca"
+      },
+      "service4": {
+        "title": "Traslado de Negocios",
+        "description": "Lo llevamos a sus reuniones, conferencias, congresos, coworkings de forma segura y cómoda para que pueda centrarse únicamente en sus labores o en descansar mientras nos aseguramos de que llegue a su destino en tiempo y forma.",
+        "imageUrl": "/img/Varias/coche-alquiler.jpg",
+        "imageAlt": "Persona viajando por negocios"
+      }
+    }
+  },
+  "excursions": {
+    "title": "Excursiones",
+    "listExcursions": {
+      "excursion1": {
+        "title": "City Tour",
+        "description": "El paseo incluye un recorrido por el Área Fundacional de Mendoza, centro histórico de la ciudad vieja, la Plaza Pedro del Castillo y las Ruinas de San Francisco. Luego, en la “Ciudad Nueva” se visitan las plazas satélite. Continua hacia el Parque General San Martín y el Cerro de la Gloria, donde se encuentra el monumento histórico al Ejército de los Andes que rinde homenaje a la exitosa campaña libertadora. Finaliza en la plaza Independencia.",
+        "listImages": {
+          "image1": {
+            "url": "/img/CityTour/city_2.jpg",
+            "alt": "Vista de la ciudad"
+          },
+          "image2": {
+            "url": "/img/CityTour/city_1.jpg",
+            "alt": "Museo Área Fundacional"
+          },
+          "image3": {
+            "url": "/img/CityTour/city_3.jpg",
+            "alt": "Plaza San Martín"
+          },
+          "image4": {
+            "url": "/img/CityTour/city_4.jpg",
+            "alt": "Plaza España"
+          }
+        }
+      },
+      "excursion2": {
+        "title": "Villavicencio",
+        "description": "El paseo inicia saliendo de la ciudad de Mendoza, recorriendo la ruta N°52, antigua ruta utilizada para a Chile.Nuestra primera parada es en el monumento de Canota, hasta llegar a la primera seccional de Guardaparques de la Reserva Natural Villavicencio. Un sitio de delicado equilibrio ecológico, de unas 70.000 hectáreas de extensión. Luego, seguiremos por el camino de las 365 curvas, que dan el nombre a la ruta del año y donde recorremos parte del camino de caracoles. Finalmente, culminamos nuestro paseo en el histórico del Hotel Villavicencio y sus jardines.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Villavicencio/villavicencio_2.jpg",
+            "alt": "Vista Hotel Villavicencio"
+          },
+          "image2": {
+            "url": "/img/Villavicencio/villavicencio_4.jpg",
+            "alt": "Zorro Colorado"
+          },
+          "image3": {
+            "url": "/img/Villavicencio/villavicencio_5.jpg",
+            "alt": "Vista Camino de Caracoles"
+          }
+        }
+      },
+      "excursion3": {
+        "title": "Cañón del Atuel",
+        "description": "Partiendo temprano desde la ciudad de Mendoza recorremos esta hermosa aventura sobre el estrecho Cañón del Atuel hasta su desembocadura varios kilómetros aguas abajo del embalse Valle Grande, con una extensión de unos 50 km y una profundidad promedio de 260 m. La erosión producida por el viento y el agua del río Atuel tallaron en otras épocas sorprendentes figuras que hoy poseen cada una su nombre: el Mendigo, el Bosque de Coníferas, los Jardines Colgantes, el Elefante, el Lagarto, y muchas más. Además, también se pueden observar las centrales hidroeléctricas del sistema de generación de energía del Atuel. En Valle Grande finalizamos el tour disfrutando un almuerzo y actividades opcionales como paseo por el Dique Valle Grande o navegar por el Río Atuel.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Atuel/atuel_1.jpg",
+            "alt": "Foto Cañón del Atuel"
+          },
+          "image2": {
+            "url": "/img/Atuel/atuel_2.jpg",
+            "alt": "Foto Cañón del Atuel"
+          },
+          "image3": {
+            "url": "/img/Atuel/atuel_4.jpg",
+            "alt": "Foto Cañón del Atuel"
+          },
+          "image4": {
+            "url": "/img/Atuel/atuel_3.jpg",
+            "alt": "Foto Cañón del Atuel"
+          }
+        }
+      },
+      "excursion4": {
+        "title": "Parque Aconcagua",
+        "description": "La experiencia comienza recorriendo la RP86, con los paisajes de Cacheuta hasta atravesar el túnel que conecta esta localidad con Potrerillos. Contemplamos la maravillosa vista del Cordón del Plata, principal fuente de agua de Mendoza. Atravesando túneles y puentes, llegaremos hasta al Valle de Uspallata, donde se hace una parada estratégica. Una vez que continuamos por la ruta, nos vamos preparando para el punto destacado de la salida: el Parque Provincial Aconcagua, donde se realiza una caminata de 2 hs aproximadamente, hasta el mirador de la Laguna de Horcones, donde se logra apreciar la Pared Sur y la cumbre de la montaña más alta de América (6962 msnm). ¡Te invitamos a vivir la sensación de estar de pie frente al Cerro Aconcagua!",
+        "listImages": {
+          "image1": {
+            "url": "/img/Aconcagua/aconcagua_5.jpg",
+            "alt": "Vista Cerro Aconcagua"
+          },
+          "image2": {
+            "url": "/img/Aconcagua/aconcagua_6.jpg",
+            "alt": "Vista Cartel Cerro Aconcagua"
+          },
+          "image3": {
+            "url": "/img/Aconcagua/aconcagua_3.jpg",
+            "alt": "Vista Cerro Aconcagua"
+          },
+          "image4": {
+            "url": "/img/Aconcagua/aconcagua_4.jpg",
+            "alt": "Foto Laguna de Horcones"
+          }
+        }
+      },
+      "excursion5": {
+        "title": "Alta Montaña",
+        "description": "Emocionante excursión a través de la famosa RN7. Recorreremos el túnel del pueblo de Cacheuta, el dique Potrerillos con vista a las Altas Cumbres de fondo. Llegaremos hasta el pueblo de montaña Uspallata, lugar histórico, escenario de la ocupación indígena Huarpe en la época prehispánica y marca la transición entre la precordillera y la cordillera frontal. Parada para desayunar en Uspallata y continuar el recorrido a través de un paisaje montañoso de las encantadoras villas de Picheuta, Polvaredas y Punta de Vacas, el antiguo complejo de esquí, Los Penitentes. Nos encontraremos con el icónico Puente del Inca, un monumento natural de asombrosa belleza geológica, reconocido como Patrimonio Mundial por la Unesco. Kilómetros más adelante, el mirador del Cerro Aconcagua. El tour culmina en el límite con Chile, Las Cuevas, un encantador pueblo construido con un distintivo estilo europeo. Allí disfrutarás de almuerzo Mendocino en un restaurante típico de montaña.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Alta/alta_4.jpg",
+            "alt": "Puente del Inca"
+          },
+          "image2": {
+            "url": "/img/Alta/alta_6.webp",
+            "alt": "Cristo Redentor"
+          },
+          "image3": {
+            "url": "/img/Alta/alta_1.webp",
+            "alt": "Túnel Cacheuta-Potrerillos"
+          },
+          "image4": {
+            "url": "/img/Alta/alta_7.jpg",
+            "alt": "Las Cuevas"
+          }
+        }
+      },
+      "excursion6": {
+        "title": "Cacheuta Parque Termal",
+        "description": "A 38 kilómetros de la Ciudad de Mendoza, se encuentra el Parque de Agua Termal en Cacheuta. Este oasis termal está rodeado por la majestuosa Cordillera de Los Andes y se extiende a orillas del Río Mendoza. El parque ofrece una variada selección de piscinas con temperaturas diversas y una variedad de hidroterapias. Para las familias, se ofrece un área interactiva para niños y cuatro toboganes emocionantes. El parque dispone de acogedores quinchos y parrillas, perfectos para realizar un picnic. Además, hay un almacén donde podrán adquirir todo lo necesario para disfrutar de su día al máximo. Aquellos que prefieran no cocinar pueden deleitarse con la oferta gastronómica de los restaurantes del Pueblo de Cacheuta.",
+        "listImages": {
+          "image1": {
+            "url": "/img/CacheutaTermas/cacheuta_1.jpg",
+            "alt": "Ingreso Termas de Cacheuta"
+          },
+          "image2": {
+            "url": "/img/CacheutaTermas/cacheuta_4.jpg",
+            "alt": "Parque Termas de Cacheuta"
+          },
+          "image3": {
+            "url": "/img/CacheutaTermas/cacheuta_3.jpg",
+            "alt": "Excursion"
+          },
+          "image4": {
+            "url": "/img/CacheutaTermas/cacheuta_2.png",
+            "alt": "Parque Termas de Cacheuta"
+          }
+        }
+      },
+      "excursion7": {
+        "title": "Los Reyunos",
+        "description": "Viaje hacia la Villa 25 de Mayo, un lugar que alberga el casco histórico de la primera fundación de San Rafael. Aquí, podrás sumergirte en la historia de la región mientras exploras sus calles empedradas y edificios antiguos. La arquitectura y el ambiente de la villa te transportarán a épocas pasadas, ofreciéndote una visión única de la herencia de Mendoza.Luego, continuará hacia la Presa Los Reyunos, un impresionante embalse ubicado en la cuenca del río Diamante. La construcción de esta presa comenzó en 1980, y su entorno natural es simplemente deslumbrante. Rodeada de majestuosas montañas y aguas cristalinas, la Presa Los Reyunos ofrece un paisaje de belleza incomparable. Aquí, tendrás la oportunidad de admirar la magnitud de la presa y disfrutar de las vistas panorámicas, además de realizar catamarán, tirolesa, canoa, rafting.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Reyunos/reyunos_1.jpg",
+            "alt": "Foto Dique Los Reyunos"
+          },
+          "image2": {
+            "url": "/img/Reyunos/reyunos_2.webp",
+            "alt": "Tirolesa en el Dique Los Reyunos"
+          },
+          "image3": {
+            "url": "/img/Reyunos/reyunos_3.jpg",
+            "alt": "Rafting en el Dique Los Reyunos"
+          },
+          "image4": {
+            "url": "/img/Reyunos/reyunos_4.jpg",
+            "alt": "Formación Rocosa en el Dique Los Reyunos"
+          }
+        }
+      },
+      "excursion8": {
+        "title": "Malargüe",
+        "description": "Malargüe ofrece una extraordinaria opción para el turismo aventura y ecológico. Algunos de sus atractivos más importantes son La Caverna de las Brujas, La Laguna de la Niña Encantada y el Pozo de las Ánimas. Aunque también posee un pintoresco casco céntrico y grandes reservas naturales y faunísticas como Laguna de Llancanelo y la Payunia. En este paseo recorreremos las primeras tres atracciones, pero como bien sabes, en Your Tour podemos diseñar el viaje a tu medida.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Malargue/malargue_1.jpg",
+            "alt": "Caverna de las Brujas"
+          },
+          "image2": {
+            "url": "/img/Malargue/malargue_2.jpg",
+            "alt": "Laguna de la Niña Encantada"
+          },
+          "image3": {
+            "url": "/img/Malargue/malargue_3.jpg",
+            "alt": "Pozo de las Ánimas"
+          }
+        }
+      },
+      "excursion9": {
+        "title": "Día de Sky Las Leñas",
+        "description": "Descubre Las Leñas, un destino paradisíaco en pleno corazón de la Cordillera de Los Andes, a solo 79 km de la ciudad de Malargüe. Este reconocido centro de esquí es famoso internacionalmente por sus condiciones ideales para esquiar y hacer snowboard en invierno. Con 14 medios de elevación y 29 pistas clasificadas para todos los niveles, Las Leñas ofrece un dominio esquiable de aproximadamente 65 km, incluyendo el descenso más largo del país con 7.050 metros de extensión que conecta las pistas Apolo, Neptuno y Venus. Además de sus impresionantes pistas, Las Leñas ofrece imponentes paisajes de cerros bajo un cielo azul inigualable, que se pueden disfrutar también en verano. En este paraíso andino, encontrarás un ambiente acogedor con opciones gastronómicas en su Restaurante y Snack Bar, así como un Rental de Equipos de Esquí. ¡Ven y vive una inolvidable experiencia invernal en Las Leñas!",
+        "listImages": {
+          "image1": {
+            "url": "/img/LasLenas/lenas_1.jpg",
+            "alt": "Las Leñas de Noche"
+          },
+          "image3": {
+            "url": "/img/LasLenas/lenas_4.jpg",
+            "alt": "Las Leñas Aerosillas"
+          },
+          "image4": {
+            "url": "/img/LasLenas/lenas_5.webp",
+            "alt": "Las Leñas Gomones"
+          },
+          "image5": {
+            "url": "/img/LasLenas/lenas_6.webp",
+            "alt": "Las Leñas Pistas de Sky"
+          }
+        }
+      },
+      "excursion10": {
+        "title": "Bodegas Medio Día",
+        "description": "Los invitamos a descubrir la rica historia de nuestro emblemático malbec, aprendiendo sobre enología y disfrutando de hermosos paisajes en la región de Maipú, una región conocida por producir algunos de los mejores vinos y aceites del país, donde se destacan algunas como Vistandes, Cavas de don Arturo, Domiciano, Florio y Cecchin. Además de las bodegas, visitamos una fábrica de aceite de oliva boutique, donde un guía nos mostrará como se elabora el aceite de oliva argentino, finalizando con una degustación de diferentes aceites, aceto balsámico, pastas y varios tipos de aceituna.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegaMedioDia/bodega_1.jpg",
+            "alt": "Bodega Vistandes"
+          },
+          "image2": {
+            "url": "/img/BodegaMedioDia/bodega_2.jpg",
+            "alt": "Bodega Florio"
+          },
+          "image3": {
+            "url": "/img/BodegaMedioDia/bodega_3.jpg",
+            "alt": "Bodega Cecchin"
+          }
+        }
+      },
+      "excursion11": {
+        "title": "Bodegas Valle de Uco",
+        "description": "Explora una región vitivinícola única, donde las uvas blancas adquieren una deliciosa acidez y las tintas se distinguen por sus taninos y color vibrante. Únete a nuestro exclusivo tour, especialmente diseñado para los amantes del vino que buscan apreciar cada matiz de esta exquisita bebida. Embárcate en una experiencia inolvidable visitando tres de las bodegas más destacadas de la región. Se comienza con la prestigiosa bodega Masi, seguida por una visita a Jean Bousquet, y se culmina en una de las reconocidas bodega Atamisque o bodega Finca La Azul según la disponibilidad. En esta última, se deleita un almuerzo gourmet maridado con las mejores etiquetas locales. Disfruta en un día de vinos de altura en esta región mundialmente aclamada.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegaValleUco/uco_1.jpg",
+            "alt": "Bodega Masi"
+          },
+          "image2": {
+            "url": "/img/BodegaValleUco/uco_2.jpg",
+            "alt": "Bodega Jean Bousquet"
+          },
+          "image3": {
+            "url": "/img/BodegaValleUco/uco_3.jpg",
+            "alt": "Bodega Atamisque"
+          },
+          "image4": {
+            "url": "/img/BodegaValleUco/uco_4.jpg",
+            "alt": "Bodega La Azul"
+          }
+        }
+      },
+      "excursion12": {
+        "title": "Bodegas Full Day Combinadas",
+        "description": "Viaje hacia nuestra primera visita con degustación en bodega Alta Vista ubicada en Chacras de Coria (Luján de Cuyo), donde aprendemos sobre la larga historia de la familia y sus históricos viñedos. A poca distancia, ya en la región de Maipú, visitaremos la bodega Trivento, una de las principales bodegas elaboradoras y exportadoras de vinos de Argentina. Desde 2013, Trivento es la marca argentina de vinos número 1 en ventas de Europa. El almuerzo lo realizamos en la bodega Tempus Alba y, finalizamos nuestro tour con una visita a la fábrica boutique de aceite de oliva Laur, donde un guía nos mostrará como se elabora el aceite de oliva argentino, culminando con una degustación de diferentes aceites, aceto balsámico, tomates deshidratados, pastas y diferentes tipos de aceitunas.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_1.jpg",
+            "alt": "Bodega Alta Vista"
+          },
+          "image2": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_2.jpg",
+            "alt": "Bodega Trivento"
+          },
+          "image3": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_3.jpg",
+            "alt": "Bodega Tempus Alba"
+          },
+          "image4": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_4.jpg",
+            "alt": "Olivícola Laur"
+          }
+        }
+      },
+      "excursion13": {
+        "title": "Bodegas Familiares",
+        "description": "En este tour visitamos 3 bodegas por la región de Lujan de Cuyo con una pequeña producción centradas en la alta calidad de sus vinos. Comenzaremos con Casa Carmelo Patti, un enólogo de pura cepa, que elabora vino en una antigua bodega y en su propio garaje. Quien visita la bodega, es acompañado personalmente por Carmelo en un amigable paseo por su propiedad, donde explica con entusiasmo los diferentes procesos y contando su historia personal. Continuamos nuestro recorrido hacia Carinae, en Cruz de Piedra-Maipú, una pequeña bodega dedicada a la elaboración de vinos de alta calidad con uva de bajo rendimiento en la zona más tradicional de la industria vitivinícola argentina. Almuerzo es en la bodega Clos de Chacras o Roberto Bonfanti. Ambas son bodegas de tradición familiar, producen vinos de alta gama y ofrecen una gran experiencia enoturística y gastronómica.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasFamiliares/carmelopatti.webp",
+            "alt": "Casa Carmelo Patti"
+          },
+          "image2": {
+            "url": "/img/BodegasFamiliares/carinae.webp",
+            "alt": "Bodega Carinae"
+          },
+          "image3": {
+            "url": "/img/BodegasFamiliares/closdechacras.jpg",
+            "alt": "Bodega Clos de Chacras"
+          },
+          "image4": {
+            "url": "/img/BodegasFamiliares/robertobonfanti.jpg",
+            "alt": "Patio de Comida en Bodega Roberto Bonfanti"
+          }
+        }
+      },
+      "excursion14": {
+        "title": "Catena Zapata & El Enemigo",
+        "description": "Realizamos la visita a Catena Zapata, fundada en 1902. Reconocida por su rol pionero en haber hecho resurgir la variedad Malbec y haber descubierto los terruños de altura extrema al pie de la Cordillera Los Andes. Al mediodía concluimos esta excursión donde visitaremos Casa Vigil ubicada en Maipú para disfrutar en grupos pequeños de un distendido almuerzo de 3 pasos maridado con vinos Gran Enemigo. Un lugar inspirado en el mágico mundo de la divina comedia de Dante Alighieri, que invita a experimentar el encanto del vino, la gastronomía y la literatura fusionados en una propuesta enoturística única.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasVarias/Bodega-Catena-Zapata.jpg",
+            "alt": "Bodega Catena Zapata"
+          },
+          "image2": {
+            "url": "/img/BodegasVarias/casa-vigil.jpg",
+            "alt": "Bodega Casa Vigil - El Enemigo"
+          }
+        }
+      }
     }
   }
 }

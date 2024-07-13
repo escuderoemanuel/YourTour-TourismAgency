@@ -1,11 +1,18 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
-import 'flowbite';
 import content from '../../translations/es/global.json';
 
 const HomeCarousel = () => {
+  // Flowbite requiere useEffect para inicializar en el cliente
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      import('flowbite');
+    }
+  }, []);
+
+
   const carouselImages = Object.values(content.homeCarousel);
 
   return (

@@ -1,8 +1,7 @@
 'use client';
 
-import 'flowbite';
 import { praise } from '../ui/fonts';
-import content from '../translations/es/home';
+import content from '../translations/es/global';
 
 import HomeCarousel from '@/components/HomeCarousel/HomeCarousel';
 

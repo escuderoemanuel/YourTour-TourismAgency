@@ -4,6 +4,7 @@
 @import 'flowbite';
 
 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-primary-hex: #FCF7FF;

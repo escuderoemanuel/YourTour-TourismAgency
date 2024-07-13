@@ -1,12 +1,12 @@
 'use client';
 
 import React from 'react';
-import services from '../../translations/es/services.json';
+import content from '../../translations/es/global.json';
 import Image from 'next/image';
 
 export default function Services() {
 
-  const listServices = Object.values(services.listServices);
+  const listServices = Object.values(content.services.listServices);
 
   return (
     <section className="max-w-screen-lg mx-auto min-h-screen p-4 sm:p-6 md:p-8 lg:p-14 2xl:max-w-screen-2xl">
