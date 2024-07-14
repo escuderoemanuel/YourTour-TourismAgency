@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
+import i18nextConfig from './next-i18next.config.js';
 
 const nextConfig = {
   images: {
@@ -9,5 +10,7 @@ const nextConfig = {
       },
     ],
   },
+  i18n: i18nextConfig.i18n
 };
+
 export default nextConfig;

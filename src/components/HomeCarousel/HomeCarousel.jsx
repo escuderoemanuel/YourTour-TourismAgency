@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import Image from 'next/image';
 import content from '../../translations/es/global.json';
 
+
 const HomeCarousel = () => {
   // Flowbite requiere useEffect para inicializar en el cliente
   useEffect(() => {
