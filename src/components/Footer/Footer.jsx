@@ -2,30 +2,26 @@
 
 import React from 'react';
 import Image from 'next/image';
-import content from '../../translations/es/global.json';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
-const devUrl = 'https://emanuelescudero.ar';
-const yourTourFacebookProfile = 'https://www.facebook.com/profile.php?id=100094165443751';
-const yourTourInstagramProfile = 'https://www.instagram.com/your_tour_mendoza';
-const yourTourEmail = 'danielaguadoeve@gmail.com';
+export default function Footer() {
+  const t = useTranslations('Footer');
 
-const Footer = () => {
   return (
     <section className={`flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-sky-700`}>
       <div className={`max-w-screen-xl flex justify-between items-center gap-2 md:gap-4`}>
         <Image
           className={`w-40 h-auto md:w-44`}
-          src={content.logo.yourTourSecondaryLogo}
+          src={t('owner.logo.yourTourSecondaryLogo')}
           width={150}
           height={70}
           alt="Your Tour Logo"
-          // quality={100}
           loading="lazy"
 
         />
         <Link
-          href={yourTourInstagramProfile}
+          href={t('owner.instagram')}
           target='_blank'
           rel='noopener noreferrer'
           title='Instagram'
@@ -44,7 +40,7 @@ const Footer = () => {
           </svg>
         </Link>
         <Link
-          href={yourTourFacebookProfile}
+          href={t('owner.facebook')}
           target='_blank'
           rel='noopener noreferrer'
           title='Facebook'
@@ -61,7 +57,7 @@ const Footer = () => {
           </svg>
         </Link>
         <Link
-          href={`mailto:${yourTourEmail}`}
+          href={`mailto:{${t('owner.email')}}`}
           id='mailto'
           target='_blank'
           rel='noopener noreferrer'
@@ -83,9 +79,9 @@ const Footer = () => {
 
       {/* DEV */}
       <div className='max-w-screen-xl flex justify-between items-center gap-2 md:gap-4 pt-8'>
-        <p className='text-xs md:text-sm text-neutral-50 text-center'>{content.dev.paragraph}</p>
+        <p className='text-xs md:text-sm text-neutral-50 text-center'>{t('dev.paragraph')}</p>
         <Link
-          href={devUrl}
+          href={t('dev.devUrl')}
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -93,9 +89,8 @@ const Footer = () => {
             width={30}
             height={30}
             className={`w-5 h-auto  hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
-            src={content.dev.img.url}
-            alt={content.dev.img.alt}
-            // quality={100}
+            src={t('dev.img.url')}
+            alt={t('dev.img.alt')}
             loading="lazy"
           />
         </Link>
@@ -104,4 +99,3 @@ const Footer = () => {
   );
 };
 
-export default Footer;

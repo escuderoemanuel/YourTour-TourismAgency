@@ -3,12 +3,14 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useState } from 'react';
-import content from '../../translations/es/global.json';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
+import { useTranslations } from 'next-intl';
 
-const NavLinks = ({ isScrolled }) => {
+export default function NavLinks({ isScrolled }) {
+  const t = useTranslations('NavLinks')
   const pathname = usePathname();
-  const links = Object.values(content.navLinks);
+
+  // State to control menu open/close
   const [isOpen, setIsOpen] = useState(false);
 
   // Toggle menu open/close
@@ -39,17 +41,34 @@ const NavLinks = ({ isScrolled }) => {
 
       {/* Links container */}
       <div className={`flex-col items-end lg:items-center lg:flex lg:flex-row lg:gap-2 lg:items-center ${isOpen ? 'py-2 flex items-end top-full left-0 w-full' : 'hidden'}`}>
-        {/* Map through navigation links */}
-        {links.map((link) => (
-          <Link
-            key={link.name}
-            href={link.href}
-            onClick={handleLinkClick}
-            className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== link.href ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === link.href ? 'font-bold cursor-default' : ''}`}
-          >
-            {link.name}
-          </Link>
-        ))}
+
+        <Link
+          key={t('home')}
+          href={`/`}
+          onClick={handleLinkClick}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+        >{t('home')}</Link>
+
+        <Link
+          key={t('excursions')}
+          href={`/`}
+          onClick={handleLinkClick}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+        >{t('excursions')}</Link>
+
+        <Link
+          key={t('services')}
+          href={`/`}
+          onClick={handleLinkClick}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+        >{t('services')}</Link>
+
+        <Link
+          key={t('contact')}
+          href={`/`}
+          onClick={handleLinkClick}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+        >{t('contact')}</Link>
 
         {/* Language selector component */}
         <LanguageSelector isScrolled={isScrolled} />
@@ -58,4 +77,3 @@ const NavLinks = ({ isScrolled }) => {
   );
 };
 
-export default NavLinks;

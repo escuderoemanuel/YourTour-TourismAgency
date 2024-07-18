@@ -3,13 +3,13 @@
 import React from 'react';
 import Link from 'next/link';
 
-const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, SubmitText }) => {
+export default function ContactForm({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, SubmitText }) {
   const TermsLink = '/terms';
 
   return (
     <form
       className="max-w-md mx-auto"
-      action="https://formsubmit.co/escudero.mdz@gmail.com"
+      action="https://formsubmit.co/yourtour.ar@gmail.com"
       method="POST"
     >
       {/* Email */}
@@ -76,4 +76,3 @@ const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuanti
   );
 }
 
-export default ContactForm;

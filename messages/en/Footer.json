@@ -1,0 +1,21 @@
+{
+  "footer": {
+    "owner": {
+      "copyright": "Todos los derechos reservados",
+      "name": "Your Tour",
+      "address": "Mendoza - Argentina",
+      "email": "email@yourtour.com",
+      "telephone": "1234567890",
+      "instagram": "yourtourInstagram",
+      "facebook": "yourtourFacebook",
+      "twitter": "yourtourTwitter"
+    },
+    "dev": {
+      "paragraph": "Diseñado & Desarrollado por Emanuel Escudero",
+      "img": {
+        "url": "/dev/Logo2024.png",
+        "alt": "Developer Logo"
+      }
+    }
+  }
+}

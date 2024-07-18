@@ -1,0 +1,24 @@
+{
+  "navLinks": {
+    "link1": {
+      "name": "Home",
+      "icon": "",
+      "href": "/"
+    },
+    "link3": {
+      "name": "Excursions",
+      "icon": "",
+      "href": "/excursions"
+    },
+    "link4": {
+      "name": "Services",
+      "icon": "",
+      "href": "/services"
+    },
+    "link5": {
+      "name": "Contact",
+      "icon": "",
+      "href": "/contact"
+    }
+  }
+}

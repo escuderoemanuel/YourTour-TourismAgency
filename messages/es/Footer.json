@@ -1,0 +1,26 @@
+{
+  "Footer": {
+    "owner": {
+      "logo": {
+        "yourTourPrimaryLogo": "/img/YourTour/YourTourPrimaryLogo.png",
+        "yourTourSecondaryLogo": "/img/YourTour/YourTourSecondaryLogo.png"
+      },
+      "copyright": "Todos los derechos reservados",
+      "name": "Your Tour",
+      "address": "Mendoza - Argentina",
+      "email": "yourtour.ar@gmail.com",
+      "telephone": "1234567890",
+      "instagram": "https://www.instagram.com/your_tour_mendoza",
+      "facebook": "https://www.facebook.com/profile.php?id=100094165443751",
+      "twitter": "yourtourTwitter"
+    },
+    "dev": {
+      "devUrl": "https://emanuelescudero.ar",
+      "paragraph": "Diseñado & Desarrollado por Emanuel Escudero",
+      "img": {
+        "url": "/dev/Logo2024.png",
+        "alt": "Developer Logo"
+      }
+    }
+  }
+}

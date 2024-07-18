@@ -1,37 +1,46 @@
-'use client';
+"use client"
 
-import React, { useState } from 'react';
-import content from '../../translations/es/global.json';
-import { use } from 'i18next';
+import { useLocale, useTranslations } from "next-intl"
+import { useRouter, usePathname } from "next/navigation"
+import { useTransition } from "react"
 
-const LanguageSelector = ({ isScrolled }) => {
-  const [language, setLanguage] = useState('SP');
+export default function LanguageSelector({ isScrolled }) {
+  const t = useTranslations('Languages')
 
-  const handleChangeLanguage = (e) => {
-    setLanguage(e.target.value);
-    use(language);
-  };
+  const [isPending, startTransition] = useTransition()
+  const router = useRouter()
+  const pathname = usePathname()
+  const localActive = useLocale()
 
+  const onSelectChange = e => {
+    const nextLocale = e.target.value
+    const segments = pathname.split("/")
+    segments[1] = nextLocale // Replace the locale segment
+    const newPath = segments.join("/")
 
+    startTransition(() => {
+      router.replace(newPath)
+    })
+  }
 
   return (
-    <div className={`flex items-center justify-center ${isScrolled ? 'text-primary-color' : 'text-white-color'}`}>
-      <form className="max-w-sm mx-auto">
-        <label htmlFor="language-selector" className="sr-only">
-          {content.languages.language}
-        </label>
+    <div
+      className={`flex items-center justify-center ${isScrolled ? "text-primary-color" : "text-white-color"
+        }`}
+    >
+      <label className="border-none rounded text-black bg-red-400">
+        <p className="sr-only">change language</p>
         <select
-          id="language-selector"
-          className="block py-1 px-2 rounded-md bg-transparent border border-white appearance-none focus:outline-none focus:ring-0 focus:border-white peer"
-          value={language}
-          onChange={handleChangeLanguage}>
-          <option value="US" className="text-sm text-primary-color">{content.languages.english}</option>
-          <option value="SP" className="text-sm text-primary-color">{content.languages.spanish}</option>
-          <option value="PR" className="text-sm text-primary-color">{content.languages.portuguese}</option>
+          defaultValue={localActive}
+          className="font-medium rounded p-1"
+          onChange={onSelectChange}
+          disabled={isPending}
+        >
+          <option value="es">{t('spanish')}</option>
+          <option value="en">{t('english')}</option>
+          <option value="pt">{t('portuguese')}</option>
         </select>
-      </form>
+      </label>
     </div>
-  );
+  )
 }
-
-export default LanguageSelector;

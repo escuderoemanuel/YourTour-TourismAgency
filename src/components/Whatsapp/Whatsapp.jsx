@@ -7,7 +7,7 @@ const whatsappLogo = '/img/wtsp.png'
 const whatsappLink = 'https://wa.me/542613333966'
 
 
-const Whatsapp = () => {
+export default function Whatsapp() {
   return (
     <Link href={whatsappLink} target='_blank' rel='noopener noreferrer' className='z-10'>
       <Image
@@ -21,5 +21,3 @@ const Whatsapp = () => {
     </Link>
   );
 }
-
-export default Whatsapp;

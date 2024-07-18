@@ -1,16 +1,8 @@
-// next.config.js
-import i18nextConfig from './next-i18next.config.js';
+import createNextIntlPlugin from 'next-intl/plugin';
 
-const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
-  },
-  i18n: i18nextConfig.i18n
-};
+const withNextIntl = createNextIntlPlugin();
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default withNextIntl(nextConfig);

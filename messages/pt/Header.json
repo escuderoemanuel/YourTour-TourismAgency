@@ -1,0 +1,10 @@
+{
+  "header": {
+    "titleHeader": "Your Tour",
+    "subtitleHeader": "A TRIP MADE YOUR WAY"
+  },
+  "logo": {
+    "yourTourPrimaryLogo": "/img/YourTour/YourTourPrimaryLogo.png",
+    "yourTourSecondaryLogo": "/img/YourTour/YourTourSecondaryLogo.png"
+  }
+}
