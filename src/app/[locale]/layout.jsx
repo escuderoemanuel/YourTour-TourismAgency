@@ -34,7 +34,7 @@ export default async function RootLayout({ children, params: { locale } }) {
             <Header />
             {children}
             <Whatsapp />
-            <Footer />
+            {/* <Footer /> */}
           </NextIntlClientProvider>
         </div>
       </body>
