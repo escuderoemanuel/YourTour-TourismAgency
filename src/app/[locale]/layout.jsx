@@ -28,16 +28,14 @@ export default async function RootLayout({ children, params: { locale } }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
-      <body className={`${inter.className} antialiased bg-neutral-100`}>
-        <div className="flex flex-col h-screen max-w-4xl mx-auto">
-          <NextIntlClientProvider messages={messages}>
-            <Header />
-            {children}
-            <Whatsapp />
-            {/* <Footer /> */}
-          </NextIntlClientProvider>
-        </div>
-      </body>
+      <NextIntlClientProvider messages={messages}>
+        <body className={`${inter.className} antialiased bg-neutral-100`}>
+          <Header />
+          {children}
+          <Whatsapp />
+          <Footer />
+        </body>
+      </NextIntlClientProvider>
     </html>
   )
 }

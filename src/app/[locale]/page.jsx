@@ -13,7 +13,7 @@ export default function HomePage() {
         <p>
           <span>{t('paragraph1')} </span>
           <span className={`text-2xl me-1 ${praise.className}`}>{t('span')} </span>
-          <span>{t('paragraph2')}</span>
+          <span>{t('paragraph2')} </span>
           <span className={`text-2xl ${praise.className}`}>{t('spanFinal')}</span>
         </p>
       </div>

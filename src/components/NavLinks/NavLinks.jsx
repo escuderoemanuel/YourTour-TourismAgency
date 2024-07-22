@@ -24,6 +24,13 @@ export default function NavLinks({ isScrolled }) {
     setIsOpen(false);
   };
 
+  // Function to construct the href correctly
+  const constructHref = (path) => {
+    // Remove any leading slash from path
+    const cleanedPath = path.startsWith('/') ? path.substring(1) : path;
+    return `/${localActive}/${cleanedPath}`;
+  };
+
   return (
     <nav className={`flex flex-col items-end ${isScrolled ? 'text-primary-color' : 'text-white-color'}`}>
       {/* Mobile menu toggle button */}
@@ -45,28 +52,28 @@ export default function NavLinks({ isScrolled }) {
 
         <Link
           key={t('home')}
-          href={`${localActive}/`}
+          href={constructHref('/')}
           onClick={handleLinkClick}
           className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}` ? 'font-bold cursor-default' : ''}`}
         >{t('home')}</Link>
 
         <Link
           key={t('excursions')}
-          href={`${localActive}/excursions`}
+          href={constructHref('/excursions')}
           onClick={handleLinkClick}
           className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}/excursions` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}/excursions` ? 'font-bold cursor-default' : ''}`}
         >{t('excursions')}</Link>
 
         <Link
           key={t('services')}
-          href={`${localActive}/services`}
+          href={constructHref('/services')}
           onClick={handleLinkClick}
           className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}/services` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}/services` ? 'font-bold cursor-default' : ''}`}
         >{t('services')}</Link>
 
         <Link
           key={t('contact')}
-          href={`${localActive}/contact`}
+          href={constructHref('/contact')}
           onClick={handleLinkClick}
           className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}/contact` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}/contact` ? 'font-bold cursor-default' : ''}`}
         >{t('contact')}</Link>

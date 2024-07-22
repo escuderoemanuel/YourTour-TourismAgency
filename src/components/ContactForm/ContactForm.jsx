@@ -2,9 +2,17 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function ContactForm({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, SubmitText }) {
-  const TermsLink = '/terms';
+  const localActive = useLocale()
+
+  // Function to construct the href correctly
+  const constructHref = (path) => {
+    // Remove any leading slash from path
+    const cleanedPath = path.startsWith('/') ? path.substring(1) : path;
+    return `/${localActive}/${cleanedPath}`;
+  };
 
   return (
     <form
@@ -61,7 +69,7 @@ export default function ContactForm({ EmailAddress, FirstName, LastName, PhoneNu
             rel="noopener noreferrer"
             title="Terms and Conditions"
             aria-label="Terms and Conditions"
-            href={TermsLink}
+            href={constructHref('/terms')}
             className="text-sky-700 hover:underline dark:text-sky-500"
           >{TermsText2}</Link>
         </label>
