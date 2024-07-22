@@ -5,7 +5,7 @@
         "yourTourPrimaryLogo": "/img/YourTour/YourTourPrimaryLogo.png",
         "yourTourSecondaryLogo": "/img/YourTour/YourTourSecondaryLogo.png"
       },
-      "copyright": "Todos los derechos reservados",
+      "copyright": "Todos os direitos reservados ©",
       "name": "Your Tour",
       "address": "Mendoza - Argentina",
       "email": "yourtour.ar@gmail.com",
@@ -16,7 +16,7 @@
     },
     "dev": {
       "devUrl": "https://emanuelescudero.ar",
-      "paragraph": "Diseñado & Desarrollado por Emanuel Escudero",
+      "paragraph": "Desenhado e desenvolvido por Emanuel Escudero",
       "img": {
         "url": "/dev/Logo2024.png",
         "alt": "Developer Logo"

@@ -12,6 +12,7 @@
     --text-primary-hex: #222222;
     --text-secondary-hex: #f0f0f0;
     --text-white-hex: #f8f4ff;
+    --text-mutted-hex: #292929;
   }
 }
 
@@ -35,6 +36,10 @@ body {
 
   .text-white-color {
     color: var(--text-white-hex)
+  }
+
+  .text-mutted {
+    color: var(--text-mutted-hex)
   }
 }
 
