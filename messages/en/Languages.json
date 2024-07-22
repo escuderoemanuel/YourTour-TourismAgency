@@ -1,8 +1,8 @@
 {
-  "languages": {
-    "language": "Language",
-    "english": "English",
-    "spanish": "Spanish",
-    "portuguese": "Portuguese"
+  "Languages": {
+    "language": "Idioma",
+    "english": "Inglés",
+    "spanish": "Español",
+    "portuguese": "Portugués"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "form": {
+  "ContactPage": {
     "email": "Correo Electrónico",
     "firstName": "Nombre",
     "lastName": "Apellido",

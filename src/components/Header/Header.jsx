@@ -9,7 +9,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Header() {
   const t = useTranslations('Header');
-  console.log('Header', t);
+
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ export default function Header() {
       <div className='max-w-screen-xl mx-auto flex flex-row justify-between items-start lg:items-center'>
         <Link href="/" className="relative w-44 h-10 sm:w-56 md:w-64" >
           <Image
-            src={isScrolled ? `${t('logo.yourPrimaryLogo')}` : `${t('logo.yourTourSecondaryLogo')}`}
+            src={isScrolled ? `${t('logo.yourTourPrimaryLogo')}` : `${t('logo.yourTourSecondaryLogo')}`}
             fill
             sizes="(max-width: 256px)"
             style={{ objectFit: 'contain' }}
