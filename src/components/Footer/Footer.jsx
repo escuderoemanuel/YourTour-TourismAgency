@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('Footer');
-
+  console.log('Footer', t);
   return (
     <section className={`flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-sky-700`}>
       <div className={`max-w-screen-xl flex justify-between items-center gap-2 md:gap-4`}>
