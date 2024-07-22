@@ -24,7 +24,7 @@ export default function Header() {
   }, []);
 
   return (
-    <section className={`py-3 px-4 sticky z-50 top-0 md:py-4 md:px-12 lg:py-6 lg:px-24 ${isScrolled ? 'glassBackground' : 'bg-sky-700'}`}>
+    <section className={`py-3 px-4 sticky z-50 top-0 md:py-4 md:px-12 lg:py-6 lg:px-24 ${isScrolled ? 'glassBackground' : 'bg-wine'}`}>
       <div className='max-w-screen-xl mx-auto flex flex-row justify-between items-start lg:items-center'>
         <Link href="/" className="relative w-44 h-10 sm:w-56 md:w-64" >
           <Image

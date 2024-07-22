@@ -7,9 +7,8 @@ import { useTranslations } from 'next-intl';
 
 export default function Footer() {
   const t = useTranslations('Footer');
-  console.log('Footer', t);
   return (
-    <section className={`flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-sky-700`}>
+    <section className={`flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-wine`}>
       <div className={`max-w-screen-xl flex justify-between items-center gap-2 md:gap-4`}>
         <Image
           className={`w-40 h-auto md:w-44`}
@@ -78,8 +77,8 @@ export default function Footer() {
       </div>
 
       {/* DEV */}
-      <div className='max-w-screen-xl flex justify-between items-center gap-2 md:gap-4 pt-8'>
-        <p className='text-xs md:text-sm text-neutral-50 text-center'>{t('dev.paragraph')}</p>
+      <div className='max-w-screen-xl flex justify-between items-center gap-2 pt-8'>
+        <p className='text-xs text-secondary-color opacity-90 text-center'>{t('dev.paragraph')}</p>
         <Link
           href={t('dev.devUrl')}
           target='_blank'
@@ -88,7 +87,7 @@ export default function Footer() {
           <Image
             width={30}
             height={30}
-            className={`w-5 h-auto  hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
+            className={`w-5 h-auto hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
             src={t('dev.img.url')}
             alt={t('dev.img.alt')}
             loading="lazy"

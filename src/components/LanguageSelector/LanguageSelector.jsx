@@ -38,7 +38,6 @@ export default function LanguageSelector({ isScrolled }) {
         defaultValue={localActive}
         onChange={onSelectChange}
         disabled={isPending}
-      // size={1}
       >
         <option className='text-primary-color' value="es">{t('spanish')}</option>
         <option className='text-primary-color' value="en">{t('english')}</option>
