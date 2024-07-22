@@ -10,7 +10,7 @@
     --bg-primary-hex: #FCF7FF;
     --bg-secondary-hex: #47464B;
     --text-primary-hex: #222222;
-    --text-secondary-hex: #C3C1C7;
+    --text-secondary-hex: #f0f0f0;
     --text-white-hex: #f8f4ff;
   }
 }
@@ -45,4 +45,18 @@ body {
 
 .bg-sky-700-hex {
   background-color: #0369a1;
+}
+
+.bg-wine {
+  background-color: #800040;
+}
+
+#languageSelector {
+  padding: 4px 0 4px 4px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 10 6'%3E%3Cpath stroke='%23f8f4ff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
+  background-position: right 4px center;
+  background-repeat: no-repeat;
+  background-size: .75em .75em;
+  padding: 4px 18px 4px 4px;
+  width: 90px;
 }

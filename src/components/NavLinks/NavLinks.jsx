@@ -4,11 +4,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useState } from 'react';
 import LanguageSelector from '../LanguageSelector/LanguageSelector';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 
 export default function NavLinks({ isScrolled }) {
   const t = useTranslations('NavLinks')
   const pathname = usePathname();
+  const localActive = useLocale();
 
   // State to control menu open/close
   const [isOpen, setIsOpen] = useState(false);
@@ -44,30 +45,30 @@ export default function NavLinks({ isScrolled }) {
 
         <Link
           key={t('home')}
-          href={`/`}
+          href={`${localActive}/`}
           onClick={handleLinkClick}
-          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}` ? 'font-bold cursor-default' : ''}`}
         >{t('home')}</Link>
 
         <Link
           key={t('excursions')}
-          href={`/`}
+          href={`${localActive}/excursions`}
           onClick={handleLinkClick}
-          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}/excursions` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}/excursions` ? 'font-bold cursor-default' : ''}`}
         >{t('excursions')}</Link>
 
         <Link
           key={t('services')}
-          href={`/`}
+          href={`${localActive}/services`}
           onClick={handleLinkClick}
-          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}/services` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}/services` ? 'font-bold cursor-default' : ''}`}
         >{t('services')}</Link>
 
         <Link
           key={t('contact')}
-          href={`/`}
+          href={`${localActive}/contact`}
           onClick={handleLinkClick}
-          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== 'href' ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === 'href' ? 'font-bold cursor-default' : ''}`}
+          className={`${isScrolled ? 'text-primary-color' : 'text-white-color'} ${pathname !== `/${localActive}/contact` ? 'hover:underline hover:underline-offset-4' : ''} ${pathname === `/${localActive}/contact` ? 'font-bold cursor-default' : ''}`}
         >{t('contact')}</Link>
 
         {/* Language selector component */}

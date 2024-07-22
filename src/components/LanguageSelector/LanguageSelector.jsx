@@ -24,23 +24,33 @@ export default function LanguageSelector({ isScrolled }) {
   }
 
   return (
-    <div
-      className={`flex items-center justify-center ${isScrolled ? "text-primary-color" : "text-white-color"
-        }`}
-    >
-      <label className="border-none rounded text-black bg-red-400">
-        <p className="sr-only">change language</p>
-        <select
-          defaultValue={localActive}
-          className="font-medium rounded p-1"
-          onChange={onSelectChange}
-          disabled={isPending}
-        >
-          <option value="es">{t('spanish')}</option>
-          <option value="en">{t('english')}</option>
-          <option value="pt">{t('portuguese')}</option>
-        </select>
+
+    < div div className={`flex items-center justify-center ${isScrolled ? "text-primary-color" : "text-white-color"
+      }`
+    }>
+
+      <label>
+        <p className="sr-only">{t('language')}</p>
       </label>
-    </div>
+      <select
+        id='languageSelector'
+        className={`flex flex-row justify-between text-xs rounded border-1 border-gray-300 bg-transparent focus:border-gray-300  ${isScrolled ? "text-primary-color" : "text-secondary-color "}`}
+        defaultValue={localActive}
+        onChange={onSelectChange}
+        disabled={isPending}
+      // size={1}
+      >
+        <option className='text-primary-color' value="es">{t('spanish')}</option>
+        <option className='text-primary-color' value="en">{t('english')}</option>
+        <option className='text-primary-color' value="pt">{t('portuguese')}</option>
+      </select>
+
+
+
+
+
+    </ div>
+
+
   )
 }
