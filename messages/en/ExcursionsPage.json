@@ -11,11 +11,11 @@
             "alt": "City View"
           },
           "image2": {
-            "url": "/img/CityTour/city_1.jpg",
+            "url": "/img/CityTour/city_1.jpeg",
             "alt": "Founding Area Museum"
           },
           "image3": {
-            "url": "/img/CityTour/city_3.jpg",
+            "url": "/img/CityTour/city_3.jpeg",
             "alt": "San Martín Square"
           },
           "image4": {
@@ -259,7 +259,7 @@
         "description": "On this tour we visit 3 wineries in the Luján de Cuyo region with a small production focused on the high quality of their wines. We will start with Casa Carmelo Patti, a pure-bred winemaker, who makes wine in an old winery and in his own garage. Those who visit the winery are personally accompanied by Carmelo on a friendly walk through his property, where he enthusiastically explains the different processes and tells his personal story. We continue our tour to Carinae, in Cruz de Piedra-Maipú, a small winery dedicated to the production of high-quality wines with low-yield grapes in the most traditional area of ​​the Argentine wine industry. Lunch is at the Clos de Chacras or Roberto Bonfanti winery. Both are family-run wineries, produce high-end wines and offer a great wine and gastronomic experience..",
         "listImages": {
           "image1": {
-            "url": "/img/BodegasFamiliares/carmelopatti.webp",
+            "url": "/img/BodegasFamiliares/carmelo.webp",
             "alt": "Carmelo Patti House"
           },
           "image2": {
@@ -287,6 +287,20 @@
           "image2": {
             "url": "/img/BodegasVarias/casa-vigil.jpg",
             "alt": "Casa Vigil - El Enemigo"
+          }
+        }
+      },
+      "excursion15": {
+        "title": "Horseback Riding La Crucecita",
+        "description": "If you are looking to experience a unique moment, this is definitely the right place. It has a very special place just a few kilometers from the city of Mendoza, where we take a guided tour by professional local guides and on docile horses, fully accustomed to transporting people along the different trails. You can also choose between different varieties of saddles, hats and many other things. The barbecue and wine tasting place is an incredible self-sustaining refuge.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Cabalgata/cabalgata-01.jpg",
+            "alt": "Horse"
+          },
+          "image2": {
+            "url": "/img/Cabalgata/cabalgata-02.jpg",
+            "alt": "Mountain view from a horse"
           }
         }
       }

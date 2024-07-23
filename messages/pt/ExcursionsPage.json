@@ -11,11 +11,11 @@
             "alt": "Vista da cidade"
           },
           "image2": {
-            "url": "/img/CityTour/city_1.jpg",
+            "url": "/img/CityTour/city_1.jpeg",
             "alt": "Museu da Área Fundacional"
           },
           "image3": {
-            "url": "/img/CityTour/city_3.jpg",
+            "url": "/img/CityTour/city_3.jpeg",
             "alt": "Praça San Martín"
           },
           "image4": {
@@ -259,7 +259,7 @@
         "description": "Neste passeio visitaremos 3 vinícolas da região de Luján de Cuyo com uma pequena produção focada na alta qualidade de seus vinhos. Começaremos pela Casa Carmelo Patti, um enólogo de raça pura, que produz vinho numa antiga adega e na sua própria garagem. Quem visita a adega é acompanhado pessoalmente por Carmelo num simpático passeio pela sua propriedade, onde explica com entusiasmo os diferentes processos e conta a sua história pessoal. Continuamos nossa viagem até Carinae, em Cruz de Piedra-Maipú, uma pequena vinícola dedicada à produção de vinhos de alta qualidade com uvas de baixo rendimento na área mais tradicional da vitivinicultura argentina. O almoço é na vinícola Clos de Chacras ou Roberto Bonfanti. Ambas são tradicionais vinícolas familiares, produzem vinhos de alto padrão e oferecem uma ótima experiência de enoturismo e gastronomia.",
         "listImages": {
           "image1": {
-            "url": "/img/BodegasFamiliares/carmelopatti.webp",
+            "url": "/img/BodegasFamiliares/carmelo.webp",
             "alt": "Casa Carmelo Patti"
           },
           "image2": {
@@ -287,6 +287,20 @@
           "image2": {
             "url": "/img/BodegasVarias/casa-vigil.jpg",
             "alt": "Vinícolas Casa Vigil - El Enemigo"
+          }
+        }
+      },
+      "excursion15": {
+        "title": "Passeio a cavalo em La Crucecita",
+        "description": "Se você busca viver um momento único, este é sem dúvida o lugar certo, tem um lugar muito especial a poucos quilômetros da cidade de Mendoza, onde fazemos um passeio guiado por baqueanos profissionais da região e em dóceis, totalmente acostumados para transportar pessoas pelos diferentes caminhos. Você também pode escolher entre diferentes variedades de armações, chapéus e muito mais. O local para churrasco e degustação de vinhos é um retiro incrível e autossustentável.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Cabalgata/cabalgata-01.jpg",
+            "alt": "cavalo"
+          },
+          "image2": {
+            "url": "/img/Cabalgata/cabalgata-02.jpg",
+            "alt": "Vista da montanha a partir de um cavalo"
           }
         }
       }

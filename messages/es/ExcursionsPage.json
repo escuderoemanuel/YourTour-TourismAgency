@@ -11,11 +11,11 @@
             "alt": "Vista de la ciudad"
           },
           "image2": {
-            "url": "/img/CityTour/city_1.jpg",
+            "url": "/img/CityTour/city_1.jpeg",
             "alt": "Museo Área Fundacional"
           },
           "image3": {
-            "url": "/img/CityTour/city_3.jpg",
+            "url": "/img/CityTour/city_3.jpeg",
             "alt": "Plaza San Martín"
           },
           "image4": {
@@ -259,7 +259,7 @@
         "description": "En este tour visitamos 3 bodegas por la región de Lujan de Cuyo con una pequeña producción centradas en la alta calidad de sus vinos. Comenzaremos con Casa Carmelo Patti, un enólogo de pura cepa, que elabora vino en una antigua bodega y en su propio garaje. Quien visita la bodega, es acompañado personalmente por Carmelo en un amigable paseo por su propiedad, donde explica con entusiasmo los diferentes procesos y contando su historia personal. Continuamos nuestro recorrido hacia Carinae, en Cruz de Piedra-Maipú, una pequeña bodega dedicada a la elaboración de vinos de alta calidad con uva de bajo rendimiento en la zona más tradicional de la industria vitivinícola argentina. Almuerzo es en la bodega Clos de Chacras o Roberto Bonfanti. Ambas son bodegas de tradición familiar, producen vinos de alta gama y ofrecen una gran experiencia enoturística y gastronómica.",
         "listImages": {
           "image1": {
-            "url": "/img/BodegasFamiliares/carmelopatti.webp",
+            "url": "/img/BodegasFamiliares/carmelo.webp",
             "alt": "Casa Carmelo Patti"
           },
           "image2": {
@@ -281,12 +281,26 @@
         "description": "Realizamos la visita a Catena Zapata, fundada en 1902. Reconocida por su rol pionero en haber hecho resurgir la variedad Malbec y haber descubierto los terruños de altura extrema al pie de la Cordillera Los Andes. Al mediodía concluimos esta excursión donde visitaremos Casa Vigil ubicada en Maipú para disfrutar en grupos pequeños de un distendido almuerzo de 3 pasos maridado con vinos Gran Enemigo. Un lugar inspirado en el mágico mundo de la divina comedia de Dante Alighieri, que invita a experimentar el encanto del vino, la gastronomía y la literatura fusionados en una propuesta enoturística única.",
         "listImages": {
           "image1": {
-            "url": "/img/BodegasVarias/Bodega-Catena-Zapata.jpg",
+            "url": "/img/BodegasVarias/Bodega-Catena-Zapata.jpeg",
             "alt": "Bodega Catena Zapata"
           },
           "image2": {
             "url": "/img/BodegasVarias/casa-vigil.jpg",
             "alt": "Bodega Casa Vigil - El Enemigo"
+          }
+        }
+      },
+      "excursion15": {
+        "title": "Cabalgata en La Crucecita",
+        "description": "Si estás buscando vivir un momento único, este es sin duda el lugar indicado, cuenta con un lugar muy especial a pocos kilómetros de la ciudad de Mendoza, donde realizamos un paseo guiado por baqueanos profesionales de la zona y en dóciles, totalmente acostumbrados a transportar gente por los distintos senderos. También podrás elegir entre diferentes variedades de montura, sombreros y muchas cosas más. El lugar del asado y la degustación de vinos es un increíble refugio auto-sustentable.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Cabalgata/cabalgata-01.jpg",
+            "alt": "Caballo"
+          },
+          "image2": {
+            "url": "/img/Cabalgata/cabalgata-02.jpg",
+            "alt": "Vista a la montaña desde un caballo"
           }
         }
       }
