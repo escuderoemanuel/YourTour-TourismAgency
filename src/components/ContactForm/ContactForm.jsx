@@ -70,13 +70,13 @@ export default function ContactForm({ EmailAddress, FirstName, LastName, PhoneNu
             title="Terms and Conditions"
             aria-label="Terms and Conditions"
             href={constructHref('/terms')}
-            className="text-sky-700 hover:underline dark:text-sky-500"
+            className="underline opacity-90 text-sky-700 hover:opacity-100 dark:text-sky-500"
           >{TermsText2}</Link>
         </label>
       </div>
 
       {/* Button */}
-      <button type="submit" className="text-white uppercase hover:opacity-100 bg-wine opacity-90 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-wine dark:opacity-100">{SubmitText}</button>
+      <button type="submit" className="text-white uppercase hover:opacity-100 bg-sky-700 opacity-90 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-sky-700 dark:opacity-100">{SubmitText}</button>
 
       <input type="hidden" name="_next" defaultValue="http://localhost:3000/contact" />
       <input type="hidden" name="_captcha" defaultValue="false" />

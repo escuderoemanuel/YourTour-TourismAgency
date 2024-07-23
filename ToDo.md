@@ -1,6 +1,5 @@
 # ToDo:
 
-- Realizar cambio de idioma
 - Enseñarles a configurar cuerpos del email predefinidos
 
 

@@ -8,7 +8,7 @@ import { useTranslations } from 'next-intl';
 export default function Footer() {
   const t = useTranslations('Footer');
   return (
-    <section className={`flex flex-col py-6 px-4 lg:px-16 items-center justify-between bg-wine`}>
+    <section className={`flex flex-col py-6 px-4 lg:px-16 items-center justify-between bgFooter`}>
       <div className='flex flex-col items-center gap-2' >
         <div className={`max-w-screen-xl flex justify-between items-center gap-2 md:gap-4`}>
           <Image
@@ -32,7 +32,7 @@ export default function Footer() {
               width={24}
               height={24}
               viewBox="0 0 24 24"
-              className='w-7 h-auto fill-gray-100 hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300'
+              className='w-7 h-auto fill-gray-100 hover:origin-center  hover:scale-x-110 ease-in-out duration-200'
             >
               <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z" />
               <circle cx="16.806" cy="7.207" r="1.078" />
@@ -51,7 +51,7 @@ export default function Footer() {
               width={24}
               height={24}
               viewBox="0 0 24 24"
-              className='w-7 h-auto fill-gray-100 hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300'
+              className='w-7 h-auto fill-gray-100 hover:origin-center hover:scale-x-110 ease-in-out duration-200'
             >
               <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z" />
             </svg>
@@ -70,7 +70,7 @@ export default function Footer() {
               width={24}
               height={24}
               viewBox="0 0 24 24"
-              className={`w-7 h-auto fill-gray-100 hover:origin-center hover:rotate-12 hover:scale-x-110 ease-in-out duration-300`}
+              className={`w-7 h-auto fill-gray-100 hover:origin-center  hover:scale-x-110 ease-in-out duration-200`}
             >
               <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z" />
             </svg>
