@@ -2,7 +2,7 @@
   "Header": {
     "titleHeader": "Your Tour",
     "subtitleHeader": "A trip made your way",
-    "yourTourPrimaryLogo": "/img/YourTour/YourTourPrimaryLogoEn.png",
-    "yourTourSecondaryLogo": "/img/YourTour/YourTourSecondaryLogoEn.png"
+    "primaryLogo": "/img/YourTour/primaryLogoEn.png",
+    "secondaryLogo": "/img/YourTour/secondaryLogoEn.png"
   }
 }

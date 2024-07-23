@@ -2,8 +2,8 @@
   "Footer": {
     "owner": {
       "logo": {
-        "yourTourPrimaryLogo": "/img/YourTour/YourTourPrimaryLogoEs.png",
-        "yourTourSecondaryLogo": "/img/YourTour/YourTourSecondaryLogoEs.png"
+        "yourTourPrimaryLogo": "/img/YourTour/primaryLogoEs.png",
+        "yourTourSecondaryLogo": "/img/YourTour/secondaryLogoEs.png"
       },
       "copyright": "Todos los derechos reservados ©",
       "name": "Your Tour",

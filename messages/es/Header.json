@@ -2,7 +2,7 @@
   "Header": {
     "titleHeader": "Your Tour",
     "subtitleHeader": "Un viaje a tu medida",
-    "yourTourPrimaryLogo": "/img/YourTour/YourTourPrimaryLogoEs.png",
-    "yourTourSecondaryLogo": "/img/YourTour/YourTourSecondaryLogoEs.png"
+    "primaryLogo": "/img/YourTour/primaryLogoEs.png",
+    "secondaryLogo": "/img/YourTour/secondaryLogoEs.png"
   }
 }
