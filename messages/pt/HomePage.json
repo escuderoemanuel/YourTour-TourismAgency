@@ -9,19 +9,19 @@
     "homeCarousel": {
       "image1": {
         "url": "/img/Home/city_9.jpg",
-        "alt": "Foto Parque General San Martín"
+        "alt": "Parque General San Martín"
       },
       "image3": {
         "url": "/img/Home/lenas_4.jpg",
-        "alt": "Foto Personas en Aerosilla Las Leñas"
+        "alt": "Pessoas em Aerosilla Las Leñas"
       },
       "image6": {
         "url": "/img/Home/alta_4.jpg",
-        "alt": "Foto Puente del Inca"
+        "alt": "Ponte Inca"
       },
       "image7": {
         "url": "/img/Home/lenas_6.jpg",
-        "alt": "Foto Personas haciendo Rafting"
+        "alt": "Rafting de Pessoas"
       }
     }
   }

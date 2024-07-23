@@ -1,22 +1,22 @@
 {
   "TermsPage": {
-    "title": "Términos y condiciones",
+    "title": "Terms and Conditions",
     "listTerms": {
       "term1": {
-        "term": "Condiciones y Servicios:",
-        "text": "Tener en cuenta que las cotizaciones no garantizan disponibilidad ni tarifas. Las mismas pueden sufrir cambios sin previo aviso."
+        "term": "Terms and Services:",
+        "text": "Please note that quotes do not guarantee availability or rates. They are subject to change without prior notice."
       },
       "term2": {
-        "term": "Condiciones Programa:",
-        "text": "La cotización no implica reserva de servicios ni bloqueo de espacios, así como tampoco garantiza la disponibilidad de los mismos. Es decir que hasta el momento del pago o adelanto de dinero para tal servicio, la reserva no se encuentra efectuada."
+        "term": "Program Conditions:",
+        "text": "The quote does not imply a reservation of services or blocking of spaces, nor does it guarantee their availability. That is to say that until the moment of payment or advance payment for said service, the reservation is not made."
       },
       "term3": {
-        "term": "Disponibilidad:",
-        "text": "Todos los servicios están sujetos a condiciones climáticas imprevistas o previstas según la época del año, estado de la carretera, sugerencias de la autoridad de caminos y/o cualquier otra eventualidad que se considere relevante."
+        "term": "Availability:",
+        "text": "All services are subject to unforeseen or anticipated weather conditions depending on the time of year, road conditions, suggestions from the road authority and/or any other eventuality considered relevant."
       },
       "term4": {
-        "term": "Servicios no incluidos:",
-        "text": "Traslados, desayunos, meriendas, cenas, almuerzos, otras comidas, bebidas o servicios NO especificados en la cotización reservada. Gastos ocasionados por el abandono del programa. Tarifas aéreas o terrestres de aproximación a Mendoza NO especificadas en la cotización reservada. Extras, opcionales y propinas. Gastos administrativos por uso de tarjeta de créditos. Seguros NO mencionados específicamente en la cotización que el pasajero haya reservado. Cualquier servicio o bien NO mencionado explícitamente en la cotización reservada por el pasajero."
+        "term": "Services not included:",
+        "text": "Transfers, breakfasts, snacks, dinners, lunches, other meals, drinks or services NOT specified in the reserved quote. Expenses incurred by abandoning the program. Air or land fares to Mendoza NOT specified in the reserved quote. Extras, options and tips. Administrative expenses for use of credit cards. Insurance NOT specifically mentioned in the quote that the passenger has reserved. Any service or good NOT explicitly mentioned in the quote reserved by the passenger."
       }
     }
   }

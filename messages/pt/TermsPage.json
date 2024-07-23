@@ -1,22 +1,22 @@
 {
   "TermsPage": {
-    "title": "Términos y condiciones",
+    "title": "Termos e Condições",
     "listTerms": {
       "term1": {
-        "term": "Condiciones y Servicios:",
-        "text": "Tener en cuenta que las cotizaciones no garantizan disponibilidad ni tarifas. Las mismas pueden sufrir cambios sin previo aviso."
+        "term": "Condições e Serviços:",
+        "text": "Observe que os orçamentos não garantem disponibilidade ou tarifas. Podem sofrer alterações sem aviso prévio."
       },
       "term2": {
-        "term": "Condiciones Programa:",
-        "text": "La cotización no implica reserva de servicios ni bloqueo de espacios, así como tampoco garantiza la disponibilidad de los mismos. Es decir que hasta el momento del pago o adelanto de dinero para tal servicio, la reserva no se encuentra efectuada."
+        "term": "Condições do Programa:",
+        "text": "O orçamento não implica reserva de serviços ou bloqueio de vagas, nem garante a sua disponibilidade. Ou seja, até o momento do pagamento ou adiantamento de dinheiro por tal serviço, a reserva não foi efetuada."
       },
       "term3": {
-        "term": "Disponibilidad:",
-        "text": "Todos los servicios están sujetos a condiciones climáticas imprevistas o previstas según la época del año, estado de la carretera, sugerencias de la autoridad de caminos y/o cualquier otra eventualidad que se considere relevante."
+        "term": "Disponibilidade:",
+        "text": "Todos os serviços estão sujeitos a condições climatéricas imprevistas ou previsíveis consoante a época do ano, estado das estradas, sugestões da autoridade rodoviária e/ou qualquer outra eventualidade que se considere relevante."
       },
       "term4": {
-        "term": "Servicios no incluidos:",
-        "text": "Traslados, desayunos, meriendas, cenas, almuerzos, otras comidas, bebidas o servicios NO especificados en la cotización reservada. Gastos ocasionados por el abandono del programa. Tarifas aéreas o terrestres de aproximación a Mendoza NO especificadas en la cotización reservada. Extras, opcionales y propinas. Gastos administrativos por uso de tarjeta de créditos. Seguros NO mencionados específicamente en la cotización que el pasajero haya reservado. Cualquier servicio o bien NO mencionado explícitamente en la cotización reservada por el pasajero."
+        "term": "Serviços não incluídos:",
+        "text": "Traslados, cafés da manhã, lanches, jantares, almoços, outras refeições, bebidas ou serviços NÃO especificados no orçamento reservado. Despesas causadas pelo abandono do programa. Tarifas aéreas ou terrestres de aproximação a Mendoza NÃO especificadas no orçamento reservado. Extras, opcionais e dicas. Despesas administrativas para uso de cartão de crédito. Seguro NÃO mencionado especificamente na cotação que o passageiro reservou. Qualquer serviço ou bem NÃO mencionado explicitamente no orçamento reservado pelo passageiro."
       }
     }
   }
