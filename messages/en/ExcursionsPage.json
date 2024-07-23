@@ -1,0 +1,295 @@
+{
+  "ExcursionsPage": {
+    "title": "Excursions",
+    "listExcursions": {
+      "excursion1": {
+        "title": "City Tour",
+        "description": "The tour includes a visit to the Mendoza Founding Area, the historic center of the old city, Plaza Pedro del Castillo and the Ruins of San Francisco. Then, in the “New City” you visit the satellite plazas. It continues to the General San Martín Park and the Cerro de la Gloria, where the historic monument to the Army of the Andes is located, which pays tribute to the successful liberation campaign. It ends at the Plaza Independencia.",
+        "listImages": {
+          "image1": {
+            "url": "/img/CityTour/city_2.jpg",
+            "alt": "City View"
+          },
+          "image2": {
+            "url": "/img/CityTour/city_1.jpg",
+            "alt": "Founding Area Museum"
+          },
+          "image3": {
+            "url": "/img/CityTour/city_3.jpg",
+            "alt": "San Martín Square"
+          },
+          "image4": {
+            "url": "/img/CityTour/city_4.jpg",
+            "alt": "Spain Square"
+          }
+        }
+      },
+      "excursion2": {
+        "title": "Villavicencio",
+        "description": "The tour begins leaving the city of Mendoza, along Route 52, the old route used to travel to Chile. Our first stop is at the Canota monument, until we reach the first Ranger station of the Villavicencio Natural Reserve. A site of delicate ecological balance, with an area of ​​some 70,000 hectares. Then, we will continue along the road of the 365 curves, which give the name to the route of the year and where we will travel part of the snail trail. Finally, we will end our tour at the historic Hotel Villavicencio and its gardens.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Villavicencio/villavicencio_2.jpg",
+            "alt": "View of Villavicencio Hotel"
+          },
+          "image2": {
+            "url": "/img/Villavicencio/villavicencio_4.jpg",
+            "alt": "Red fox"
+          },
+          "image3": {
+            "url": "/img/Villavicencio/villavicencio_5.jpg",
+            "alt": "View of the Caracoles Road"
+          }
+        }
+      },
+      "excursion3": {
+        "title": "Atuel Canyon",
+        "description": "Starting early from the city of Mendoza, we will travel along this beautiful adventure along the narrow Atuel Canyon to its mouth, several kilometers downstream of the Valle Grande reservoir, with a length of about 50 km and an average depth of 260 m. The erosion produced by the wind and the water of the Atuel River carved in other times surprising figures that today each have their name: the Beggar, the Coniferous Forest, the Hanging Gardens, the Elephant, the Lizard, and many more. In addition, you can also see the hydroelectric plants of the Atuel energy generation system. In Valle Grande we finish the tour enjoying lunch and optional activities such as a walk along the Valle Grande Dam or sailing on the Atuel River.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Atuel/atuel_1.jpg",
+            "alt": "Photo of the Atuel Canyon"
+          },
+          "image2": {
+            "url": "/img/Atuel/atuel_2.jpg",
+            "alt": "Photo of the Atuel Canyon"
+          },
+          "image3": {
+            "url": "/img/Atuel/atuel_4.jpg",
+            "alt": "Photo of the Atuel Canyon"
+          },
+          "image4": {
+            "url": "/img/Atuel/atuel_3.jpg",
+            "alt": "Photo of the Atuel Canyon"
+          }
+        }
+      },
+      "excursion4": {
+        "title": "Aconcagua Park",
+        "description": "The experience begins by traveling along RP86, through the landscapes of Cacheuta, until crossing the tunnel that connects this town with Potrerillos. We contemplate the wonderful view of the Cordón del Plata, the main source of water in Mendoza. Crossing tunnels and bridges, we will reach the Uspallata Valley, where we make a strategic stop. Once we continue along the route, we prepare for the highlight of the trip: the Aconcagua Provincial Park, where we take a walk of approximately 2 hours, to the Laguna de Horcones viewpoint, where you can see the South Wall and the summit of the highest mountain in America (6962 meters above sea level). We invite you to experience the sensation of standing in front of Mount Aconcagua!",
+        "listImages": {
+          "image1": {
+            "url": "/img/Aconcagua/aconcagua_5.jpg",
+            "alt": "View of Aconcagua Hill"
+          },
+          "image2": {
+            "url": "/img/Aconcagua/aconcagua_6.jpg",
+            "alt": "View of the Aconcagua Hill Poster"
+          },
+          "image3": {
+            "url": "/img/Aconcagua/aconcagua_3.jpg",
+            "alt": "View of Aconcagua Hill"
+          },
+          "image4": {
+            "url": "/img/Aconcagua/aconcagua_4.jpg",
+            "alt": "Photo of Horcones Lagoon"
+          }
+        }
+      },
+      "excursion5": {
+        "title": "High Mountain",
+        "description": "Exciting excursion along the famous RN7. We will go through the tunnel of the town of Cacheuta, the Potrerillos dam with a view of the Altas Cumbres in the background. We will reach the mountain town of Uspallata, a historic place, scene of the Huarpe indigenous occupation in pre-Hispanic times and marks the transition between the precordillera and the front mountain range. Stop for breakfast in Uspallata and continue the tour through a mountainous landscape of the charming villages of Picheuta, Polvaredas and Punta de Vacas, the old ski resort, Los Penitentes. We will come across the iconic Puente del Inca, a natural monument of astonishing geological beauty, recognized as a World Heritage Site by UNESCO. Kilometers further on, the viewpoint of Cerro Aconcagua. The tour ends at the border with Chile, Las Cuevas, a charming town built in a distinctive European style. There you will enjoy a Mendoza lunch in a typical mountain restaurant.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Alta/alta_4.jpg",
+            "alt": "Inca Bridge"
+          },
+          "image2": {
+            "url": "/img/Alta/alta_6.webp",
+            "alt": "Christ Redeemer"
+          },
+          "image3": {
+            "url": "/img/Alta/alta_1.webp",
+            "alt": "Cacheuta-Potrerillos Tunnel"
+          },
+          "image4": {
+            "url": "/img/Alta/alta_7.jpg",
+            "alt": "The Caves"
+          }
+        }
+      },
+      "excursion6": {
+        "title": "Cacheuta Thermal Park",
+        "description": "Located 38 kilometers from the city of Mendoza, you will find the Cacheuta Thermal Water Park. This thermal oasis is surrounded by the majestic Andes Mountains and extends along the banks of the Mendoza River. The park offers a varied selection of pools with different temperatures and a variety of hydrotherapies. For families, there is an interactive area for children and four exciting slides. The park has cozy barbecue areas and grills, perfect for a picnic. In addition, there is a store where you can buy everything you need to enjoy your day to the fullest. Those who prefer not to cook can delight in the gastronomic offer of the restaurants in the town of Cacheuta.",
+        "listImages": {
+          "image1": {
+            "url": "/img/CacheutaTermas/cacheuta_1.jpg",
+            "alt": "Entrance to the Cacheuta Hot Springs"
+          },
+          "image2": {
+            "url": "/img/CacheutaTermas/cacheuta_4.jpg",
+            "alt": "Cacheuta Thermal Park"
+          },
+          "image3": {
+            "url": "/img/CacheutaTermas/cacheuta_3.jpg",
+            "alt": "Cacheuta Thermal Park"
+          },
+          "image4": {
+            "url": "/img/CacheutaTermas/cacheuta_2.png",
+            "alt": "Cacheuta Thermal Park"
+          }
+        }
+      },
+      "excursion7": {
+        "title": "The Reyunos",
+        "description": "Travel to Villa 25 de Mayo, a place that houses the historic center of San Rafael’s first foundation. Here, you will be able to immerse yourself in the history of the region as you explore its cobblestone streets and old buildings. The architecture and atmosphere of the village will transport you to bygone eras, offering you a unique insight into Mendoza’s heritage. Then, you will continue to Presa Los Reyunos, an impressive reservoir located in the Diamante River basin. Construction of this dam began in 1980, and its natural setting is simply stunning. Surrounded by majestic mountains and crystal-clear waters, Presa Los Reyunos offers a landscape of incomparable beauty. Here, you will have the opportunity to admire the magnitude of the dam and enjoy the panoramic views, as well as go catamaran, zip-lining, canoeing, rafting.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Reyunos/reyunos_1.jpg",
+            "alt": "Photo of the Los Reyunos Dam"
+          },
+          "image2": {
+            "url": "/img/Reyunos/reyunos_2.webp",
+            "alt": "Zipline at Los Reyunos Dam"
+          },
+          "image3": {
+            "url": "/img/Reyunos/reyunos_3.jpg",
+            "alt": "Rafting in Los Reyunos Dam"
+          },
+          "image4": {
+            "url": "/img/Reyunos/reyunos_4.jpg",
+            "alt": "Rock formation in the Los Reyunos Dam"
+          }
+        }
+      },
+      "excursion8": {
+        "title": "Malargüe",
+        "description": "Malargüe offers an extraordinary option for adventure and ecological tourism. Some of its most important attractions are La Caverna de las Brujas, La Laguna de la Niña Encantada and Pozo de las Ánimas. Although it also has a picturesque downtown area and large natural and wildlife reserves such as Laguna de Llancanelo and La Payunia. On this tour we will visit the first three attractions, but as you well know, at Your Tour we can design the trip to suit you.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Malargue/malargue_1.jpg",
+            "alt": "Witches' Cave"
+          },
+          "image2": {
+            "url": "/img/Malargue/malargue_2.jpg",
+            "alt": "Lagoon of the Enchanted Girl"
+          },
+          "image3": {
+            "url": "/img/Malargue/malargue_3.jpg",
+            "alt": "Well of Souls"
+          }
+        }
+      },
+      "excursion9": {
+        "title": "Sky Day in Las Leñas",
+        "description": "Discover Las Leñas, a paradise destination in the heart of the Andes Mountains, just 79 km from the city of Malargüe. This renowned ski resort is internationally famous for its ideal conditions for skiing and snowboarding in winter. With 14 lifts and 29 slopes classified for all levels, Las Leñas offers a skiable area of ​​approximately 65 km, including the longest descent in the country with 7,050 meters of extension that connects the Apolo, Neptuno and Venus slopes. In addition to its impressive slopes, Las Leñas offers impressive mountain landscapes under an unparalleled blue sky, which can also be enjoyed in summer. In this Andean paradise, you will find a welcoming atmosphere with gastronomic options in its Restaurant and Snack Bar, as well as a Ski Equipment Rental. Come and live an unforgettable winter experience in Las Leñas!",
+        "listImages": {
+          "image1": {
+            "url": "/img/LasLenas/lenas_1.jpg",
+            "alt": "las Leñas at Night"
+          },
+          "image3": {
+            "url": "/img/LasLenas/lenas_4.jpg",
+            "alt": "Las Leñas - Chairlifts"
+          },
+          "image4": {
+            "url": "/img/LasLenas/lenas_5.webp",
+            "alt": "Las Leñas - Inflatable boats"
+          },
+          "image5": {
+            "url": "/img/LasLenas/lenas_6.webp",
+            "alt": "Las Leñas - Sky Tracks"
+          }
+        }
+      },
+      "excursion10": {
+        "title": "Wineries in Half a Day",
+        "description": "We invite you to discover the rich history of our emblematic Malbec, learning about winemaking and enjoying beautiful landscapes in the Maipú region, a region known for producing some of the best wines and oils in the country, where some stand out such as Vistandes, Cavas de don Arturo, Domiciano, Florio and Cecchin. In addition to the wineries, we visit a boutique olive oil factory, where a guide will show us how Argentine olive oil is made, ending with a tasting of different oils, balsamic vinegar, pastes and various types of olives.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegaMedioDia/bodega_1.jpg",
+            "alt": "Vistandes Winery"
+          },
+          "image2": {
+            "url": "/img/BodegaMedioDia/bodega_2.jpg",
+            "alt": "Florio Winery"
+          },
+          "image3": {
+            "url": "/img/BodegaMedioDia/bodega_3.jpg",
+            "alt": "Cecchin Winery"
+          }
+        }
+      },
+      "excursion11": {
+        "title": "Wineries Valle de Uco",
+        "description": "Explore a unique wine region, where white grapes take on a delicious acidity and reds are distinguished by their tannins and vibrant color. Join our exclusive tour, specially designed for wine lovers looking to appreciate every nuance of this exquisite drink. Embark on an unforgettable experience visiting three of the most outstanding wineries in the region. It begins with the prestigious Masi winery, followed by a visit to Jean Bousquet, and culminates in one of the renowned Atamisque winery or Finca La Azul winery depending on availability. At the latter, enjoy a gourmet lunch paired with the best local labels. Enjoy a day of high-end wines in this world-acclaimed region..",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegaValleUco/uco_1.jpg",
+            "alt": "Masi Winery"
+          },
+          "image2": {
+            "url": "/img/BodegaValleUco/uco_2.jpg",
+            "alt": "Jean Bousquet Winery"
+          },
+          "image3": {
+            "url": "/img/BodegaValleUco/uco_3.jpg",
+            "alt": "Atamisque Winery"
+          },
+          "image4": {
+            "url": "/img/BodegaValleUco/uco_4.jpg",
+            "alt": "La Azul Winery"
+          }
+        }
+      },
+      "excursion12": {
+        "title": "Combined Wineries Full Day",
+        "description": "We will travel to our first visit with tasting at Alta Vista winery located in Chacras de Coria (Luján de Cuyo), where we will learn about the long history of the family and its historic vineyards. A short distance away, already in the Maipú region, we will visit Trivento winery, one of the main wineries producing and exporting wines in Argentina. Since 2013, Trivento is the number 1 Argentine wine brand in sales in Europe. We will have lunch at the Tempus Alba winery and we will finish our tour with a visit to the boutique olive oil factory Laur, where a guide will show us how Argentine olive oil is made, culminating with a tasting of different oils, balsamic vinegar, dehydrated tomatoes, pastas and different types of olives.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_1.jpg",
+            "alt": "Alta Vista Winery"
+          },
+          "image2": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_2.jpg",
+            "alt": "Trivento Winery"
+          },
+          "image3": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_3.jpg",
+            "alt": "Tempus Alba Winery"
+          },
+          "image4": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_4.jpg",
+            "alt": "Laur Olive Oil Factory"
+          }
+        }
+      },
+      "excursion13": {
+        "title": "Family Wineries",
+        "description": "On this tour we visit 3 wineries in the Luján de Cuyo region with a small production focused on the high quality of their wines. We will start with Casa Carmelo Patti, a pure-bred winemaker, who makes wine in an old winery and in his own garage. Those who visit the winery are personally accompanied by Carmelo on a friendly walk through his property, where he enthusiastically explains the different processes and tells his personal story. We continue our tour to Carinae, in Cruz de Piedra-Maipú, a small winery dedicated to the production of high-quality wines with low-yield grapes in the most traditional area of ​​the Argentine wine industry. Lunch is at the Clos de Chacras or Roberto Bonfanti winery. Both are family-run wineries, produce high-end wines and offer a great wine and gastronomic experience..",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasFamiliares/carmelopatti.webp",
+            "alt": "Carmelo Patti House"
+          },
+          "image2": {
+            "url": "/img/BodegasFamiliares/carinae.webp",
+            "alt": "Carinae Winery"
+          },
+          "image3": {
+            "url": "/img/BodegasFamiliares/closdechacras.jpg",
+            "alt": "Clos de Chacras Winery"
+          },
+          "image4": {
+            "url": "/img/BodegasFamiliares/robertobonfanti.jpg",
+            "alt": "Food Court at Roberto Bonfanti Winery"
+          }
+        }
+      },
+      "excursion14": {
+        "title": "Catena Zapata & El Enemigo",
+        "description": "We visit Catena Zapata, founded in 1902. Recognized for its pioneering role in reviving the Malbec variety and discovering the high altitude terroirs at the foot of the Andes Mountains. At noon we conclude this excursion where we will visit Casa Vigil located in Maipú to enjoy a relaxed 3-course lunch in small groups paired with Gran Enemigo wines. A place inspired by the magical world of Dante Alighieri's Divine Comedy, which invites you to experience the charm of wine, gastronomy and literature fused in a unique wine tourism proposal.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasVarias/Bodega-Catena-Zapata.jpg",
+            "alt": "Catena Zapata Winery"
+          },
+          "image2": {
+            "url": "/img/BodegasVarias/casa-vigil.jpg",
+            "alt": "Casa Vigil - El Enemigo"
+          }
+        }
+      }
+    }
+  }
+}

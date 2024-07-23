@@ -2,9 +2,17 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { useLocale, useTranslations } from 'next-intl';
 
-const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, SubmitText }) => {
-  const TermsLink = '/terms';
+export default function ContactForm({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuantity, Message, TermsText1, TermsText2, SubmitText }) {
+  const localActive = useLocale()
+
+  // Function to construct the href correctly
+  const constructHref = (path) => {
+    // Remove any leading slash from path
+    const cleanedPath = path.startsWith('/') ? path.substring(1) : path;
+    return `/${localActive}/${cleanedPath}`;
+  };
 
   return (
     <form
@@ -61,19 +69,18 @@ const ContactForm = ({ EmailAddress, FirstName, LastName, PhoneNumber, PaxQuanti
             rel="noopener noreferrer"
             title="Terms and Conditions"
             aria-label="Terms and Conditions"
-            href={TermsLink}
-            className="text-sky-700 hover:underline dark:text-sky-500"
+            href={constructHref('/terms')}
+            className="underline opacity-90 text-sky-700 hover:opacity-100 dark:text-sky-500"
           >{TermsText2}</Link>
         </label>
       </div>
 
       {/* Button */}
-      <button type="submit" className="text-white uppercase hover:bg-sky-600 bg-sky-700 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-sky-700 dark:hover:bg-sky-700 dark:focus:ring-sky-600">{SubmitText}</button>
+      <button type="submit" className="text-white uppercase hover:opacity-100 bg-sky-700 opacity-90 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-sky-700 dark:opacity-100">{SubmitText}</button>
 
-      <input type="hidden" name="_next" defaultValue="http://yourtour.ar" />
+      <input type="hidden" name="_next" defaultValue="http://localhost:3000/contact" />
       <input type="hidden" name="_captcha" defaultValue="false" />
     </form>
   );
 }
 
-export default ContactForm;

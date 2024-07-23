@@ -1,0 +1,295 @@
+{
+  "ExcursionsPage": {
+    "title": "Excursões",
+    "listExcursions": {
+      "excursion1": {
+        "title": "City Tour",
+        "description": "O passeio inclui um passeio pela Área Fundamental de Mendoza, pelo centro histórico da cidade velha, pela Plaza Pedro del Castillo e pelas Ruínas de São Francisco. Depois, na “Cidade Nova” você visita as praças satélites. Continue até o Parque General San Martín e o Cerro de la Gloria, onde está localizado o monumento histórico ao Exército dos Andes, que presta homenagem ao sucesso da campanha de libertação. Termina na Praça Independência.",
+        "listImages": {
+          "image1": {
+            "url": "/img/CityTour/city_2.jpg",
+            "alt": "Vista da cidade"
+          },
+          "image2": {
+            "url": "/img/CityTour/city_1.jpg",
+            "alt": "Museu da Área Fundacional"
+          },
+          "image3": {
+            "url": "/img/CityTour/city_3.jpg",
+            "alt": "Praça San Martín"
+          },
+          "image4": {
+            "url": "/img/CityTour/city_4.jpg",
+            "alt": "Plaça España"
+          }
+        }
+      },
+      "excursion2": {
+        "title": "Villavicencio",
+        "description": "O passeio começa saindo da cidade de Mendoza, percorrendo a rota nº 52, antiga rota utilizada para o Chile. Nossa primeira parada será no monumento Canota, até chegar ao primeiro trecho de Guarda-parque da Reserva Natural Villavicencio. Um local de delicado equilíbrio ecológico, que abrange cerca de 70.000 hectares. Depois, continuaremos pelo caminho das 365 curvas, que dá nome ao percurso do ano e onde percorremos parte do caminho do caracol. Por fim, culminamos o nosso passeio no histórico Hotel Villavicencio e nos seus jardins.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Villavicencio/villavicencio_2.jpg",
+            "alt": "Vista Hotel Villavicencio"
+          },
+          "image2": {
+            "url": "/img/Villavicencio/villavicencio_4.jpg",
+            "alt": "Raposa vermelha"
+          },
+          "image3": {
+            "url": "/img/Villavicencio/villavicencio_5.jpg",
+            "alt": "Vista da trilha do caracol"
+          }
+        }
+      },
+      "excursion3": {
+        "title": "Cânion Atuel",
+        "description": "Saindo cedo da cidade de Mendoza percorreremos esta bela aventura pelo estreito Canyon Atuel até sua foz vários quilômetros a jusante do reservatório Valle Grande, com extensão de cerca de 50 km e profundidade média de 260 m. A erosão produzida pelo vento e pela água do rio Atuel esculpiu figuras surpreendentes em outros tempos que hoje cada uma tem seu nome: o Mendigo, a Floresta de Coníferas, os Jardins Suspensos, o Elefante, o Lagarto e muitos mais. Além disso, você também pode conhecer as usinas hidrelétricas do sistema de geração de energia Atuel. Em Valle Grande finalizaremos o passeio desfrutando de almoço e atividades opcionais como caminhada pela represa Valle Grande ou navegação pelo rio Atuel.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Atuel/atuel_1.jpg",
+            "alt": "Cânion Atuel"
+          },
+          "image2": {
+            "url": "/img/Atuel/atuel_2.jpg",
+            "alt": "Cânion Atuel"
+          },
+          "image3": {
+            "url": "/img/Atuel/atuel_4.jpg",
+            "alt": "Cânion Atuel"
+          },
+          "image4": {
+            "url": "/img/Atuel/atuel_3.jpg",
+            "alt": "Cânion Atuel"
+          }
+        }
+      },
+      "excursion4": {
+        "title": "Parque Aconcágua",
+        "description": "A experiência começa percorrendo o RP86, pelas paisagens de Cacheuta até cruzar o túnel que liga esta localidade a Potrerillos. Contemplamos a maravilhosa vista do Cordón del Plata, principal fonte de água de Mendoza. Atravessando túneis e pontes chegaremos ao Vale Uspallata, onde faremos uma parada estratégica. Continuando o percurso, nos preparamos para o ponto alto do passeio: o Parque Provincial Aconcágua, onde faremos uma caminhada de aproximadamente 2 horas, até o mirante da Laguna de Horcones, onde podemos avistar a Muralha Sul e o Muro Sul. cume da montanha mais alta da América (6.962 metros acima do nível do mar). Convidamos você a viver a sensação de estar diante do Cerro Aconcágua!",
+        "listImages": {
+          "image1": {
+            "url": "/img/Aconcagua/aconcagua_5.jpg",
+            "alt": "Vista para o Cerro Aconcágua"
+          },
+          "image2": {
+            "url": "/img/Aconcagua/aconcagua_6.jpg",
+            "alt": "Vista da placa do Cerro Aconcágua"
+          },
+          "image3": {
+            "url": "/img/Aconcagua/aconcagua_3.jpg",
+            "alt": "Vista para o Cerro Aconcágua"
+          },
+          "image4": {
+            "url": "/img/Aconcagua/aconcagua_4.jpg",
+            "alt": "Foto Lagoa Horcones"
+          }
+        }
+      },
+      "excursion5": {
+        "title": "Alta Montanha",
+        "description": "Emocionante excursão pela famosa RN7. Percorreremos o túnel da cidade de Cacheuta, a barragem de Potrerillos com vista para as Altas Cumbres ao fundo. Chegaremos ao povoado montanhoso de Uspallata, lugar histórico, cenário da ocupação indígena Huarpe na época pré-hispânica e que marca a transição entre o sopé e a cordilheira frontal. Parada para café da manhã em Uspallata e continuação do passeio por uma paisagem montanhosa dos charmosos vilarejos de Picheuta, Polvaredas e Punta de Vacas, a antiga estação de esqui Los Penitentes. Encontraremos a icônica Puente del Inca, um monumento natural de surpreendente beleza geológica, reconhecido como Patrimônio Mundial pela UNESCO. Quilômetros à frente, o mirante do Cerro Aconcágua. O passeio culmina na fronteira com o Chile, Las Cuevas, uma encantadora cidade construída em estilo europeu distinto. Lá você desfrutará de um almoço mendocino em um típico restaurante de montanha.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Alta/alta_4.jpg",
+            "alt": "Ponte Inca"
+          },
+          "image2": {
+            "url": "/img/Alta/alta_6.webp",
+            "alt": "Cristo Redentor"
+          },
+          "image3": {
+            "url": "/img/Alta/alta_1.webp",
+            "alt": "Túnel Cacheuta-Potrerillos"
+          },
+          "image4": {
+            "url": "/img/Alta/alta_7.jpg",
+            "alt": "Las Cuevas"
+          }
+        }
+      },
+      "excursion6": {
+        "title": "Parque Termal Cacheuta",
+        "description": "A 38 quilômetros da cidade de Mendoza, fica o Parque Aquático Termal de Cacheuta. Este oásis termal está rodeado pela majestosa Cordilheira dos Andes e se estende ao longo das margens do rio Mendoza. O parque oferece uma variada seleção de piscinas com temperaturas variadas e diversas hidroterapias. Para as famílias, é oferecida uma área infantil interativa e quatro slides emocionantes. O parque conta com aconchegantes churrasqueiras e churrasqueiras, perfeitas para um piquenique. Além disso, existe um armazém onde poderá adquirir tudo o que necessita para aproveitar ao máximo o seu dia. Quem preferir não cozinhar pode deliciar-se com a oferta gastronómica dos restaurantes da Vila de Cacheuta..",
+        "listImages": {
+          "image1": {
+            "url": "/img/CacheutaTermas/cacheuta_1.jpg",
+            "alt": "Entrada Termas de Cacheuta"
+          },
+          "image2": {
+            "url": "/img/CacheutaTermas/cacheuta_4.jpg",
+            "alt": "Parque Termal Cacheuta"
+          },
+          "image3": {
+            "url": "/img/CacheutaTermas/cacheuta_3.jpg",
+            "alt": "Excursão"
+          },
+          "image4": {
+            "url": "/img/CacheutaTermas/cacheuta_2.png",
+            "alt": "Parque Termal Cacheuta"
+          }
+        }
+      },
+      "excursion7": {
+        "title": "Os Reyunos",
+        "description": "Viaje para Villa 25 de Mayo, local que abriga o centro histórico da primeira fundação de San Rafael. Aqui, você pode mergulhar na história da região enquanto explora suas ruas de paralelepípedos e edifícios antigos. A arquitetura e o ambiente da vila irão transportá-lo a épocas passadas, oferecendo-lhe uma visão única do patrimônio de Mendoza. Em seguida, continuaremos em direção à Presa Los Reyunos, um impressionante reservatório localizado na bacia do rio Diamante. A construção desta barragem começou em 1980 e a sua envolvente natural é simplesmente deslumbrante. Cercada por montanhas majestosas e águas cristalinas, a Barragem Los Reyunos oferece uma paisagem de beleza incomparável. Aqui, você terá a oportunidade de admirar a magnitude da barragem e apreciar as vistas panorâmicas, além de praticar catamarã, tirolesa, canoagem, rafting.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Reyunos/reyunos_1.jpg",
+            "alt": "Barragem Los Reyunos"
+          },
+          "image2": {
+            "url": "/img/Reyunos/reyunos_2.webp",
+            "alt": "Tirolesa na represa Los Reyunos"
+          },
+          "image3": {
+            "url": "/img/Reyunos/reyunos_3.jpg",
+            "alt": "Rafting na Barragem Los Reyunos"
+          },
+          "image4": {
+            "url": "/img/Reyunos/reyunos_4.jpg",
+            "alt": "Formação rochosa na barragem de Los Reyunos"
+          }
+        }
+      },
+      "excursion8": {
+        "title": "Malargüe",
+        "description": "Malargüe oferece uma extraordinária opção de turismo de aventura e ecológico. Algumas de suas atrações mais importantes são a Caverna das Bruxas, a Lagoa da Menina Encantada e o Poço das Almas. Embora também possua um pitoresco centro da cidade e grandes reservas naturais e de fauna como a Laguna de Llancanelo e Payunia. Neste passeio visitaremos as três primeiras atrações, mas como você bem sabe, na Your Tour podemos desenhar a viagem à sua medida.",
+        "listImages": {
+          "image1": {
+            "url": "/img/Malargue/malargue_1.jpg",
+            "alt": "Caverna das Bruxas"
+          },
+          "image2": {
+            "url": "/img/Malargue/malargue_2.jpg",
+            "alt": "Lagoa da Menina Encantada"
+          },
+          "image3": {
+            "url": "/img/Malargue/malargue_3.jpg",
+            "alt": "Bem das Almas"
+          }
+        }
+      },
+      "excursion9": {
+        "title": "Sky Day Las Leñas",
+        "description": "Conheça Las Leñas, um destino paradisíaco no coração da Cordilheira dos Andes, a apenas 79 km da cidade de Malargüe. Esta renomada estação de esqui é internacionalmente famosa por suas condições ideais para esqui e snowboard no inverno. Com 14 teleféricos e 29 pistas classificadas para todos os níveis, Las Leñas oferece uma área de esqui de aproximadamente 65 km, incluindo a descida mais longa do país com 7.050 metros de extensão que liga as pistas Apolo, Neptuno e Vênus. Além de suas impressionantes encostas, Las Leñas oferece impressionantes paisagens de colinas sob um céu azul incomparável, que também podem ser apreciadas no verão. Neste paraíso andino você encontrará um ambiente aconchegante com opções gastronômicas em seu Restaurante e Lanchonete, além de Aluguel de Equipamentos de Esqui. Venha viver uma experiência de inverno inesquecível em Las Leñas!",
+        "listImages": {
+          "image1": {
+            "url": "/img/LasLenas/lenas_1.jpg",
+            "alt": "Las Leñas à noite"
+          },
+          "image3": {
+            "url": "/img/LasLenas/lenas_4.jpg",
+            "alt": "Las Leñas Aerosillas"
+          },
+          "image4": {
+            "url": "/img/LasLenas/lenas_5.webp",
+            "alt": "Las Leñas Gomones"
+          },
+          "image5": {
+            "url": "/img/LasLenas/lenas_6.webp",
+            "alt": "Trilhas celestes de Las Leñas"
+          }
+        }
+      },
+      "excursion10": {
+        "title": "Vinícolas de Meio Dia",
+        "description": "Convidamos você a descobrir a rica história do nosso emblemático Malbec, aprendendo sobre enologia e desfrutando de belas paisagens da região de Maipú, região conhecida por produzir alguns dos melhores vinhos e azeites do país, onde se destacam alguns como Vistandes, Cavas de Don Arturo, Domiciano, Florio e Cecchin. Além das vinícolas, visitamos uma fábrica boutique de azeites, onde um guia nos mostrará como é feito o azeite argentino, finalizando com uma degustação de diferentes azeites, vinagre balsâmico, pastas e diversos tipos de azeitonas.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegaMedioDia/bodega_1.jpg",
+            "alt": "Vinícola Vistandes"
+          },
+          "image2": {
+            "url": "/img/BodegaMedioDia/bodega_2.jpg",
+            "alt": "Vinícola Florio"
+          },
+          "image3": {
+            "url": "/img/BodegaMedioDia/bodega_3.jpg",
+            "alt": "Vinícola Cecchin"
+          }
+        }
+      },
+      "excursion11": {
+        "title": "Vinícolas Vale de Uco",
+        "description": "Explore uma região vinícola única, onde as uvas brancas ganham uma acidez deliciosa e os tintos se distinguem pelos taninos e pela cor vibrante. Participe do nosso tour exclusivo, especialmente elaborado para os amantes do vinho que buscam apreciar cada nuance desta bebida requintada. Embarque em uma experiência inesquecível visitando três das vinícolas mais destacadas da região. Começa com a prestigiosa vinícola Masi, seguida de uma visita a Jean Bousquet, e culmina em uma das renomadas vinícolas Atamisque ou Finca La Azul, dependendo da disponibilidade. Neste último, poderá desfrutar de um almoço gourmet acompanhado dos melhores rótulos locais. Desfrute de vinhos de alta altitude nesta região mundialmente aclamada por um dia.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegaValleUco/uco_1.jpg",
+            "alt": "Vinícola Masi"
+          },
+          "image2": {
+            "url": "/img/BodegaValleUco/uco_2.jpg",
+            "alt": "Vinícola Jean Bousquet"
+          },
+          "image3": {
+            "url": "/img/BodegaValleUco/uco_3.jpg",
+            "alt": "Vinícola Atamisque"
+          },
+          "image4": {
+            "url": "/img/BodegaValleUco/uco_4.jpg",
+            "alt": "Vinícola La Azul"
+          }
+        }
+      },
+      "excursion12": {
+        "title": "Vinícolas Combinadas de Dia Inteiro",
+        "description": "Viaje para a nossa primeira visita com uma degustação na vinícola Alta Vista localizada em Chacras de Coria (Luján de Cuyo), onde conheceremos a longa história da família e seus vinhedos históricos. A pouca distância, já na região de Maipú, visitaremos a vinícola Trivento, uma das principais vinícolas produtoras e exportadoras de vinhos da Argentina. Desde 2013, Trivento é a marca de vinhos argentinos número 1 em vendas na Europa. Almoçamos na vinícola Tempus Alba e encerramos nosso passeio com uma visita à boutique fábrica de azeites Laur, onde um guia nos mostrará como é feito o azeite argentino, culminando com uma degustação de diferentes azeites, aceto balsâmico, tomate desidratado. , massas e diferentes tipos de azeitonas.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_1.jpg",
+            "alt": "Vinícola Alta Vista"
+          },
+          "image2": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_2.jpg",
+            "alt": "Vinícola Trivento"
+          },
+          "image3": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_3.jpg",
+            "alt": "Vinícola Tempus Alba"
+          },
+          "image4": {
+            "url": "/img/BodegasFullDayCombinadas/bodega_4.jpg",
+            "alt": "Olivicultor Laur"
+          }
+        }
+      },
+      "excursion13": {
+        "title": "Vinícolas Familiares",
+        "description": "Neste passeio visitaremos 3 vinícolas da região de Luján de Cuyo com uma pequena produção focada na alta qualidade de seus vinhos. Começaremos pela Casa Carmelo Patti, um enólogo de raça pura, que produz vinho numa antiga adega e na sua própria garagem. Quem visita a adega é acompanhado pessoalmente por Carmelo num simpático passeio pela sua propriedade, onde explica com entusiasmo os diferentes processos e conta a sua história pessoal. Continuamos nossa viagem até Carinae, em Cruz de Piedra-Maipú, uma pequena vinícola dedicada à produção de vinhos de alta qualidade com uvas de baixo rendimento na área mais tradicional da vitivinicultura argentina. O almoço é na vinícola Clos de Chacras ou Roberto Bonfanti. Ambas são tradicionais vinícolas familiares, produzem vinhos de alto padrão e oferecem uma ótima experiência de enoturismo e gastronomia.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasFamiliares/carmelopatti.webp",
+            "alt": "Casa Carmelo Patti"
+          },
+          "image2": {
+            "url": "/img/BodegasFamiliares/carinae.webp",
+            "alt": "Vinícola Carinae"
+          },
+          "image3": {
+            "url": "/img/BodegasFamiliares/closdechacras.jpg",
+            "alt": "Vinícola Clos de Chacras"
+          },
+          "image4": {
+            "url": "/img/BodegasFamiliares/robertobonfanti.jpg",
+            "alt": "Praça de alimentação da Vinícola Roberto Bonfanti"
+          }
+        }
+      },
+      "excursion14": {
+        "title": "Catena Zapata & El Enemigo",
+        "description": "Visitamos Catena Zapata, fundada em 1902. Reconhecida por seu papel pioneiro ao ter reavivado a variedade Malbec e ter descoberto os terroirs altíssimos aos pés da Cordilheira dos Andes. Ao meio-dia concluiremos esta excursão onde visitaremos a Casa Vigil localizada em Maipú para desfrutar em pequenos grupos de um descontraído almoço de 3 pratos acompanhado de vinhos Gran Enemigo. Um lugar inspirado no mundo mágico da divina comédia de Dante Alighieri, que convida a experimentar o encanto do vinho, da gastronomia e da literatura fundidos numa proposta única de enoturismo.",
+        "listImages": {
+          "image1": {
+            "url": "/img/BodegasVarias/Bodega-Catena-Zapata.jpg",
+            "alt": "Vinícola Catena Zapata"
+          },
+          "image2": {
+            "url": "/img/BodegasVarias/casa-vigil.jpg",
+            "alt": "Vinícolas Casa Vigil - El Enemigo"
+          }
+        }
+      }
+    }
+  }
+}

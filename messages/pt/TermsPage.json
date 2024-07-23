@@ -1,0 +1,23 @@
+{
+  "TermsPage": {
+    "title": "Termos e Condições",
+    "listTerms": {
+      "term1": {
+        "term": "Condições e Serviços:",
+        "text": "Observe que os orçamentos não garantem disponibilidade ou tarifas. Podem sofrer alterações sem aviso prévio."
+      },
+      "term2": {
+        "term": "Condições do Programa:",
+        "text": "O orçamento não implica reserva de serviços ou bloqueio de vagas, nem garante a sua disponibilidade. Ou seja, até o momento do pagamento ou adiantamento de dinheiro por tal serviço, a reserva não foi efetuada."
+      },
+      "term3": {
+        "term": "Disponibilidade:",
+        "text": "Todos os serviços estão sujeitos a condições climatéricas imprevistas ou previsíveis consoante a época do ano, estado das estradas, sugestões da autoridade rodoviária e/ou qualquer outra eventualidade que se considere relevante."
+      },
+      "term4": {
+        "term": "Serviços não incluídos:",
+        "text": "Traslados, cafés da manhã, lanches, jantares, almoços, outras refeições, bebidas ou serviços NÃO especificados no orçamento reservado. Despesas causadas pelo abandono do programa. Tarifas aéreas ou terrestres de aproximação a Mendoza NÃO especificadas no orçamento reservado. Extras, opcionais e dicas. Despesas administrativas para uso de cartão de crédito. Seguro NÃO mencionado especificamente na cotação que o passageiro reservou. Qualquer serviço ou bem NÃO mencionado explicitamente no orçamento reservado pelo passageiro."
+      }
+    }
+  }
+}

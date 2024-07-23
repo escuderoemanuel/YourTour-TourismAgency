@@ -1,0 +1,31 @@
+{
+  "ServicesPage": {
+    "title": "Serviços",
+    "listServices": {
+      "service1": {
+        "title": "Transferência In-Out",
+        "description": "Você pode entrar em contato conosco para nos encarregarmos do seu traslado desde o seu local de chegada, seja o Terminal Rodoviário Estación del Sol ou o Aeroporto Internacional Gobernador Francisco Gabrielli até sua acomodação na cidade de Mendoza e arredores ou vice-versa.",
+        "imageUrl": "/img/Varias/cronos.jpg",
+        "imageAlt": "Fiat Cronos Branco"
+      },
+      "service2": {
+        "title": "Transferência Interna",
+        "description": "Você pode confiar em nós suas transferências durante a sua estadia, de e para onde quiser ou desejar. Desfrute de uma viagem confortável e segura com o Your Tour.",
+        "imageUrl": "/img/Varias/traffic.jpg",
+        "imageAlt": "Van de transporte de minivan branca"
+      },
+      "service3": {
+        "title": "Tour Personalizado",
+        "description": "O mais importante é que nos adaptemos às suas necessidades e desejos. É por isso que você pode nos solicitar excursões personalizadas, com os destinos e paradas que desejar. Porque no Your Tour a viagem é à sua medida.",
+        "imageUrl": "/img/Varias/cronos2.jpg",
+        "imageAlt": "Van de transporte de minivan branca"
+      },
+      "service4": {
+        "title": "Transferência de Negócios",
+        "description": "Levamos você às suas reuniões, conferências, congressos, coworkings com segurança e conforto para que você possa se concentrar apenas no trabalho ou no descanso enquanto garantimos que você chegará ao seu destino a tempo e adequadamente..",
+        "imageUrl": "/img/Varias/coche-alquiler.jpg",
+        "imageAlt": "Pessoa viajando a negócios"
+      }
+    }
+  }
+}

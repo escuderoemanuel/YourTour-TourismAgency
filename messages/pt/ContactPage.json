@@ -1,0 +1,14 @@
+{
+  "ContactPage": {
+    "email": "E-mail",
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "phoneNumber": "Telefone (54 011 2091218)",
+    "paxQuantity": "Quantidade de Pax",
+    "message": "Mensagem (data e serviços necessários)",
+    "termsText1": "Eu li e aceito o ",
+    "termsText2": "termos e condições.",
+    "termsLink": "/terms",
+    "submitText": "Enviar"
+  }
+}

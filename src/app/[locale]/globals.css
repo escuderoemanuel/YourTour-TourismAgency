@@ -1,0 +1,96 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary-hex: #FCF7FF;
+    --bg-secondary-hex: #47464B;
+    --text-primary-hex: #222222;
+    --text-secondary-hex: #f0f0f0;
+    --text-white-hex: #f8f4ff;
+    --text-mutted-hex: #292929;
+    --color-1: #FFF5FF;
+    --color-2: #FFE8F7;
+    --color-3: #FFDFCA;
+    --color-4: #B1BDC5;
+    --color-5: #DADDE2;
+    --color-6: #889FA5;
+    --color-7: #C6C6C6;
+    --color-8: #F2ECFF;
+    --color-9: #474554;
+    --color-10: #00C6CF;
+    --color-11: #7FD1AE;
+    --color-12: #FAF8FF;
+    --color-13: #5F5C6D;
+    --color-14: #F3DFCB;
+    --color-15: #C1EAF0;
+    --color-16: #C6C6C6;
+    --color-17: #AEB0B6;
+    --color-18: #919DA5;
+    --color-19: #909090;
+    --color-20: #474554;
+  }
+}
+
+body {
+  color: var(--text-primary-hex);
+  background: var(--text-secondary-hex);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-primary-color {
+    color: var(--text-primary-hex)
+  }
+
+  .text-secondary-color {
+    color: var(--text-secondary-hex)
+  }
+
+  .text-white-color {
+    color: var(--text-white-hex)
+  }
+
+  .text-mutted {
+    color: var(--text-mutted-hex)
+  }
+}
+
+.bgHeader {
+  background-color: var(--color-9);
+  background-color: var(--color-17);
+}
+
+.bgFooter {
+  background-color: var(--color-9);
+}
+
+.glassBackground {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-sky-700 {
+  background-color: #0369a1;
+}
+
+.bg-wine {
+  background-color: #800040;
+}
+
+#languageSelector {
+  padding: 4px 0 4px 4px;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 10 6'%3E%3Cpath stroke='%23f8f4ff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='m1 1 4 4 4-4'/%3E%3C/svg%3E");
+  background-position: right 4px center;
+  background-repeat: no-repeat;
+  background-size: .75em .75em;
+  padding: 4px 18px 4px 4px;
+  width: 90px;
+}

@@ -1,0 +1,14 @@
+{
+  "ContactPage": {
+    "email": "Correo Electrónico",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "phoneNumber": "Teléfono (54 011 2091218)",
+    "paxQuantity": "Cantidad de Pasajeros",
+    "message": "Mensaje (fecha y servicios requeridos)",
+    "termsText1": "He leído y acepto los ",
+    "termsText2": "términos y condiciones.",
+    "termsLink": "/terms",
+    "submitText": "Enviar"
+  }
+}
