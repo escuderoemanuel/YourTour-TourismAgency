@@ -38,9 +38,6 @@ export default function Header() {
             priority={true}
           />
         </Link>
-        {/* Verifica si las rutas se están generando correctamente */}
-        <p>{primaryLogoSrc}</p>
-        <p>{secondaryLogoSrc}</p>
         <NavLinks isScrolled={isScrolled} />
       </div>
     </section>

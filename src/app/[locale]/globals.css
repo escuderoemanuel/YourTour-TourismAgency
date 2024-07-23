@@ -64,8 +64,8 @@ body {
 }
 
 .bgHeader {
+  background-color: var(--color-19);
   background-color: var(--color-9);
-  background-color: var(--color-17);
 }
 
 .bgFooter {
