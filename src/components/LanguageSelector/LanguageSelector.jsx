@@ -25,13 +25,13 @@ export default function LanguageSelector({ isScrolled }) {
 
   return (
 
-    < div div className={`flex items-center justify-center ${isScrolled ? "text-primary-color" : "text-white-color"
-      }`
-    }>
+    <div className={`flex items-center justify-center ${isScrolled ? "text-primary-color" : "text-white-color"
+      }`}>
 
       <label>
         <p className="sr-only">{t('language')}</p>
       </label>
+
       <select
         id='languageSelector'
         className={`flex flex-row justify-between text-xs rounded border-1 border-gray-300 bg-transparent focus:border-gray-300  ${isScrolled ? "text-primary-color" : "text-secondary-color "}`}
@@ -43,13 +43,6 @@ export default function LanguageSelector({ isScrolled }) {
         <option className='text-primary-color' value="en">{t('english')}</option>
         <option className='text-primary-color' value="pt">{t('portuguese')}</option>
       </select>
-
-
-
-
-
     </ div>
-
-
   )
 }
