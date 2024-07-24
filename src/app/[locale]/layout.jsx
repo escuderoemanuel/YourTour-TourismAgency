@@ -28,14 +28,6 @@ export const metadata = {
         height: 200,
       },
     ],
-  },
-  keywords: {
-    name: "keywords",
-    content: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions",
-  },
-  robots: {
-    name: "robots",
-    content: "all",
   }
 };
 
