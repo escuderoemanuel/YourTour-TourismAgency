@@ -49,7 +49,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
 
-        <meta name="robots" content={metadata.robots.content} />
+        <meta name="robots" content="all" />
         <meta name="keywords" content="turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions" />
 
         <meta property="og:type" content={metadata.openGraph.type} />
