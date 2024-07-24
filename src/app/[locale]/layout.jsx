@@ -29,14 +29,6 @@ export const metadata = {
       },
     ],
   },
-  google: {
-    name: "google-site-verification",
-    content: "lzaAKkFRGWPg-dx0DDa_P2s4WB7YLg5sebUUDFE24dQ",
-  },
-  author: {
-    name: "author",
-    content: "Emanuel Escudero",
-  },
   keywords: {
     name: "keywords",
     content: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions",
@@ -44,10 +36,6 @@ export const metadata = {
   robots: {
     name: "robots",
     content: "all",
-  },
-  owner: {
-    name: "owner",
-    content: "Your Tour",
   }
 };
 
@@ -61,11 +49,8 @@ export default async function RootLayout({ children, params: { locale } }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
 
-        <meta name="google-site-verification" content={metadata.google.content} />
         <meta name="robots" content={metadata.robots.content} />
-        <meta name="author" content={metadata.author.content} />
-        <meta name="keywords" content={metadata.keywords.content} />
-        <meta name="owner" content={metadata.owner.content} />
+        <meta name="keywords" content="turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions" />
 
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:url" content={metadata.openGraph.url} />
