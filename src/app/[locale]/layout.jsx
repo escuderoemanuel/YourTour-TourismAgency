@@ -41,6 +41,9 @@ export default async function RootLayout({ children, params: { locale } }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="robots" content="all" />
+        <meta name="author" content="Emanuel Escudero" />
+        <meta name="keywords" content="turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions" />
+
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:title" content={metadata.openGraph.title} />
