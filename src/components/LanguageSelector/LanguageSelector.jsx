@@ -34,7 +34,7 @@ export default function LanguageSelector({ isScrolled }) {
 
       <select
         id='languageSelector'
-        className={`flex flex-row justify-between text-xs rounded border-1 border-gray-300 bg-transparent focus:border-gray-300  ${isScrolled ? "text-primary-color" : "text-secondary-color "}`}
+        className={`flex flex-row justify-between text-xs rounded border-1 border-gray-300 bg-transparent focus:border-gray-300  ${isScrolled ? "text-primary-color " : "text-secondary-color "}`}
         defaultValue={localActive}
         onChange={onSelectChange}
         disabled={isPending}
