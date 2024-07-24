@@ -12,7 +12,7 @@ export default function Contact() {
 
   return (
     <section className="max-w-screen-lg mx-auto min-h-screen flex flex-col items-center justify-center mt-0 p-4 sm:p-6 md:p-8 lg:p-14 lg:flex lg:flex-row lg:items-start lg:mt-16">
-        <h1 className="sr-only">{t('h1')}</h1>
+      <h1 className="sr-only">{t('h1')}</h1>
       <Image
         className="mb-8 w-44 md:w-64 h-auto lg:w-80 md:mb-12 lg:mr-12 lg:mt-12"
         src={imageContact}
