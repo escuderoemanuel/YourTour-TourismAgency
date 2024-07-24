@@ -16,6 +16,19 @@ export const metadata = {
   },
   title: "Your Tour ● Turism Agency",
   description: "Turism Agency Website located in Mendoza, Argentina",
+  openGraph: {
+    type: "website",
+    url: "https://yourtour.ar",
+    title: "Your Tour ● Turism Agency",
+    description: "Turism Agency Website located in Mendoza, Argentina",
+    images: [
+      {
+        url: "https://yourtour.ar/favicon.ico",
+        width: 200,
+        height: 200,
+      },
+    ],
+  }
 };
 
 export default async function RootLayout({ children, params: { locale } }) {
@@ -27,12 +40,22 @@ export default async function RootLayout({ children, params: { locale } }) {
         <link rel="icon" href={metadata.icons.icon} />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta name="robots" content="all" />
+        <meta property="og:type" content={metadata.openGraph.type} />
+        <meta property="og:url" content={metadata.openGraph.url} />
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta property="og:image" content={metadata.openGraph.images[0].url} />
+        <meta property="og:image:width" content={metadata.openGraph.images[0].width.toString()} />
+        <meta property="og:image:height" content={metadata.openGraph.images[0].height.toString()} />
       </Head>
       <NextIntlClientProvider messages={messages}>
         <body className={`${inter.className} antialiased bg-neutral-100`}>
           <Header />
-          {children}
-          <Whatsapp />
+          <main className='pb-2 md:pb-4'>
+            {children}
+            <Whatsapp />
+          </main>
           <Footer />
         </body>
       </NextIntlClientProvider>

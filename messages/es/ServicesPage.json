@@ -1,5 +1,6 @@
 {
   "ServicesPage": {
+    "h1": "Servicios - Your Tour",
     "title": "Servicios",
     "listServices": {
       "service1": {

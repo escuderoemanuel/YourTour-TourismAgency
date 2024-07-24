@@ -1,6 +1,7 @@
 {
   "TermsPage": {
-    "title": "Términos y condiciones",
+    "h1": "Términos y Condiciones - Your Tour",
+    "title": "Términos y Condiciones",
     "listTerms": {
       "term1": {
         "term": "Condiciones y Servicios:",

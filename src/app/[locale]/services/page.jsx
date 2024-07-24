@@ -12,6 +12,8 @@ export default function Services() {
 
   return (
     <section className="max-w-screen-lg mx-auto min-h-screen p-4 sm:p-6 md:p-8 lg:p-14 2xl:max-w-screen-2xl">
+      <h1 className="sr-only">{t('h1')}</h1>
+
       <div className="flex flex-col items-center md:items-stretch md:flex-row md:flex-wrap md:justify-center">
         {Object.values(listServices).map((service, index) => (
           <div key={index} className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-6 md:mx-4">
