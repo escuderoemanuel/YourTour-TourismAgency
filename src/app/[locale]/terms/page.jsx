@@ -18,7 +18,7 @@ export default function Terms() {
         {/* Terms */}
         {Object.values(listTerms).map((term, index) => (
           <div key={index}>
-            <h2 className="font-bold">{term.term}</h2>
+            <h3 className="font-bold">{term.term}</h3>
             <p className="mb-4" >{term.text}</p>
           </div>
         ))}
