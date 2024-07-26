@@ -15,14 +15,14 @@ export const metadata = {
     icon: favicon,
   },
   title: "Your Tour ● Agencia de Turismo",
-  description: "Sitio web de la agencia de turismo personalizado 'Your Tour', ubicada en Mendoza, Argentina",
+  description: "Agencia de turismo personalizado, ubicada en Mendoza, Argentina",
   keywords: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions, bodega, bodega, vino, vino, vendimia, nieve",
   robots: "all",
   openGraph: {
     type: "website",
     url: "https://yourtour.ar",
-    title: "Your Tour ● Turism Agency",
-    description: "Turism Agency Website located in Mendoza, Argentina",
+    title: "Your Tour ● Agencia de Turismo",
+    description: "Agencia de turismo personalizado, ubicada en Mendoza, Argentina",
     images: [
       {
         url: "https://yourtour.ar/og-image.jpg",
