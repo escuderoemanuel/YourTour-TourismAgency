@@ -16,6 +16,8 @@ export const metadata = {
   },
   title: "Your Tour ● Turism Agency",
   description: "Turism Agency Website located in Mendoza, Argentina",
+  keywords: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions",
+  robots: "all",
   openGraph: {
     type: "website",
     url: "https://yourtour.ar",
@@ -48,9 +50,8 @@ export default async function RootLayout({ children, params: { locale } }) {
         <link rel="icon" href={metadata.icons.icon} type="image/png" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-
-        <meta name="robots" content="all" />
-        <meta name="keywords" content="turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions" />
+        <meta name="robots" content={metadata.robots} />
+        <meta name="keywords" content={metadata.keywords} />
 
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:url" content={metadata.openGraph.url} />
