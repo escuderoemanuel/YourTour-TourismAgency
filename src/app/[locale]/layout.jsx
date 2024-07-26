@@ -8,7 +8,7 @@ import { getMessages } from "next-intl/server";
 import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
-const favicon = "/favicon.ico";
+const favicon = "/favicon.png";
 
 export const metadata = {
   icons: {
@@ -23,15 +23,15 @@ export const metadata = {
     description: "Turism Agency Website located in Mendoza, Argentina",
     images: [
       {
-        url: "https://yourtour.ar/favicon.ico",
-        width: 200,
-        height: 200,
+        url: "https://yourtour.ar/og-image.png",
+        width: 600,
+        height: 600,
       },
     ],
   },
   keywords: {
     name: "keywords",
-    content: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions",
+    content: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions, bodega, bodega, vino, vino, vendimia, nieve",
   },
   robots: {
     name: "robots",
@@ -45,7 +45,7 @@ export default async function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
       <Head>
-        <link rel="icon" href={metadata.icons.icon} />
+        <link rel="icon" href={metadata.icons.icon} type="image/png" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
 
