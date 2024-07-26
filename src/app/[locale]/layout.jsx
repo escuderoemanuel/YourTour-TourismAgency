@@ -14,9 +14,9 @@ export const metadata = {
   icons: {
     icon: favicon,
   },
-  title: "Your Tour ● Turism Agency",
-  description: "Turism Agency Website located in Mendoza, Argentina",
-  keywords: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions",
+  title: "Your Tour ● Agencia de Turismo",
+  description: "Sitio web de la agencia de turismo personalizado 'Your Tour', ubicada en Mendoza, Argentina",
+  keywords: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions, bodega, bodega, vino, vino, vendimia, nieve",
   robots: "all",
   openGraph: {
     type: "website",
@@ -25,19 +25,11 @@ export const metadata = {
     description: "Turism Agency Website located in Mendoza, Argentina",
     images: [
       {
-        url: "https://yourtour.ar/og-image.png",
-        width: 600,
-        height: 600,
+        url: "https://yourtour.ar/og-image.jpg",
+        width: 200,
+        height: 200,
       },
     ],
-  },
-  keywords: {
-    name: "keywords",
-    content: "turism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions, bodega, bodega, vino, vino, vendimia, nieve",
-  },
-  robots: {
-    name: "robots",
-    content: "all",
   }
 };
 

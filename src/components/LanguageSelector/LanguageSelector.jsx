@@ -28,7 +28,7 @@ export default function LanguageSelector({ isScrolled }) {
     <div className={`flex items-center justify-center ${isScrolled ? "text-primary-color" : "text-white-color"
       }`}>
 
-      <label>
+      <label htmlFor="languageSelector" className="sr-only" >
         <p className="sr-only">{t('language')}</p>
       </label>
 
