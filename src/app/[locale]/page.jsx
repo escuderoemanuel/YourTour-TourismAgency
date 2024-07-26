@@ -16,7 +16,8 @@ export default function HomePage() {
           <span>{t('paragraph1')} </span>
           <span className={`text-2xl me-1 ${praise.className}`}>{t('span')} </span>
           <span>{t('paragraph2')} </span>
-          <span className={`text-2xl ${praise.className}`}>{t('spanFinal')}</span>
+          <span className={`text-2xl me-1 ${praise.className}`}>{t('spanFinal')}</span>
+          <span>{t('slogan')} </span>
         </p>
       </div>
     </section>
