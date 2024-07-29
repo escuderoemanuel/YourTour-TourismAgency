@@ -1,5 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- ES -->
   <url>
     <loc>https://yourtour.ar</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
@@ -36,8 +35,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
-
-  <!-- EN -->
   <url>
     <loc>https://yourtour.ar/en</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
@@ -68,8 +65,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
-  
-  <!-- PT -->
   <url>
     <loc>https://yourtour.ar/pt</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
