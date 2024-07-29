@@ -1,4 +1,5 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- ES -->
   <url>
     <loc>https://yourtour.ar</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
@@ -6,25 +7,95 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://yourtour.ar/excursions</loc>
+    <loc>https://yourtour.ar/es</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/es/excursions</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourtour.ar/services</loc>
+    <loc>https://yourtour.ar/es/services</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourtour.ar/contact</loc>
+    <loc>https://yourtour.ar/es/contact</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourtour.ar/terms</loc>
+    <loc>https://yourtour.ar/es/terms</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- EN -->
+  <url>
+    <loc>https://yourtour.ar/en</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/en/excursions</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/en/services</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/en/contact</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/en/terms</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- PT -->
+  <url>
+    <loc>https://yourtour.ar/pt</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/pt/excursions</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/pt/services</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/pt/contact</loc>
+    <lastmod>2024-07-23T23:30:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://yourtour.ar/pt/terms</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
