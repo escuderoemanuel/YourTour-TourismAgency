@@ -1,4 +1,3 @@
-// src/app/page.jsx
 'use client';
 import { praise } from '../../ui/fonts';
 import HomeCarousel from '@/components/HomeCarousel/HomeCarousel';

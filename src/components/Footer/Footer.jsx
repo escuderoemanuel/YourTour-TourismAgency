@@ -76,7 +76,17 @@ export default function Footer() {
             </svg>
           </Link>
         </div>
-        <p className='text-xs text-secondary-color font-light'>{t('owner.copyright')}</p>
+        <p className='text-xs text-secondary-color font-light'>
+          {t('owner.copyright')}
+          <Link
+            className='ms-2 text-xs font-light underline decoration-1'
+            href={'https://yourtour.ar/sitemap.xml'}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Sitemap
+          </Link>
+        </p>
       </div>
 
       {/* DEV */}
