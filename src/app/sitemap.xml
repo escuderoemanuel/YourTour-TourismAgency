@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-   <url>
+  <url>
     <loc>https://yourtour.ar</loc>
     <lastmod>2024-10-15T23:30:24.021Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -97,4 +97,5 @@
     <loc>https://yourtour.ar/pt/terms</loc>
     <lastmod>2024-07-23T23:30:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
-   
+  </url>
+</urlset>
