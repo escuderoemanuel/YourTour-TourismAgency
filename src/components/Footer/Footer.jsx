@@ -77,7 +77,7 @@ export default function Footer() {
           <p className='text-xs text-secondary-color '>Mendoza - Argentina</p>
           <Link
             className='text-xs text-secondary-color underline decoration-1 font-extralight'
-            href={'https://yourtour.ar/sitemap.xml'}
+            href={'/sitemap.xml'}
             target='_blank'
             rel='noopener noreferrer'>Sitemap</Link>
         </div>
