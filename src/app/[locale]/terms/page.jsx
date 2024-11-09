@@ -11,10 +11,10 @@ export default function Terms() {
 
   return (
     <section className="max-w-screen-lg mx-auto min-h-screen align-middle p-4 sm:p-6 md:p-8 lg:p-10">
-      <h1 className="sr-only">{t('h1')}</h1>
 
       <div className="flex flex-col text-primary-color">
-        <h2 className="font-bold text-center uppercase mb-2 md:mb-4 lg:mb-6">{t('title')}</h2>
+        <h1 className="custom-title text-center uppercase underline mb-2 md:mb-4 lg:mb-6">{t('h1')}</h1>
+        <h2 className="sr-only">{t('h2')}</h2>
         {/* Terms */}
         {Object.values(listTerms).map((term, index) => (
           <div key={index}>

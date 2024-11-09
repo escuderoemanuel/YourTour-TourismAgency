@@ -84,6 +84,23 @@ body {
   background-color: #800040;
 }
 
+.custom-title {
+  font-family: 'raleway';
+  color: var(--bg-secondary-hex);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.custom-spam {
+  font-family: 'praise';
+  color: var(--bg-secondary-hex);
+  margin-right: .2rem;
+  font-size: 1.3em;
+}
+
 
 #languageSelector {
   padding: 4px 0 4px 4px;

@@ -1,6 +1,7 @@
 {
   "ServicesPage": {
-    "h1": "Servicios - Your Tour",
+    "h1": "Servicios de Turismo en Mendoza: Traslados, Guías y Más",
+    "h2": "Your Tour: Servicios Turísticos Complejos para Tu Visita a Mendoza",
     "title": "Servicios",
     "listServices": {
       "service1": {
