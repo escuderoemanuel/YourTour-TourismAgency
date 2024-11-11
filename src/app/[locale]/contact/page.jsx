@@ -4,6 +4,8 @@ import ContactForm from '@/components/ContactForm/ContactForm';
 import React from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { raleway } from '@/ui/fonts';
+
 
 const imageContact = '/img/contact3.svg';
 
@@ -12,7 +14,7 @@ export default function Contact() {
 
   return (
     <section className="max-w-screen-lg mx-auto min-h-screen p-4 sm:p-6 md:p-8 lg:p-14 2xl:max-w-screen-2xl">
-      <h1 className="custom-title">{t('h1')}</h1>
+      <h1 className={`custom-title ${raleway.className}`}>{t('h1')}</h1>
       <h2 className="sr-only">{t('h2')}</h2>
       <div className="flex flex-col mt-12 items-center md:items-stretch md:flex-row md:flex-wrap md:justify-center">
         <Image
