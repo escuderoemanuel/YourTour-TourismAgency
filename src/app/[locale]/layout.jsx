@@ -16,7 +16,7 @@ export const metadata = {
   },
   title: "Your Tour | Turismo en Mendoza, Argentina - Excursiones y Viajes - Traslados",
   description: "Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
-  keywords: "turismo mendoza, agencia de viajes, excursiones en mendoza, tours de vino, traslados aeropuerto mendoza, actividades en mendoza, turismo aventura, tourism, agency, mendoza, argentina, your, tour, yourtour, agencia, turismo, trip, viajes, excursión, excursion, transfer, traslado, excursiones, excursions, bodega, bodega, vino, wine, vendimia, nieve, travel",
+  keywords: "your, tour, yourtour, turismo mendoza, agencia de viajes, excursiones en mendoza, tours de vino, traslados aeropuerto , actividades en mendoza, turismo aventura, Mendoza, Argentina,  agencia, turismo, viajes, excursión, traslado, excursiones, bodega, bodegas, vino, vendimia, nieve, sol, vendimia, montaña, nieve, tourism mendoza, travel agency, excursions in mendoza, wine tours, airport transfers, activities in mendoza, adventure tourism, agency, tourism, trips, excursion, transfer, excursions, winery, wineries, wine, grape harvest, snow, sun, grape harvest, mountain, snow, Turismo em Mendoza, agência de viagens, excursões em Mendoza, passeios de vinho, traslados de aeroporto, atividades em Mendoza, turismo de aventura, agência, turismo, viagens, excursão, transferência, excursões, vinícola, vinícolas, vinho, vintage, neve, sol, vintage, montanha , neve",
   robots: "all",
   openGraph: {
     type: "website",
