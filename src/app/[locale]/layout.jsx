@@ -14,15 +14,16 @@ export const metadata = {
   icons: {
     icon: favicon,
   },
-  title: "Your Tour | Turismo en Mendoza, Argentina - Excursiones y Viajes - Traslados",
+  title: "Your Tour | Turismo Mendoza: Excursiones y Traslados",
   description: "Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
-  keywords: "your, tour, yourtour, turismo mendoza, agencia de viajes, excursiones en mendoza, tours de vino, traslados aeropuerto , actividades en mendoza, turismo aventura, Mendoza, Argentina,  agencia, turismo, viajes, excursión, traslado, excursiones, bodega, bodegas, vino, vendimia, nieve, sol, vendimia, montaña, nieve, tourism mendoza, travel agency, excursions in mendoza, wine tours, airport transfers, activities in mendoza, adventure tourism, agency, tourism, trips, excursion, transfer, excursions, winery, wineries, wine, grape harvest, snow, sun, grape harvest, mountain, snow, Turismo em Mendoza, agência de viagens, excursões em Mendoza, passeios de vinho, traslados de aeroporto, atividades em Mendoza, turismo de aventura, agência, turismo, viagens, excursão, transferência, excursões, vinícola, vinícolas, vinho, vintage, neve, sol, vintage, montanha , neve",
-  robots: "all",
+  keywords: "tour mendoza, your tour, yourtour, mendoza argentina tours, oficina, agencia, yourtur,excursiones en mendoza,vino en mendoza, turismo mendoza, agencia de viajes, excursiones en mendoza, tours de vino, traslados aeropuerto, paquete, alojamiento, actividades en mendoza, turismo aventura, Mendoza, Argentina, turismo,naturaleza, enoturismo, enoturism, viajes, excursión, traslado, excursiones, bodega, vino, vendimia, nieve, sol, vendimia, montaña, vacaciones, vacation, holiday, tourism mendoza, travel agency, excursions mendoza, wine tours, airport transfers, activities in mendoza, adventure tourism, agency, tourism, trips, excursion, transfer, excursions, winery, wineries, wine,  sun, grape harvest, mountain, snow, Turismo em Mendoza, agência de viagens, excursões em Mendoza, passeios de vinho, traslados de aeroporto, atividades em Mendoza, turismo de aventura, agência, turismo, viagens, excursão, transferência, excursões, vinícola, vinícolas, vinho, vintage, neve, sol, vintage, montanha , neve",
+  robots: "all, follow",
   openGraph: {
+    locale: "en_US",
     type: "website",
     url: "https://yourtour.ar",
     title: "Your Tour | Turismo en Mendoza, Argentina",
-    description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados.",
+    description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
     images: [
       {
         url: "https://yourtour.ar/og-image.jpg",
@@ -35,9 +36,33 @@ export const metadata = {
     card: "summary_large_image",
     site: "@yourtour",
     title: "Your Tour | Turismo en Mendoza",
-    description: "Descubre excursiones únicas en Mendoza con tours personalizados.",
+    description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
     image: "https://yourtour.ar/og-image.jpg",
   }
+};
+
+const touristAttractionSchema = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  name: "Your Tour",
+  description:
+    "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
+  image: "https://yourtour.ar/og-image.jpg",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Mendoza",
+    addressRegion: "Mendoza",
+    postalCode: "5500",
+    addressCountry: "AR",
+  },
+
+  telephone: "+54 9 261 333-3966",
+  openingHours: "Mo-Su 08:00-22:00",
+  offers: {
+    "@type": "Offer",
+    url: "https://yourtour.ar",
+    priceCurrency: "USD",
+  },
 };
 
 export default async function RootLayout({ children, params: { locale } }) {
@@ -56,6 +81,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         <meta name="keywords" content={metadata.keywords} />
 
         {/* Open Graph Meta Tags */}
+        <meta property="og:locale" content={metadata.openGraph.locale} />
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:title" content={metadata.openGraph.title} />
@@ -76,35 +102,33 @@ export default async function RootLayout({ children, params: { locale } }) {
         <link rel="alternate" href="https://yourtour.ar/en" hreflang="en" />
         <link rel="alternate" href="https://yourtour.ar/pt" hreflang="pt" />
 
+        {/* Specific Pages */}
+        <link rel="alternate" href="https://yourtour.ar/es/excursions" hreflang="es" />
+        <link rel="alternate" href="https://yourtour.ar/en/excursions" hreflang="en" />
+        <link rel="alternate" href="https://yourtour.ar/pt/excursions" hreflang="pt" />
+
+        <link rel="alternate" href="https://yourtour.ar/es/services" hreflang="es" />
+        <link rel="alternate" href="https://yourtour.ar/en/services" hreflang="en" />
+        <link rel="alternate" href="https://yourtour.ar/pt/services" hreflang="pt" />
+
+        <link rel="alternate" href="https://yourtour.ar/es/contact" hreflang="es" />
+        <link rel="alternate" href="https://yourtour.ar/en/contact" hreflang="en" />
+        <link rel="alternate" href="https://yourtour.ar/pt/contact" hreflang="pt" />
+
+        <link rel="alternate" href="https://yourtour.ar/es/terms" hreflang="es" />
+        <link rel="alternate" href="https://yourtour.ar/en/terms" hreflang="en" />
+        <link rel="alternate" href="https://yourtour.ar/pt/terms" hreflang="pt" />
+
+
         {/* Structured Data (Schema.org) */}
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "TouristAttraction",
-              "name": "Your Tour",
-              "description": "Agencia de turismo en Mendoza, Argentina. Ofrecemos excursiones, traslados y tours personalizados.",
-              "image": "https://yourtour.ar/og-image.jpg",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Mendoza",
-                "addressRegion": "Mendoza",
-                "postalCode": "5500",
-                "addressCountry": "AR"
-              },
-              "telephone": "+54 9 261 333-3966",
-              "openingHours": "Mo-Su 08:00-22:00",
-              "offers": {
-                "@type": "Offer",
-                "url": "https://yourtour.ar"
-              }
-            }
-          `}
-        </script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(touristAttractionSchema) }}
+        />
       </Head>
       <NextIntlClientProvider messages={messages}>
         <body className={`${inter.className} antialiased bg-neutral-100`}>
-          <Header />
+          <Header aria-label="Your Tour Main Navigation" />
           <main className='pb-2 md:pb-4'>
             {children}
             <Whatsapp />

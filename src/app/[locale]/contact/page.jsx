@@ -20,7 +20,7 @@ export default function Contact() {
         <Image
           className="mb-8 w-44 md:w-64 h-auto lg:w-80 md:mb-12 lg:mr-12 lg:mt-12"
           src={imageContact}
-          alt="Persona enviando email"
+          alt="Person sending email"
           width={100}
           height={100}
           quality={100}
