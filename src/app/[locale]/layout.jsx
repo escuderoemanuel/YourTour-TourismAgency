@@ -127,7 +127,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         />
       </Head>
       <NextIntlClientProvider messages={messages}>
-        <body className={`${inter.className} antialiased bg-neutral-100`}>
+        <body className={`${inter.className} antialiased`}>
           <Header aria-label="Your Tour Main Navigation" />
           <main className='pb-2 md:pb-4'>
             {children}
