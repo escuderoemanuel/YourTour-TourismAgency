@@ -18,6 +18,7 @@ export const metadata = {
   description: "Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
   keywords: "tour mendoza, your tour, yourtour, mendoza argentina tours, oficina, agencia, yourtur,excursiones en mendoza,vino en mendoza, turismo mendoza, agencia de viajes, excursiones en mendoza, tours de vino, traslados aeropuerto, paquete, alojamiento, actividades en mendoza, turismo aventura, Mendoza, Argentina, turismo,naturaleza, enoturismo, enoturism, viajes, excursión, traslado, excursiones, bodega, vino, vendimia, nieve, sol, vendimia, montaña, vacaciones, vacation, holiday, tourism mendoza, travel agency, excursions mendoza, wine tours, airport transfers, activities in mendoza, adventure tourism, agency, tourism, trips, excursion, transfer, excursions, winery, wineries, wine,  sun, grape harvest, mountain, snow, Turismo em Mendoza, agência de viagens, excursões em Mendoza, passeios de vinho, traslados de aeroporto, atividades em Mendoza, turismo de aventura, agência, turismo, viagens, excursão, transferência, excursões, vinícola, vinícolas, vinho, vintage, neve, sol, vintage, montanha , neve",
   robots: "all, follow",
+  googlebot: "all",
   openGraph: {
     locale: "en_US",
     type: "website",
@@ -78,6 +79,7 @@ export default async function RootLayout({ children, params: { locale } }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="robots" content={metadata.robots} />
+        <meta name="googlebot" content={metadata.googlebot} />
         <meta name="keywords" content={metadata.keywords} />
 
         {/* Open Graph Meta Tags */}
