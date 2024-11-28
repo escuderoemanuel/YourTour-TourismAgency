@@ -6,14 +6,12 @@ import Footer from '@/components/Footer/Footer';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from "next-intl/server";
 import Head from 'next/head';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
-const favicon = "/favicon.png";
+
 
 export const metadata = {
-  icons: {
-    icon: favicon,
-  },
   title: "Your Tour | Turismo en Mendoza: Excursiones y Traslados",
   description: "Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
   keywords: "tour mendoza, your tour, yourtour, mendoza argentina tours, oficina, agencia, yourtur,excursiones en mendoza,vino en mendoza, turismo mendoza, agencia de viajes, excursiones en mendoza, tours de vino, traslados aeropuerto, paquete, alojamiento, actividades en mendoza, turismo aventura, Mendoza, Argentina, turismo,naturaleza, enoturismo, enoturism, viajes, excursión, traslado, excursiones, bodega, vino, vendimia, nieve, sol, vendimia, montaña, vacaciones, vacation, holiday, tourism mendoza, travel agency, excursions mendoza, wine tours, airport transfers, activities in mendoza, adventure tourism, agency, tourism, trips, excursion, transfer, excursions, winery, wineries, wine,  sun, grape harvest, mountain, snow, Turismo em Mendoza, agência de viagens, excursões em Mendoza, passeios de vinho, traslados de aeroporto, atividades em Mendoza, turismo de aventura, agência, turismo, viagens, excursão, transferência, excursões, vinícola, vinícolas, vinho, vintage, neve, sol, vintage, montanha , neve",
@@ -28,8 +26,9 @@ export const metadata = {
     images: [
       {
         url: "https://yourtour.ar/og-image.jpg",
-        width: 200,
-        height: 200,
+        width: 1200,
+        height: 1200,
+        alt: "Your Tour Business Icon",
       },
     ],
   },
@@ -38,7 +37,10 @@ export const metadata = {
     site: "@yourtour",
     title: "Your Tour | Turismo en Mendoza",
     description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
-    image: "https://yourtour.ar/og-image.jpg",
+    image: {
+      url: "https://yourtour.ar/og-image.jpg",
+      alt: "Your Tour Business Icon",
+    },
   }
 };
 
@@ -49,6 +51,7 @@ const touristAttractionSchema = {
   description:
     "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
   image: "https://yourtour.ar/og-image.jpg",
+  "touristType": ["Couples", "Families", "Travelers", "Wine"],
   address: {
     "@type": "PostalAddress",
     addressLocality: "Mendoza",
@@ -73,7 +76,9 @@ export default async function RootLayout({ children, params: { locale } }) {
     <html lang={locale}>
       <Head>
         {/* Favicon */}
-        <link rel="icon" href={metadata.icons.icon} type="image/png" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
 
         {/* SEO Meta Tags */}
         <title>{metadata.title}</title>
@@ -97,12 +102,14 @@ export default async function RootLayout({ children, params: { locale } }) {
         <meta name="twitter:site" content={metadata.twitter.site} />
         <meta name="twitter:title" content={metadata.twitter.title} />
         <meta name="twitter:description" content={metadata.twitter.description} />
-        <meta name="twitter:image" content={metadata.twitter.image} />
+        <meta name="twitter:image" content={metadata.twitter.image.url} />
 
         {/* Hreflang for Language Targeting */}
         <link rel="alternate" href="https://yourtour.ar/es" hreflang="es" />
         <link rel="alternate" href="https://yourtour.ar/en" hreflang="en" />
         <link rel="alternate" href="https://yourtour.ar/pt" hreflang="pt" />
+        <link rel="alternate" href="https://yourtour.ar" hreflang="x-default" />
+
 
         {/* Specific Pages */}
         <link rel="alternate" href="https://yourtour.ar/es/excursions" hreflang="es" />
@@ -128,6 +135,20 @@ export default async function RootLayout({ children, params: { locale } }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(touristAttractionSchema) }}
         />
       </Head>
+
+      {/*  Google Analytics  */}
+      <Script
+        async src="https://www.googletagmanager.com/gtag/js?id=G-6MVJDDELHG"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-6MVJDDELHG');
+        `}
+      </Script>
+
       <NextIntlClientProvider messages={messages}>
         <body className={`${inter.className} antialiased`}>
           <Header aria-label="Your Tour Main Navigation" />

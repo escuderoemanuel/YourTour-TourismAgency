@@ -48,7 +48,7 @@ export default function NavLinks({ isScrolled }) {
       </button>
 
       {/* Links container */}
-      <div className={`flex-col items-end lg:items-center lg:flex lg:flex-row lg:gap-2 lg:items-center ${isOpen ? 'py-2 flex items-end top-full left-0 w-full' : 'hidden'}`}>
+      <div className={`flex-col items-end lg:flex lg:flex-row lg:gap-2 lg:items-center ${isOpen ? 'py-2 flex items-end top-full left-0 w-full' : 'hidden'}`}>
 
         <Link
           key={t('home')}
