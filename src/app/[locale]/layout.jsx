@@ -12,8 +12,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata = {
-  title: "Your Tour | Turismo en Mendoza: Excursiones y Traslados",
-  description: "Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
+  title: "YourTour | Turismo en Mendoza: Excursiones y Traslados",
+  description: "Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con YourTour.",
   keywords: "tour mendoza, your tour, YOURTOUR, yourtour, mendoza argentina tours, oficina, agencia, yourtur,excursiones en mendoza,vino en mendoza, turismo mendoza, agencia de viajes, excursiones en mendoza, tours de vino, traslados aeropuerto, paquete, alojamiento, actividades en mendoza, turismo aventura, Mendoza, Argentina, turismo,naturaleza, enoturismo, enoturism, viajes, excursión, traslado, excursiones, bodega, vino, vendimia, nieve, sol, vendimia, montaña, vacaciones, vacation, holiday, tourism mendoza, travel agency, excursions mendoza, wine tours, airport transfers, activities in mendoza, adventure tourism, agency, tourism, trips, excursion, transfer, excursions, winery, wineries, wine,  sun, grape harvest, mountain, snow, Turismo em Mendoza, agência de viagens, excursões em Mendoza, passeios de vinho, traslados de aeroporto, atividades em Mendoza, turismo de aventura, agência, turismo, viagens, excursão, transferência, excursões, vinícola, vinícolas, vinho, vintage, neve, sol, vintage, montanha , neve",
   robots: "all, follow",
   googlebot: "all",
@@ -21,25 +21,25 @@ export const metadata = {
     locale: "en_US",
     type: "website",
     url: "https://yourtour.ar",
-    title: "Your Tour | Turismo en Mendoza, Argentina",
-    description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
+    title: "YourTour | Turismo en Mendoza, Argentina",
+    description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con YourTour.",
     images: [
       {
         url: "https://yourtour.ar/og-image.jpg",
         width: 1200,
         height: 1200,
-        alt: "Your Tour Business Icon",
+        alt: "YourTour Business Icon",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@yourtour",
-    title: "Your Tour | Turismo en Mendoza",
-    description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
+    title: "YourTour | Turismo en Mendoza",
+    description: "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con YourTour.",
     image: {
       url: "https://yourtour.ar/og-image.jpg",
-      alt: "Your Tour Business Icon",
+      alt: "YourTour Business Icon",
     },
   }
 };
@@ -47,9 +47,9 @@ export const metadata = {
 const touristAttractionSchema = {
   "@context": "https://schema.org",
   "@type": "TouristAttraction",
-  name: "Your Tour",
+  name: "YourTour",
   description:
-    "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con Your Tour.",
+    "Agencia de turismo personalizado en Mendoza, especializada en excursiones únicas y traslados. Descubre excursiones únicas en Mendoza, Argentina. Tours personalizados de vino, montañas, excursiones personalizadas y mucho más con YourTour.",
   image: "https://yourtour.ar/og-image.jpg",
   "touristType": ["Couples", "Families", "Travelers", "Wine"],
   address: {
@@ -151,7 +151,7 @@ export default async function RootLayout({ children, params: { locale } }) {
 
       <NextIntlClientProvider messages={messages}>
         <body className={`${inter.className} antialiased`}>
-          <Header aria-label="Your Tour Main Navigation" />
+          <Header aria-label="YourTour Main Navigation" />
           <main className='pb-2 md:pb-4'>
             {children}
             <Whatsapp />
