@@ -17,7 +17,7 @@ export default function Footer() {
         {/* Socials & Copy */}
         <div>
           {/* Socials */}
-          <div className={`max-w-screen-xl flex justify-between items-center gap-2 md:gap-4 mb-2`}>
+          <div className={`max-w-screen-xl flex justify-center items-center mb-2 gap-6 md:gap-4 md:justify-start`}>
             {/* Instagram */}
             <Link
               href={t('owner.instagram')}
