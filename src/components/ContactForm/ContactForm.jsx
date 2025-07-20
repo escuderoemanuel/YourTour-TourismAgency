@@ -16,7 +16,7 @@ export default function ContactForm({ EmailAddress, FirstName, LastName, PhoneNu
 
   return (
     <form
-      className="max-w-md mx-auto"
+      className="max-w-md mx-8 my-8 lg:m-0"
       action="https://formsubmit.co/yourtour.ar@gmail.com"
       method="POST"
     >
@@ -76,7 +76,7 @@ export default function ContactForm({ EmailAddress, FirstName, LastName, PhoneNu
       </div>
 
       {/* Button */}
-      <button type="submit" className="text-white uppercase hover:opacity-100 bg-sky-700 opacity-90 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 my-4 text-center dark:bg-sky-700 dark:opacity-100">{SubmitText}</button>
+      <button type="submit" className="text-white uppercase hover:opacity-100 bg-sky-700 opacity-90 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 mt-4 text-center dark:bg-sky-700 dark:opacity-100">{SubmitText}</button>
 
       <input type="hidden" name="_next" defaultValue='https://yourtour.ar' />
       <input type="hidden" name="_captcha" defaultValue="false" />
