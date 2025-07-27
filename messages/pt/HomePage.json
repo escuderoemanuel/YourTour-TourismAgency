@@ -11,19 +11,51 @@
     "homeCarousel": {
       "image1": {
         "url": "/img/Home/city_9.jpg",
-        "alt": "Parque General San Martín"
+        "alt": "General San Martin Park"
+      },
+      "image2": {
+        "url": "/img/Home/pic01.jpg",
+        "alt": "Your Tour Picture"
       },
       "image3": {
         "url": "/img/Home/lenas_4.jpg",
-        "alt": "Pessoas em Aerosilla Las Leñas"
+        "alt": "People in Las Leñas chairlift"
+      },
+      "image4": {
+        "url": "/img/Home/pic04.jpg",
+        "alt": "Your Tour Picture"
+      },
+      "image5": {
+        "url": "/img/Home/pic09.jpg",
+        "alt": "Your Tour in Park Hyatt Hotel"
       },
       "image6": {
         "url": "/img/Home/alta_4.jpg",
-        "alt": "Ponte Inca"
+        "alt": "Inca Bridge"
       },
       "image7": {
-        "url": "/img/Home/lenas_6.jpg",
-        "alt": "Rafting de Pessoas"
+        "url": "/img/Home/pic07.jpg",
+        "alt": "Tourists on a bridge in Cacheuta"
+      },
+      "image8": {
+        "url": "/img/Home/pic08.jpg",
+        "alt": "Tourists in a winery"
+      },
+      "image9": {
+        "url": "/img/Home/pic10.jpg",
+        "alt": "Tourists in front of the Government House"
+      },
+      "image10": {
+        "url": "/img/Home/pic11.jpg",
+        "alt": "Tourists in San Martin Park"
+      },
+      "image11": {
+        "url": "/img/Home/pic12.jpg",
+        "alt": "Tourists in the rose garden"
+      },
+      "image12": {
+        "url": "/img/Home/pic13.jpg",
+        "alt": "Tourists in the Park Hyatt Hotel"
       }
     }
   }
