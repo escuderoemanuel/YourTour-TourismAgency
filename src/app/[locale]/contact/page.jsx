@@ -9,6 +9,8 @@ import { raleway } from '@/ui/fonts';
 
 const imageContact = '/img/contact3.svg';
 
+
+/* Content */
 export default function Contact() {
   const t = useTranslations('ContactPage');
 

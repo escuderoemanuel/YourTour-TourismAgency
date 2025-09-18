@@ -2,9 +2,10 @@
 
 import React from 'react';
 import { useTranslations } from 'next-intl';
-import {  raleway } from '@/ui/fonts';
+import { raleway } from '@/ui/fonts';
 
 
+/* Content */
 export default function Terms() {
   const t = useTranslations('TermsPage')
 

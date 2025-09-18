@@ -114,7 +114,7 @@ export default function Footer() {
       </div >
 
       {/* DEV */}
-      <div div className='max-w-screen-xl flex justify-between items-center gap-2 pt-8 md:pt-14 md:pb-1' >
+      <div className='max-w-screen-xl flex justify-between items-center gap-2 pt-8 md:pt-14 md:pb-1' >
         <p className='text-xs text-secondary-color opacity-90 text-center font-extralight'>{t('dev.paragraph')}</p>
         <Link
           href={t('dev.devUrl')}

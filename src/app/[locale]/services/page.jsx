@@ -6,6 +6,8 @@ import { useTranslations } from 'next-intl';
 import { raleway } from '@/ui/fonts';
 
 
+
+/* Content */
 export default function Services() {
   const t = useTranslations('ServicesPage');
 
